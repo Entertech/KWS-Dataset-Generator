@@ -13,43 +13,40 @@ import azure.cognitiveservices.speech as speechsdk
 from IPython.display import Audio, display
 import logging
 
+from config import Config
+
 # 设置日志格式
 logging.basicConfig(level=logging.INFO, 
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger('audio_segmentation')
 
-KEYWORDS = [
-    "Hey Memo",
-    "Take a picture",
-    "Take a video",
-    "Stop recording",
-    "Pause",
-    "Next",
-    "Play",
-    "Volume up",
-    "Volume down"
-]
-
 # 微软ASR配置
 class ASRConfig:
-    def __init__(self, subscription_key, region):
-        self.subscription_key = subscription_key
-        self.region = region
+    """微软ASR配置类"""
+    def __init__(self, subscription_key=None, region=None):
+        """
+        初始化ASR配置
+        如果未提供参数，则从Config加载默认值
+        """
+        self.subscription_key = subscription_key or Config.SPEECH_KEY
+        self.region = region or Config.SPEECH_REGION
 
-    def create_speech_recognizer(self, audio_format=speechsdk.audio.AudioStreamFormat(16000, 16, 1)):
+    def create_speech_recognizer(self, audio_format=speechsdk.audio.AudioStreamFormat(
+                                Config.SAMPLE_RATE, Config.BIT_DEPTH, Config.CHANNELS)):
         """创建语音识别器"""
         # 配置语音服务
         speech_config = speechsdk.SpeechConfig(subscription=self.subscription_key, region=self.region)
-        speech_config.speech_recognition_language = "en-US"
+        speech_config.speech_recognition_language = Config.SPEECH_LANGUAGE
         
-        # 添加命令词作为热词
+        # 添加命令词作为热词，提高识别率
         phrase_list_grammar = speechsdk.PhraseListGrammar.from_recognizer(speech_config)
-        for keyword in KEYWORDS:
+        for keyword in Config.KEYWORDS:
             phrase_list_grammar.addPhrase(keyword)
         
         # 使用音频配置
         audio_config = speechsdk.audio.AudioConfig(use_default_microphone=False)
-
+        
+        # 创建识别器
         speech_recognizer = speechsdk.SpeechRecognizer(
             speech_config=speech_config, 
             audio_config=audio_config
@@ -59,27 +56,23 @@ class ASRConfig:
 
 class AudioProcessor:
     """音频处理类"""
-    def __init__(self, input_folder, output_folder, asr_config):
-        self.input_folder = input_folder
-        self.output_folder = output_folder
-        self.asr_config = asr_config
-        os.makedirs(output_folder, exist_ok=True)
-        self.keyword_mapping = {
-            "hey memo": "HeyMemo",
-            "take a picture": "TakeAPicture",
-            "take a video": "TakeAVideo",
-            "stop recording": "StopRecording",
-            "pause": "Pause",
-            "next": "Next",
-            "play": "Play",
-            "volume up": "VolumeUp",
-            "volume down": "VolumeDown"
-        }
-        self.speed_mapping = {
-            "fast": "Fast",
-            "normal": "Normal",
-            "slow": "Slow"
-        }
+    def __init__(self, input_folder=None, output_folder=None, asr_config=None):
+        """
+        初始化音频处理器
+        如果未提供参数，则从Config加载默认值
+        """
+        self.input_folder = input_folder or Config.INPUT_FOLDER
+        self.output_folder = output_folder or Config.OUTPUT_FOLDER
+        self.asr_config = asr_config or ASRConfig()
+        
+        # 确保输出文件夹存在
+        os.makedirs(self.output_folder, exist_ok=True)
+        
+        # 使用配置中的命令词映射
+        self.keyword_mapping = Config.KEYWORD_MAPPING
+        
+        # 使用配置中的语速映射
+        self.speed_mapping = Config.SPEED_MAPPING
         
     def get_audio_files(self):
         """获取所有音频文件路径"""
@@ -91,10 +84,14 @@ class AudioProcessor:
         return audio_files
     
     def extract_file_info(self, filename):
-        """提取文件名信息"""
+        """从文件名提取信息"""
+        # 提取文件名（不包括扩展名）
         base_filename = os.path.basename(filename)
         name_without_ext = os.path.splitext(base_filename)[0]
+        
+        # 拆分文件名部分
         parts = name_without_ext.split('_')
+        
         if len(parts) >= 4:
             country = parts[0]
             city = parts[1]
@@ -112,18 +109,19 @@ class AudioProcessor:
             return None
     
     def recognize_speech(self, audio_path):
-        """使用微软ASR识别"""
+        """使用微软ASR识别音频中的语音"""
         # 加载音频文件
-        y, sr = librosa.load(audio_path, sr=16000)
+        y, sr = librosa.load(audio_path, sr=Config.SAMPLE_RATE)
         
-        # 转换为字节
+        # 将音频数据转换为字节
         audio_bytes = (y * 32767).astype(np.int16).tobytes()
         
-        # 创建推送流，配置音频输入
+        # 创建推送流
         push_stream = speechsdk.audio.PushAudioInputStream()
         push_stream.write(audio_bytes)
         push_stream.close()
-
+        
+        # 使用推送流配置音频输入
         audio_config = speechsdk.audio.AudioConfig(stream=push_stream)
         
         # 创建语音识别器
@@ -131,11 +129,11 @@ class AudioProcessor:
             subscription=self.asr_config.subscription_key, 
             region=self.asr_config.region
         )
-        speech_config.speech_recognition_language = "en-US"
+        speech_config.speech_recognition_language = Config.SPEECH_LANGUAGE
         
-        # 添加命令词作为热词
+        # 添加命令词作为热词，提高识别率
         phrase_list_grammar = speechsdk.PhraseListGrammar.from_recognizer(speech_config)
-        for keyword in KEYWORDS:
+        for keyword in Config.KEYWORDS:
             phrase_list_grammar.addPhrase(keyword)
         
         # 创建识别器
@@ -169,7 +167,7 @@ class AudioProcessor:
         speech_recognizer.start_continuous_recognition()
         
         # 等待完成（实际应用中应使用事件通知而不是睡眠）
-        time.sleep(20)  # 假设音频不超过20秒
+        time.sleep(10)  # 假设音频不超过10秒
         
         # 停止识别
         speech_recognizer.stop_continuous_recognition()
@@ -186,10 +184,10 @@ class AudioProcessor:
         # 计算每秒单词数
         words_per_second = words / duration
         
-        # 设置语速阈值
-        if words_per_second > 2.5:
+        # 使用配置中的语速阈值
+        if words_per_second > Config.FAST_THRESHOLD:
             return "Fast"
-        elif words_per_second < 1.5:
+        elif words_per_second < Config.SLOW_THRESHOLD:
             return "Slow"
         else:
             return "Normal"
@@ -214,8 +212,8 @@ class AudioProcessor:
             duration_ms = int(segment["duration"] * 1000)  # 转换为毫秒
             
             # 添加前后静音缓冲（避免截断）
-            start_time = max(0, offset_ms - 200)  # 前添加200ms
-            end_time = min(len(audio), offset_ms + duration_ms + 200)  # 后添加200ms
+            start_time = max(0, offset_ms - Config.BUFFER_MS)  # 前添加缓冲
+            end_time = min(len(audio), offset_ms + duration_ms + Config.BUFFER_MS)  # 后添加缓冲
             
             # 切分音频
             segment_audio = audio[start_time:end_time]
@@ -246,19 +244,19 @@ class AudioProcessor:
         samples = np.array(audio_segment.get_array_of_samples())
         
         # 检查音量是否过低
-        if audio_segment.dBFS < -30:
+        if audio_segment.dBFS < Config.MIN_VOLUME_DB:
             return False
         
         # 检查音频长度是否合理（太短可能是噪音，太长可能包含多个命令词）
-        if len(audio_segment) < 500 or len(audio_segment) > 3000:
+        if len(audio_segment) < Config.MIN_AUDIO_DURATION_MS or len(audio_segment) > Config.MAX_AUDIO_DURATION_MS:
             return False
         
         # 简单静音检测（检查是否有过长的静音段）
         audio_array = np.abs(samples.astype(np.float32)) / 32767.0
-        silence_threshold = 0.01
+        silence_threshold = Config.SILENCE_THRESHOLD
         is_silence = audio_array < silence_threshold
         
-        # 检查是否有超过500ms的连续静音
+        # 检查是否有超过配置的最大静音时长的连续静音
         silence_run_length = 0
         for sample in is_silence:
             if sample:
@@ -266,8 +264,10 @@ class AudioProcessor:
             else:
                 silence_run_length = 0
                 
-            # 16000Hz采样率，8000样本约等于500ms
-            if silence_run_length > 8000:
+            # 计算对应的毫秒数
+            # Config.SAMPLE_RATE样本数约等于1秒，所以需要转换
+            max_silence_samples = Config.MAX_SILENCE_DURATION_MS * Config.SAMPLE_RATE / 1000
+            if silence_run_length > max_silence_samples:
                 return False
         
         return True
@@ -378,18 +378,23 @@ class AudioProcessor:
 # 演示和执行
 
 # 1. 设置配置
-def setup_and_test(subscription_key, region, input_folder, output_folder, test_file=None):
+def setup_and_test(subscription_key=None, region=None, input_folder=None, output_folder=None, test_file=None):
     """设置和测试音频处理"""
-    # 创建ASR配置
+    # 如果传入了参数，则使用传入的参数，否则使用配置文件中的默认值
     asr_config = ASRConfig(subscription_key, region)
     
     # 创建音频处理器
-    processor = AudioProcessor(input_folder, output_folder, asr_config)
+    processor = AudioProcessor(
+        input_folder=input_folder or Config.INPUT_FOLDER,
+        output_folder=output_folder or Config.OUTPUT_FOLDER,
+        asr_config=asr_config
+    )
     
     # 如果提供了测试文件，先处理单个文件
     if test_file:
-        logger.info("开始测试单个文件处理...")
-        result = processor.process_single_file(test_file, 1)
+        test_file_path = test_file or Config.TEST_FILE
+        logger.info(f"开始测试单个文件处理: {test_file_path}")
+        result = processor.process_single_file(test_file_path, 1)
         
         # 显示处理结果
         print("\n测试文件处理结果:")
@@ -436,15 +441,38 @@ def run_batch_processing(processor):
     
     return results
 
+# 主程序入口
+if __name__ == "__main__":
+    # 如果直接运行此脚本，则使用配置文件中的参数进行处理
+    print(f"使用配置文件中的参数:")
+    print(f"输入文件夹: {Config.INPUT_FOLDER}")
+    print(f"输出文件夹: {Config.OUTPUT_FOLDER}")
+    print(f"测试文件: {Config.TEST_FILE}")
+    
+    # 用户可以选择是否只处理测试文件
+    test_only = input("是否只处理测试文件? (y/n): ").lower() == 'y'
+    
+    # 设置和测试
+    processor = setup_and_test()
+    
+    # 如果不是测试，则运行批处理
+    if not test_only:
+        results = run_batch_processing(processor)
+
 # 使用示例
-# subscription_key = "你的Azure语音服务密钥"
-# region = "你的Azure语音服务区域，例如eastus"
-# input_folder = "input_audio"
-# output_folder = "output_audio"
-# test_file = "input_audio/AUS_Perth_Male_40.wav"
+"""
+# 使用配置文件中的参数
+processor = setup_and_test()
 
-# # 设置和测试
-# processor = setup_and_test(subscription_key, region, input_folder, output_folder, test_file)
+# 或者可以手动指定参数
+# processor = setup_and_test(
+#     subscription_key="你的Azure语音服务密钥",
+#     region="你的Azure语音服务区域",
+#     input_folder="自定义输入路径",
+#     output_folder="自定义输出路径",
+#     test_file="自定义测试文件路径"
+# )
 
-# # 确认测试无误后，运行批处理
-# # results = run_batch_processing(processor)
+# 确认测试无误后，运行批处理
+# results = run_batch_processing(processor)
+"""
