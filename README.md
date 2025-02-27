@@ -65,21 +65,37 @@
 命令词音频片段的命名为：编号_国家_城市_性别_年龄_命令词_语速_编号
 文件结构如下
 SPK001
+
 SPK002
+
 ...
-SPK090
+
+SPK009
+
 SPK010
+
         /HeyMemo
+        
             /SPK001_AUS_Perth_Male_40_HeyMemo_Fast_001.wav
+            
             /SPK001_AUS_Perth_Male_40_HeyMemo_Fast_002.wav
+            
             /SPK001_AUS_Perth_Male_40_HeyMemo_Normal_003.wav
+            
             /SPK001_AUS_Perth_Male_40_HeyMemo_Slow_004.wav
+            
             ...
+            
         /Play
+        
         /Next
+        
         /TakeAPhoto
-        /StartRecoring 
+        
+        /StartRecording 
+        
         ...
+        
 #### 验证
 最好每个录音文件切分保存后能使用微软的 ASR 再识别一次，看是否是准确的。
 
