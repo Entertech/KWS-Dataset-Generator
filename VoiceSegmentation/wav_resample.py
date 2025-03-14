@@ -88,11 +88,18 @@ def batch_resample_wav_files(input_folder, target_sample_rate=16000, output_fold
 
 # 使用示例
 if __name__ == '__main__':
-    # 单文件重采样示例
+    # 单文件重采样
     # input_file = '/path/to/input/audio.wav'
     # resample_wav_file(input_file, target_sample_rate=16000)
+    # 单文件夹批量重采样
+    # input_folder = 'D:/Project/LooktechVoice/results/SPK004'
+    # output_folder = 'D:/Project/LooktechVoice/results/SPK004_resampled'
+    # batch_resample_wav_files(input_folder, target_sample_rate=16000, output_folder=output_folder)
 
-    # 批量重采样示例
-    input_folder = 'D:/Project/LooktechVoice/Results/SPK004'
-    output_folder = 'D:/Project/LooktechVoice/Results/SPK004_resampled'
-    batch_resample_wav_files(input_folder, target_sample_rate=16000, output_folder=output_folder)
+    # 多文件夹批量重采样
+    for i in range(1, 154):
+        file_number = str(i).zfill(3)
+        input_folder = f'D:/Project/LooktechVoice/results/SPK{file_number}'
+        output_folder = f'D:/Project/LooktechVoice/results/SPK{file_number}_resampled'
+        batch_resample_wav_files(input_folder, target_sample_rate=16000, output_folder=output_folder)
+

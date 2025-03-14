@@ -39,7 +39,7 @@ class Config:
     SILENCE_THRESH = -40  # 静音阈值(dB)
     KEEP_SILENCE = 300  # 保留静音部分(毫秒)
     MIN_SEGMENT_DURATION = 500  # 最小片段时长(毫秒)
-    MAX_SEGMENT_DURATION = 5000  # 最大片段时长(毫秒)
+    MAX_SEGMENT_DURATION = 2500  # 最大片段时长(毫秒)
 
     # 音量判断参数
     VOLUME_HIGH_THRESHOLD = -15  # 高音量阈值(dB)
