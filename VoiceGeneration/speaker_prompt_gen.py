@@ -147,11 +147,11 @@ def generate_voice_characteristics(input_csv, output_csv, num_samples=None, seed
 # 示例用法
 if __name__ == "__main__":
     # 从sample.csv生成语音提示
-    voice_specs = generate_voice_characteristics("sample.csv", "voice_characteristics.csv")
+    voice_specs = generate_voice_characteristics("sample.csv", "sample_prompt.csv")
     
     # 显示前5个语音特征
-    print("生成的简化语音特征示例:")
-    for i, (_, row) in enumerate(voice_specs.head(5).iterrows()):
-        print(f"\n特征 #{i+1}:")
-        print(f"标识符: {row['identifier']}")
-        print(f"语音特征: {row['voice_characteristics']}")
+    # print("生成的简化语音特征示例:")
+    # for i, (_, row) in enumerate(voice_specs.head(5).iterrows()):
+    #     print(f"\n特征 #{i+1}:")
+    #     print(f"标识符: {row['identifier']}")
+    #     print(f"语音特征: {row['voice_characteristics']}")

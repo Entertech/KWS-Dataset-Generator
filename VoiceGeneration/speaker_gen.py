@@ -43,12 +43,12 @@ def generate_target(n_samples=1000):
 
     # 生成年龄样本（15-80岁，中位数35）
     age_ranges = {
-        (15, 24): 18,
+        (15, 24): 20,
         (25, 34): 30,
         (35, 44): 22,
         (45, 54): 15,
-        (55, 64): 10,
-        (65, 80): 5
+        (55, 64): 9,
+        (65, 80): 4
     }
     ages = []
     age_groups = list(age_ranges.keys())
@@ -62,29 +62,58 @@ def generate_target(n_samples=1000):
     # 生成语速样本 (Fast 20%, Normal 60%, Slow 20%)
     speech_rates = np.random.choice(["Fast", "Normal", "Slow"], size=n_samples, p=[0.2, 0.6, 0.2])
 
-    # 创建基本标识符
-    base_identifiers = [f"{country}_{city}_{gender}_{age}_{rate}"
-                        for country, city, gender, age, rate in
-                        zip(countries, sampled_cities, genders, ages, speech_rates)]
+    # 创建基本标识符并处理重复项
+    identifiers = []
+    base_identifiers = {}  # 用于跟踪已使用的基本标识符
 
-    # 检查并处理重复项
-    unique_identifiers = []
-    id_count = {}
+    for i in range(n_samples):
+        # 初始属性
+        country = countries[i]
+        city = sampled_cities[i]
+        gender = genders[i]
+        age = ages[i]
+        rate = speech_rates[i]
 
-    for base_id in base_identifiers:
-        if base_id in id_count:
-            id_count[base_id] += 1
-            # 为重复项添加后缀
-            unique_id = f"{base_id}_{id_count[base_id]}"
-        else:
-            id_count[base_id] = 0
-            unique_id = base_id
+        # 创建基本标识符
+        base_id = f"{country}_{city}_{gender}_{age}_{rate}"
 
-        unique_identifiers.append(unique_id)
+        # 如果出现重复，随机修改一个属性
+        attempts = 0
+        while base_id in base_identifiers and attempts < 10:
+            # 随机选择一个属性进行修改
+            attr_to_change = np.random.choice(['gender', 'age', 'speech_rate'])
 
-    # 创建DataFrame
+            if attr_to_change == 'gender':
+                # 切换性别
+                gender = "Female" if gender == "Male" else "Male"
+            elif attr_to_change == 'age':
+                # 在当前年龄基础上小幅调整 (±1-3岁)
+                age_adjustment = np.random.choice([-3, -2, -1, 1, 2, 3])
+                new_age = age + age_adjustment
+                # 确保年龄在合理范围内
+                age = max(15, min(80, new_age))
+            elif attr_to_change == 'speech_rate':
+                # 改变语速
+                current_rates = ["Fast", "Normal", "Slow"]
+                current_rates.remove(rate)  # 移除当前语速
+                rate = np.random.choice(current_rates)  # 随机选择一个不同的语速
+
+            # 重新生成标识符
+            base_id = f"{country}_{city}_{gender}_{age}_{rate}"
+            attempts += 1
+
+        # 更新相应属性数组（如果发生了变化）
+        genders[i] = gender
+        ages[i] = age
+        speech_rates[i] = rate
+
+        # 记录已使用的标识符
+        base_identifiers[base_id] = True
+        identifiers.append(base_id)
+
+    # 更新DataFrame
     df = pd.DataFrame({
-        "identifier": unique_identifiers,
+        "identifier": identifiers,
         "country": countries,
         "city": sampled_cities,
         "accent": accents,
