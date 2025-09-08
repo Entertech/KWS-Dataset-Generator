@@ -174,8 +174,8 @@ if __name__ == '__main__':
     # batch_resample_wav_files(input_folder, target_sample_rate=16000, output_folder=output_folder)
 
     # 递归重采样（包括所有子文件夹）
-    root_folder = 'D:/project/AI_Generated_Intent_dataset/dataset'
-    output_folder = 'D:/project/AI_Generated_Intent_dataset/dataset_resampled'
+    root_folder = 'D:/project/unknown_data'
+    output_folder = 'D:/project/unknown_data_resampled'
     recursive_batch_resample_wav_files(root_folder, target_sample_rate=16000, preserve_structure=True, output_folder=output_folder)
 
     # 多文件夹批量重采样

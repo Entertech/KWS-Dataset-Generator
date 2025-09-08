@@ -73,7 +73,7 @@ def save_analysis_results(df, output_path=None):
 # 使用示例
 if __name__ == '__main__':
     # 指定包含WAV文件的文件夹路径
-    wav_folder = 'D:/Project/LooktechVoice/Results/SPK001_resampled'
+    wav_folder = 'D:/beskws_tool_release3.4/datas/orpheus_generated/AUS_Sydney_Female_28_Normal'
 
     # 分析文件夹中的WAV文件
     analysis_results = analyze_wav_files(wav_folder)
