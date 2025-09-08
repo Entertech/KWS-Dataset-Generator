@@ -34,7 +34,8 @@
 │   ├── cosyvoice.py          # CosyVoice引擎
 │   ├── edgetts.py            # Edge TTS引擎
 │   ├── orpheus.py            # Orpheus AI模型
-│   ├── speaker_gen.py        # 说话人信息生成└── └── dataset/              # 声音模型数据集
+│   ├── speaker_gen.py        # 说话人信息生成
+└── └── dataset/              # 声音模型数据集
 ```
 
 ## 注意事项
