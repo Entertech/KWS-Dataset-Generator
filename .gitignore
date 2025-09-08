@@ -1,0 +1,10 @@
+VoiceSegmentation/seg.py
+VoiceSegmentation/config.py
+VoiceSegmentation/speech.py
+VoiceSegmentation/speech_sdk.py
+__pycache__/
+results*
+generated_audio*
+*_generated*
+VoiceGeneration/orpheus_outputs*
+VoiceGeneration/dataset
