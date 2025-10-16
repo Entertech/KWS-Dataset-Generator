@@ -62,8 +62,8 @@ def modify_csv(input_file, output_file):
 
 # 使用示例
 if __name__ == "__main__":
-    input_file = "sample_1.csv"  # 输入文件名
-    output_file = "sample_1_modified.csv"  # 输出文件名
+    input_file = "sample.csv"  # 输入文件名
+    output_file = "sample_modified.csv"  # 输出文件名
 
     success = modify_csv(input_file, output_file)
     if success:

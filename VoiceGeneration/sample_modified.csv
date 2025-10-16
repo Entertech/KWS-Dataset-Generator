@@ -1,501 +1,1101 @@
 identifier,country,city,accent,gender,age,speech_rate,voice,top_p,temperature,repetition_penalty
-IND_Delhi_Female_39_Normal,IND,Delhi,India,Female,39,Normal,tara,0.93,0.52,1.42
-USA_Los Angeles_Female_53_Fast,USA,Los Angeles,Westcoast US,Female,53,Fast,emma,0.94,0.69,1.29
-USA_Chicago_Female_33_Normal,USA,Chicago,Midwest US,Female,33,Normal,tara,0.99,0.63,1.15
-USA_Los Angeles_Female_17_Normal,USA,Los Angeles,Westcoast US,Female,17,Normal,tara,0.93,0.57,1.15
-USA_Miami_Female_48_Fast,USA,Miami,Latin,Female,48,Fast,tara,0.92,0.53,1.37
-USA_Los Angeles_Male_42_Normal,USA,Los Angeles,Westcoast US,Male,42,Normal,josh,0.96,0.66,1.27
-USA_Miami_Male_51_Normal,USA,Miami,Latin,Male,51,Normal,dan,0.99,0.62,1.18
-USA_New York_Female_46_Fast,USA,New York,Eastcoast US,Female,46,Fast,tara,0.97,0.61,1.3
-USA_New York_Female_44_Normal,USA,New York,Eastcoast US,Female,44,Normal,tara,0.96,0.68,1.13
-USA_Chicago_Female_44_Slow,USA,Chicago,Midwest US,Female,44,Slow,emma,0.91,0.66,1.33
-USA_Dallas_Female_80_Slow,USA,Dallas,South US,Female,80,Slow,tara,0.96,0.53,1.21
-USA_New York_Male_26_Normal,USA,New York,Eastcoast US,Male,26,Normal,dan,1.0,0.56,1.42
-USA_New York_Male_15_Normal,USA,New York,Eastcoast US,Male,15,Normal,dan,0.91,0.55,1.22
-USA_Los Angeles_Male_71_Normal,USA,Los Angeles,Westcoast US,Male,71,Normal,dan,0.95,0.65,1.28
-USA_New York_Female_38_Normal,USA,New York,Eastcoast US,Female,38,Normal,emma,0.99,0.51,1.1
-USA_Los Angeles_Male_27_Normal,USA,Los Angeles,Westcoast US,Male,27,Normal,dan,0.97,0.61,1.13
-USA_Miami_Female_31_Normal,USA,Miami,Latin,Female,31,Normal,emma,0.97,0.65,1.26
-USA_New York_Female_34_Fast,USA,New York,Eastcoast US,Female,34,Fast,emma,0.97,0.68,1.29
-USA_Los Angeles_Male_30_Slow,USA,Los Angeles,Westcoast US,Male,30,Slow,josh,0.94,0.57,1.34
-USA_Los Angeles_Female_32_Normal,USA,Los Angeles,Westcoast US,Female,32,Normal,tara,0.93,0.66,1.22
-USA_Chicago_Female_55_Normal,USA,Chicago,Midwest US,Female,55,Normal,emma,0.98,0.52,1.38
-USA_Dallas_Female_29_Slow,USA,Dallas,South US,Female,29,Slow,tara,0.98,0.67,1.44
-USA_Dallas_Male_21_Normal,USA,Dallas,South US,Male,21,Normal,josh,0.99,0.53,1.41
-USA_Los Angeles_Male_20_Slow,USA,Los Angeles,Westcoast US,Male,20,Slow,josh,0.99,0.58,1.12
-USA_Miami_Female_71_Slow,USA,Miami,Latin,Female,71,Slow,emma,0.95,0.66,1.29
-USA_Los Angeles_Male_21_Fast,USA,Los Angeles,Westcoast US,Male,21,Fast,josh,0.95,0.53,1.14
-USA_Miami_Male_19_Fast,USA,Miami,Latin,Male,19,Fast,josh,0.98,0.55,1.2
-USA_Chicago_Male_44_Normal,USA,Chicago,Midwest US,Male,44,Normal,josh,0.96,0.64,1.49
-USA_New York_Female_21_Fast,USA,New York,Eastcoast US,Female,21,Fast,emma,0.97,0.64,1.16
-CA_Montreal_Male_39_Fast,CA,Montreal,French,Male,39,Fast,josh,0.98,0.63,1.3
-CA_Montreal_Male_61_Normal,CA,Montreal,French,Male,61,Normal,dan,0.99,0.64,1.35
-USA_Chicago_Male_31_Normal,USA,Chicago,Midwest US,Male,31,Normal,dan,0.93,0.61,1.38
-USA_Los Angeles_Male_31_Normal,USA,Los Angeles,Westcoast US,Male,31,Normal,josh,0.94,0.55,1.32
-USA_New York_Male_39_Fast,USA,New York,Eastcoast US,Male,39,Fast,josh,0.91,0.57,1.1
-IND_Delhi_Female_37_Normal,IND,Delhi,India,Female,37,Normal,emma,0.96,0.54,1.23
-IND_Delhi_Female_54_Fast,IND,Delhi,India,Female,54,Fast,tara,0.9,0.68,1.31
-UK_London_Female_40_Normal,UK,London,England,Female,40,Normal,emma,0.95,0.62,1.14
-USA_Miami_Male_18_Normal,USA,Miami,Latin,Male,18,Normal,dan,0.95,0.58,1.24
-USA_New York_Male_41_Normal,USA,New York,Eastcoast US,Male,41,Normal,dan,0.93,0.59,1.11
-USA_New York_Female_26_Slow,USA,New York,Eastcoast US,Female,26,Slow,tara,0.96,0.69,1.13
-USA_Los Angeles_Female_42_Normal,USA,Los Angeles,Westcoast US,Female,42,Normal,tara,0.9,0.53,1.26
-USA_Los Angeles_Male_21_Normal,USA,Los Angeles,Westcoast US,Male,21,Normal,dan,0.9,0.62,1.15
-USA_Miami_Female_79_Normal,USA,Miami,Latin,Female,79,Normal,emma,0.98,0.6,1.33
-USA_Los Angeles_Male_67_Normal,USA,Los Angeles,Westcoast US,Male,67,Normal,josh,0.94,0.62,1.38
-USA_New York_Male_37_Fast,USA,New York,Eastcoast US,Male,37,Fast,josh,0.91,0.5,1.42
-USA_New York_Male_49_Slow,USA,New York,Eastcoast US,Male,49,Slow,josh,0.95,0.67,1.18
-UK_London_Female_27_Slow,UK,London,England,Female,27,Slow,emma,0.98,0.69,1.17
-USA_Dallas_Female_52_Slow,USA,Dallas,South US,Female,52,Slow,tara,0.92,0.61,1.14
-USA_Los Angeles_Male_45_Slow,USA,Los Angeles,Westcoast US,Male,45,Slow,josh,0.96,0.64,1.35
-USA_Los Angeles_Female_39_Normal,USA,Los Angeles,Westcoast US,Female,39,Normal,emma,0.91,0.68,1.38
-USA_Los Angeles_Female_29_Slow,USA,Los Angeles,Westcoast US,Female,29,Slow,tara,0.91,0.64,1.11
-AUS_Sydney_Female_33_Normal,AUS,Sydney,Australia,Female,33,Normal,emma,0.95,0.53,1.47
-USA_Miami_Female_68_Normal,USA,Miami,Latin,Female,68,Normal,tara,0.95,0.62,1.12
-USA_Dallas_Female_17_Normal,USA,Dallas,South US,Female,17,Normal,emma,0.96,0.62,1.32
-USA_New York_Female_29_Normal,USA,New York,Eastcoast US,Female,29,Normal,tara,0.97,0.58,1.38
-USA_New York_Female_64_Fast,USA,New York,Eastcoast US,Female,64,Fast,emma,1.0,0.65,1.45
-USA_Miami_Male_17_Normal,USA,Miami,Latin,Male,17,Normal,josh,0.95,0.69,1.39
-USA_Los Angeles_Female_32_Fast,USA,Los Angeles,Westcoast US,Female,32,Fast,tara,0.93,0.69,1.42
-AUS_Sydney_Male_19_Normal,AUS,Sydney,Australia,Male,19,Normal,dan,0.98,0.59,1.24
-USA_New York_Male_70_Normal,USA,New York,Eastcoast US,Male,70,Normal,dan,0.93,0.52,1.43
-CA_Montreal_Male_28_Normal,CA,Montreal,French,Male,28,Normal,dan,0.94,0.7,1.13
-USA_Chicago_Female_29_Fast,USA,Chicago,Midwest US,Female,29,Fast,tara,0.91,0.67,1.46
-UK_London_Female_33_Normal,UK,London,England,Female,33,Normal,tara,0.9,0.52,1.32
-USA_New York_Male_73_Fast,USA,New York,Eastcoast US,Male,73,Fast,dan,1.0,0.68,1.43
-USA_Los Angeles_Male_25_Slow,USA,Los Angeles,Westcoast US,Male,25,Slow,dan,0.98,0.67,1.28
-USA_New York_Female_53_Normal,USA,New York,Eastcoast US,Female,53,Normal,emma,0.97,0.6,1.36
-USA_Chicago_Female_31_Normal,USA,Chicago,Midwest US,Female,31,Normal,emma,0.94,0.62,1.31
-USA_Los Angeles_Male_52_Normal,USA,Los Angeles,Westcoast US,Male,52,Normal,dan,0.92,0.58,1.39
-USA_Miami_Female_35_Slow,USA,Miami,Latin,Female,35,Slow,emma,0.92,0.51,1.13
-USA_Miami_Female_27_Fast,USA,Miami,Latin,Female,27,Fast,emma,0.93,0.57,1.12
-USA_New York_Male_53_Normal,USA,New York,Eastcoast US,Male,53,Normal,josh,0.95,0.66,1.2
-USA_Miami_Female_47_Normal,USA,Miami,Latin,Female,47,Normal,emma,0.97,0.5,1.16
-USA_Miami_Male_63_Normal,USA,Miami,Latin,Male,63,Normal,dan,0.97,0.57,1.45
-IND_Delhi_Male_43_Normal,IND,Delhi,India,Male,43,Normal,josh,0.93,0.58,1.19
-USA_New York_Female_36_Slow,USA,New York,Eastcoast US,Female,36,Slow,tara,1.0,0.61,1.49
-USA_Los Angeles_Male_36_Slow,USA,Los Angeles,Westcoast US,Male,36,Slow,josh,0.97,0.68,1.23
-USA_New York_Female_28_Normal,USA,New York,Eastcoast US,Female,28,Normal,emma,0.96,0.57,1.17
-USA_Miami_Male_50_Fast,USA,Miami,Latin,Male,50,Fast,josh,0.96,0.57,1.42
-USA_New York_Female_62_Slow,USA,New York,Eastcoast US,Female,62,Slow,tara,0.94,0.65,1.36
-USA_New York_Male_42_Fast,USA,New York,Eastcoast US,Male,42,Fast,josh,0.92,0.59,1.3
-USA_Dallas_Male_30_Fast,USA,Dallas,South US,Male,30,Fast,dan,0.94,0.54,1.32
-USA_Chicago_Male_15_Fast,USA,Chicago,Midwest US,Male,15,Fast,josh,0.98,0.59,1.39
-USA_New York_Female_37_Slow,USA,New York,Eastcoast US,Female,37,Slow,tara,0.9,0.53,1.19
-USA_Los Angeles_Male_40_Normal,USA,Los Angeles,Westcoast US,Male,40,Normal,josh,0.91,0.54,1.5
-USA_New York_Female_38_Fast,USA,New York,Eastcoast US,Female,38,Fast,tara,0.9,0.6,1.49
-USA_Los Angeles_Female_27_Slow,USA,Los Angeles,Westcoast US,Female,27,Slow,tara,0.9,0.58,1.36
-USA_Los Angeles_Female_15_Normal,USA,Los Angeles,Westcoast US,Female,15,Normal,emma,0.99,0.68,1.18
-USA_New York_Male_36_Normal,USA,New York,Eastcoast US,Male,36,Normal,dan,0.97,0.57,1.37
-USA_New York_Female_58_Normal,USA,New York,Eastcoast US,Female,58,Normal,emma,0.95,0.62,1.13
-USA_New York_Male_76_Normal,USA,New York,Eastcoast US,Male,76,Normal,josh,0.91,0.63,1.11
-CA_Montreal_Male_41_Normal,CA,Montreal,French,Male,41,Normal,josh,0.95,0.5,1.2
-IND_Delhi_Female_39_Slow,IND,Delhi,India,Female,39,Slow,emma,0.95,0.63,1.29
-USA_Los Angeles_Female_35_Slow,USA,Los Angeles,Westcoast US,Female,35,Slow,emma,0.92,0.54,1.45
-USA_Miami_Female_19_Normal,USA,Miami,Latin,Female,19,Normal,emma,0.94,0.69,1.39
-USA_Miami_Female_39_Normal,USA,Miami,Latin,Female,39,Normal,emma,0.94,0.53,1.4
-UK_London_Male_39_Normal,UK,London,England,Male,39,Normal,josh,0.96,0.58,1.27
-CA_Montreal_Male_44_Slow,CA,Montreal,French,Male,44,Slow,josh,0.96,0.52,1.24
-USA_Miami_Female_43_Normal,USA,Miami,Latin,Female,43,Normal,emma,0.9,0.7,1.25
-USA_Los Angeles_Male_44_Normal,USA,Los Angeles,Westcoast US,Male,44,Normal,josh,0.94,0.6,1.5
-CA_Montreal_Male_22_Normal,CA,Montreal,French,Male,22,Normal,dan,0.96,0.62,1.12
-USA_New York_Female_37_Normal,USA,New York,Eastcoast US,Female,37,Normal,tara,0.95,0.51,1.45
-CA_Montreal_Male_30_Normal,CA,Montreal,French,Male,30,Normal,josh,0.99,0.65,1.33
-USA_Chicago_Male_51_Normal,USA,Chicago,Midwest US,Male,51,Normal,josh,0.97,0.54,1.28
-UK_London_Male_15_Normal,UK,London,England,Male,15,Normal,josh,0.92,0.68,1.39
-USA_Chicago_Male_57_Slow,USA,Chicago,Midwest US,Male,57,Slow,josh,0.91,0.54,1.29
-USA_Los Angeles_Female_19_Normal,USA,Los Angeles,Westcoast US,Female,19,Normal,emma,0.96,0.54,1.45
-USA_Los Angeles_Male_62_Fast,USA,Los Angeles,Westcoast US,Male,62,Fast,josh,0.9,0.51,1.46
-USA_Miami_Male_28_Slow,USA,Miami,Latin,Male,28,Slow,josh,0.96,0.59,1.27
-USA_Los Angeles_Male_43_Slow,USA,Los Angeles,Westcoast US,Male,43,Slow,josh,0.99,0.61,1.21
-UK_London_Female_53_Fast,UK,London,England,Female,53,Fast,tara,0.96,0.51,1.34
-USA_Los Angeles_Male_50_Normal,USA,Los Angeles,Westcoast US,Male,50,Normal,josh,0.94,0.66,1.46
-USA_New York_Female_40_Normal,USA,New York,Eastcoast US,Female,40,Normal,tara,0.96,0.59,1.18
-UK_London_Female_23_Normal,UK,London,England,Female,23,Normal,emma,0.95,0.6,1.35
-USA_Los Angeles_Female_27_Fast,USA,Los Angeles,Westcoast US,Female,27,Fast,emma,0.95,0.59,1.35
-USA_Los Angeles_Female_36_Normal,USA,Los Angeles,Westcoast US,Female,36,Normal,tara,0.99,0.58,1.39
-USA_Los Angeles_Female_40_Normal,USA,Los Angeles,Westcoast US,Female,40,Normal,emma,0.94,0.61,1.15
-USA_New York_Female_16_Normal,USA,New York,Eastcoast US,Female,16,Normal,tara,1.0,0.53,1.39
-USA_Los Angeles_Female_33_Fast,USA,Los Angeles,Westcoast US,Female,33,Fast,emma,0.99,0.54,1.46
-CA_Montreal_Male_60_Normal,CA,Montreal,French,Male,60,Normal,josh,0.92,0.67,1.17
-CA_Montreal_Female_46_Normal,CA,Montreal,French,Female,46,Normal,tara,0.91,0.69,1.2
-USA_New York_Female_34_Normal,USA,New York,Eastcoast US,Female,34,Normal,emma,0.91,0.57,1.49
-USA_New York_Male_34_Normal,USA,New York,Eastcoast US,Male,34,Normal,dan,0.9,0.55,1.17
-UK_London_Female_41_Normal,UK,London,England,Female,41,Normal,emma,0.91,0.63,1.44
-CA_Montreal_Male_48_Normal,CA,Montreal,French,Male,48,Normal,dan,0.97,0.58,1.3
-USA_Chicago_Female_79_Normal,USA,Chicago,Midwest US,Female,79,Normal,tara,0.91,0.51,1.2
-USA_Los Angeles_Female_35_Fast,USA,Los Angeles,Westcoast US,Female,35,Fast,emma,0.93,0.53,1.45
-USA_Miami_Female_49_Normal,USA,Miami,Latin,Female,49,Normal,emma,0.98,0.64,1.28
-USA_Los Angeles_Female_17_Fast,USA,Los Angeles,Westcoast US,Female,17,Fast,tara,0.9,0.63,1.31
-USA_New York_Male_42_Slow,USA,New York,Eastcoast US,Male,42,Slow,josh,0.98,0.51,1.24
-USA_Los Angeles_Female_67_Normal,USA,Los Angeles,Westcoast US,Female,67,Normal,emma,0.93,0.54,1.34
-USA_Los Angeles_Female_60_Normal,USA,Los Angeles,Westcoast US,Female,60,Normal,emma,0.91,0.55,1.17
-UK_London_Male_39_Fast,UK,London,England,Male,39,Fast,dan,0.97,0.63,1.26
-USA_New York_Male_23_Normal,USA,New York,Eastcoast US,Male,23,Normal,dan,0.96,0.5,1.49
-USA_New York_Male_77_Slow,USA,New York,Eastcoast US,Male,77,Slow,dan,0.99,0.52,1.2
-USA_New York_Female_32_Normal,USA,New York,Eastcoast US,Female,32,Normal,tara,0.97,0.66,1.36
-USA_New York_Female_32_Fast,USA,New York,Eastcoast US,Female,32,Fast,tara,0.98,0.54,1.23
-USA_Los Angeles_Female_63_Normal,USA,Los Angeles,Westcoast US,Female,63,Normal,tara,0.93,0.63,1.41
-USA_New York_Female_17_Normal,USA,New York,Eastcoast US,Female,17,Normal,tara,0.92,0.55,1.15
-USA_Los Angeles_Female_20_Normal,USA,Los Angeles,Westcoast US,Female,20,Normal,tara,0.98,0.52,1.49
-UK_London_Male_27_Normal,UK,London,England,Male,27,Normal,dan,0.98,0.55,1.28
-UK_London_Male_35_Normal,UK,London,England,Male,35,Normal,josh,1.0,0.64,1.19
-USA_Los Angeles_Male_30_Normal,USA,Los Angeles,Westcoast US,Male,30,Normal,dan,0.94,0.67,1.13
-UK_London_Female_36_Fast,UK,London,England,Female,36,Fast,emma,0.94,0.67,1.17
-AUS_Sydney_Male_45_Normal,AUS,Sydney,Australia,Male,45,Normal,josh,0.98,0.58,1.31
-UK_London_Male_58_Slow,UK,London,England,Male,58,Slow,josh,0.93,0.63,1.23
-USA_Los Angeles_Female_58_Normal,USA,Los Angeles,Westcoast US,Female,58,Normal,tara,0.99,0.54,1.43
-UK_London_Male_27_Slow,UK,London,England,Male,27,Slow,dan,0.99,0.56,1.27
-USA_New York_Male_46_Normal,USA,New York,Eastcoast US,Male,46,Normal,dan,0.94,0.68,1.2
-USA_Chicago_Male_26_Normal,USA,Chicago,Midwest US,Male,26,Normal,dan,0.98,0.5,1.35
-USA_New York_Male_31_Fast,USA,New York,Eastcoast US,Male,31,Fast,josh,0.98,0.52,1.38
-USA_Los Angeles_Male_71_Slow,USA,Los Angeles,Westcoast US,Male,71,Slow,dan,0.91,0.54,1.17
-USA_Los Angeles_Male_18_Fast,USA,Los Angeles,Westcoast US,Male,18,Fast,dan,0.99,0.51,1.17
-USA_Los Angeles_Male_36_Fast,USA,Los Angeles,Westcoast US,Male,36,Fast,dan,0.95,0.54,1.11
-USA_Los Angeles_Male_32_Normal,USA,Los Angeles,Westcoast US,Male,32,Normal,dan,0.98,0.62,1.39
-USA_New York_Male_25_Fast,USA,New York,Eastcoast US,Male,25,Fast,dan,0.93,0.58,1.37
-USA_Chicago_Female_35_Normal,USA,Chicago,Midwest US,Female,35,Normal,emma,0.99,0.68,1.29
-UK_London_Female_30_Normal,UK,London,England,Female,30,Normal,tara,0.94,0.66,1.44
-USA_Dallas_Female_27_Slow,USA,Dallas,South US,Female,27,Slow,emma,0.9,0.57,1.42
-UK_London_Male_41_Normal,UK,London,England,Male,41,Normal,dan,0.99,0.55,1.33
-USA_New York_Male_36_Slow,USA,New York,Eastcoast US,Male,36,Slow,josh,0.91,0.58,1.45
-USA_New York_Male_36_Fast,USA,New York,Eastcoast US,Male,36,Fast,dan,0.93,0.62,1.18
-USA_Miami_Female_26_Fast,USA,Miami,Latin,Female,26,Fast,tara,1.0,0.55,1.14
-USA_Los Angeles_Male_36_Normal,USA,Los Angeles,Westcoast US,Male,36,Normal,josh,1.0,0.62,1.21
-USA_Los Angeles_Female_64_Normal,USA,Los Angeles,Westcoast US,Female,64,Normal,emma,0.96,0.58,1.12
-USA_New York_Male_34_Slow,USA,New York,Eastcoast US,Male,34,Slow,josh,0.96,0.61,1.31
-USA_Chicago_Female_44_Normal,USA,Chicago,Midwest US,Female,44,Normal,tara,0.94,0.59,1.47
-USA_Los Angeles_Female_31_Normal,USA,Los Angeles,Westcoast US,Female,31,Normal,emma,0.93,0.56,1.12
-USA_Los Angeles_Male_45_Normal,USA,Los Angeles,Westcoast US,Male,45,Normal,dan,0.93,0.69,1.15
-CA_Montreal_Male_17_Normal,CA,Montreal,French,Male,17,Normal,dan,0.97,0.65,1.28
-USA_New York_Male_28_Normal,USA,New York,Eastcoast US,Male,28,Normal,josh,0.98,0.53,1.47
-USA_New York_Female_17_Slow,USA,New York,Eastcoast US,Female,17,Slow,emma,0.98,0.67,1.23
-USA_Los Angeles_Male_23_Normal,USA,Los Angeles,Westcoast US,Male,23,Normal,dan,0.98,0.6,1.3
-USA_Los Angeles_Female_22_Normal,USA,Los Angeles,Westcoast US,Female,22,Normal,tara,0.91,0.68,1.12
-USA_New York_Female_25_Normal,USA,New York,Eastcoast US,Female,25,Normal,emma,0.95,0.66,1.16
-USA_New York_Female_56_Normal,USA,New York,Eastcoast US,Female,56,Normal,emma,0.91,0.59,1.49
-USA_New York_Female_30_Normal,USA,New York,Eastcoast US,Female,30,Normal,emma,0.95,0.5,1.49
-USA_Los Angeles_Female_27_Normal,USA,Los Angeles,Westcoast US,Female,27,Normal,tara,0.94,0.55,1.1
-CA_Montreal_Female_40_Normal,CA,Montreal,French,Female,40,Normal,tara,0.99,0.61,1.48
-USA_Los Angeles_Female_76_Normal,USA,Los Angeles,Westcoast US,Female,76,Normal,tara,0.94,0.63,1.36
-USA_New York_Female_48_Normal,USA,New York,Eastcoast US,Female,48,Normal,tara,0.91,0.55,1.45
-IND_Delhi_Female_33_Normal,IND,Delhi,India,Female,33,Normal,tara,0.91,0.53,1.28
-UK_London_Male_61_Normal,UK,London,England,Male,61,Normal,dan,0.98,0.67,1.31
-USA_New York_Male_18_Fast,USA,New York,Eastcoast US,Male,18,Fast,josh,0.96,0.7,1.3
-USA_Los Angeles_Male_15_Normal,USA,Los Angeles,Westcoast US,Male,15,Normal,dan,0.91,0.61,1.37
-USA_Los Angeles_Female_19_Fast,USA,Los Angeles,Westcoast US,Female,19,Fast,tara,0.91,0.53,1.16
-USA_New York_Male_50_Normal,USA,New York,Eastcoast US,Male,50,Normal,dan,0.97,0.55,1.11
-USA_Los Angeles_Female_33_Normal,USA,Los Angeles,Westcoast US,Female,33,Normal,emma,0.91,0.5,1.22
-USA_Los Angeles_Female_40_Fast,USA,Los Angeles,Westcoast US,Female,40,Fast,tara,0.98,0.68,1.38
-CA_Montreal_Male_67_Slow,CA,Montreal,French,Male,67,Slow,dan,0.97,0.52,1.18
-USA_New York_Male_31_Slow,USA,New York,Eastcoast US,Male,31,Slow,josh,0.91,0.62,1.37
-USA_New York_Male_42_Normal,USA,New York,Eastcoast US,Male,42,Normal,dan,0.91,0.55,1.49
-USA_New York_Female_51_Fast,USA,New York,Eastcoast US,Female,51,Fast,tara,1.0,0.61,1.14
-USA_Chicago_Male_60_Fast,USA,Chicago,Midwest US,Male,60,Fast,dan,0.94,0.63,1.37
-USA_Dallas_Female_25_Normal,USA,Dallas,South US,Female,25,Normal,tara,0.94,0.67,1.28
-USA_Dallas_Female_21_Normal,USA,Dallas,South US,Female,21,Normal,tara,0.98,0.54,1.45
-USA_Los Angeles_Male_40_Fast,USA,Los Angeles,Westcoast US,Male,40,Fast,josh,0.99,0.5,1.17
-UK_London_Male_20_Normal,UK,London,England,Male,20,Normal,josh,1.0,0.53,1.38
-USA_Los Angeles_Female_45_Slow,USA,Los Angeles,Westcoast US,Female,45,Slow,emma,0.98,0.68,1.44
-UK_London_Male_26_Slow,UK,London,England,Male,26,Slow,dan,0.94,0.67,1.48
-USA_Chicago_Male_33_Normal,USA,Chicago,Midwest US,Male,33,Normal,dan,0.91,0.62,1.37
-USA_Chicago_Female_18_Normal,USA,Chicago,Midwest US,Female,18,Normal,tara,0.98,0.62,1.3
-UK_London_Male_56_Slow,UK,London,England,Male,56,Slow,josh,0.96,0.63,1.35
-USA_Chicago_Female_58_Slow,USA,Chicago,Midwest US,Female,58,Slow,tara,0.94,0.54,1.45
-USA_New York_Female_19_Normal,USA,New York,Eastcoast US,Female,19,Normal,tara,0.99,0.68,1.33
-USA_Los Angeles_Female_35_Normal,USA,Los Angeles,Westcoast US,Female,35,Normal,emma,0.91,0.58,1.11
-USA_Los Angeles_Male_32_Fast,USA,Los Angeles,Westcoast US,Male,32,Fast,dan,0.95,0.58,1.47
-UK_London_Female_28_Normal,UK,London,England,Female,28,Normal,emma,0.9,0.6,1.38
-USA_New York_Male_23_Slow,USA,New York,Eastcoast US,Male,23,Slow,josh,0.95,0.51,1.37
-IND_Delhi_Male_19_Slow,IND,Delhi,India,Male,19,Slow,josh,0.91,0.53,1.19
-USA_Los Angeles_Male_48_Slow,USA,Los Angeles,Westcoast US,Male,48,Slow,dan,0.91,0.65,1.36
-UK_London_Male_44_Fast,UK,London,England,Male,44,Fast,dan,0.91,0.52,1.26
-CA_Montreal_Female_55_Slow,CA,Montreal,French,Female,55,Slow,tara,0.96,0.62,1.36
-USA_New York_Male_54_Normal,USA,New York,Eastcoast US,Male,54,Normal,dan,0.97,0.55,1.14
-CA_Montreal_Female_25_Normal,CA,Montreal,French,Female,25,Normal,tara,0.96,0.58,1.36
-USA_New York_Female_65_Normal,USA,New York,Eastcoast US,Female,65,Normal,tara,1.0,0.56,1.5
-USA_Miami_Male_25_Normal,USA,Miami,Latin,Male,25,Normal,dan,0.94,0.57,1.12
-USA_Los Angeles_Male_46_Fast,USA,Los Angeles,Westcoast US,Male,46,Fast,josh,0.93,0.64,1.49
-USA_Chicago_Male_17_Normal,USA,Chicago,Midwest US,Male,17,Normal,dan,0.99,0.56,1.26
-USA_New York_Male_53_Fast,USA,New York,Eastcoast US,Male,53,Fast,josh,0.92,0.61,1.45
-USA_Chicago_Male_39_Slow,USA,Chicago,Midwest US,Male,39,Slow,dan,1.0,0.6,1.41
-USA_New York_Female_42_Normal,USA,New York,Eastcoast US,Female,42,Normal,tara,0.9,0.63,1.33
-USA_Los Angeles_Female_49_Fast,USA,Los Angeles,Westcoast US,Female,49,Fast,tara,1.0,0.69,1.4
-USA_Miami_Female_16_Normal,USA,Miami,Latin,Female,16,Normal,emma,0.9,0.65,1.45
-USA_New York_Female_73_Fast,USA,New York,Eastcoast US,Female,73,Fast,emma,0.99,0.54,1.26
-CA_Montreal_Female_43_Normal,CA,Montreal,French,Female,43,Normal,emma,0.95,0.51,1.23
-USA_Los Angeles_Female_38_Normal,USA,Los Angeles,Westcoast US,Female,38,Normal,emma,1.0,0.55,1.37
-USA_New York_Male_24_Fast,USA,New York,Eastcoast US,Male,24,Fast,dan,0.91,0.62,1.42
-USA_New York_Male_30_Slow,USA,New York,Eastcoast US,Male,30,Slow,josh,0.96,0.51,1.4
-USA_New York_Male_58_Normal,USA,New York,Eastcoast US,Male,58,Normal,dan,1.0,0.6,1.42
-USA_Los Angeles_Male_33_Slow,USA,Los Angeles,Westcoast US,Male,33,Slow,dan,0.95,0.62,1.27
-USA_New York_Female_28_Fast,USA,New York,Eastcoast US,Female,28,Fast,emma,0.96,0.57,1.43
-USA_Los Angeles_Female_74_Fast,USA,Los Angeles,Westcoast US,Female,74,Fast,emma,0.97,0.65,1.15
-USA_Los Angeles_Male_37_Normal,USA,Los Angeles,Westcoast US,Male,37,Normal,josh,0.95,0.52,1.32
-USA_Chicago_Female_43_Normal,USA,Chicago,Midwest US,Female,43,Normal,emma,0.96,0.52,1.1
-USA_New York_Female_20_Fast,USA,New York,Eastcoast US,Female,20,Fast,emma,0.96,0.65,1.23
-USA_New York_Male_23_Fast,USA,New York,Eastcoast US,Male,23,Fast,josh,0.99,0.6,1.25
-USA_Dallas_Male_20_Normal,USA,Dallas,South US,Male,20,Normal,josh,0.9,0.64,1.26
-USA_Miami_Female_30_Slow,USA,Miami,Latin,Female,30,Slow,emma,0.93,0.59,1.38
-USA_Los Angeles_Male_65_Fast,USA,Los Angeles,Westcoast US,Male,65,Fast,dan,1.0,0.55,1.26
-UK_London_Female_36_Slow,UK,London,England,Female,36,Slow,emma,0.99,0.66,1.28
-CA_Montreal_Male_20_Normal,CA,Montreal,French,Male,20,Normal,josh,0.95,0.66,1.2
-USA_New York_Male_40_Normal,USA,New York,Eastcoast US,Male,40,Normal,dan,0.96,0.64,1.25
-USA_Los Angeles_Female_34_Slow,USA,Los Angeles,Westcoast US,Female,34,Slow,emma,0.93,0.55,1.19
-USA_Los Angeles_Female_30_Normal,USA,Los Angeles,Westcoast US,Female,30,Normal,tara,0.92,0.62,1.13
-USA_Miami_Female_35_Normal,USA,Miami,Latin,Female,35,Normal,tara,0.95,0.57,1.34
-USA_Miami_Male_54_Fast,USA,Miami,Latin,Male,54,Fast,josh,0.94,0.52,1.37
-USA_Los Angeles_Male_24_Normal,USA,Los Angeles,Westcoast US,Male,24,Normal,dan,0.96,0.68,1.35
-USA_New York_Female_20_Normal,USA,New York,Eastcoast US,Female,20,Normal,tara,0.91,0.53,1.29
-UK_London_Female_61_Normal,UK,London,England,Female,61,Normal,tara,1.0,0.69,1.25
-UK_London_Male_52_Fast,UK,London,England,Male,52,Fast,dan,1.0,0.59,1.45
-USA_Los Angeles_Male_26_Normal,USA,Los Angeles,Westcoast US,Male,26,Normal,josh,0.97,0.54,1.31
-IND_Delhi_Male_71_Fast,IND,Delhi,India,Male,71,Fast,dan,0.95,0.61,1.29
-USA_Chicago_Female_35_Fast,USA,Chicago,Midwest US,Female,35,Fast,emma,0.93,0.67,1.11
-CA_Montreal_Male_35_Fast,CA,Montreal,French,Male,35,Fast,dan,0.98,0.65,1.24
-USA_New York_Male_31_Normal,USA,New York,Eastcoast US,Male,31,Normal,dan,0.97,0.66,1.25
-USA_Miami_Female_51_Slow,USA,Miami,Latin,Female,51,Slow,tara,0.92,0.63,1.26
-USA_Miami_Male_27_Normal,USA,Miami,Latin,Male,27,Normal,dan,0.99,0.64,1.33
-USA_Los Angeles_Female_22_Fast,USA,Los Angeles,Westcoast US,Female,22,Fast,emma,0.98,0.67,1.31
-USA_Chicago_Male_43_Fast,USA,Chicago,Midwest US,Male,43,Fast,josh,0.99,0.55,1.34
-USA_Chicago_Female_39_Normal,USA,Chicago,Midwest US,Female,39,Normal,tara,0.97,0.6,1.41
-USA_Dallas_Female_55_Slow,USA,Dallas,South US,Female,55,Slow,tara,0.96,0.54,1.43
-USA_Los Angeles_Female_31_Slow,USA,Los Angeles,Westcoast US,Female,31,Slow,emma,0.94,0.7,1.39
-USA_New York_Male_15_Fast,USA,New York,Eastcoast US,Male,15,Fast,dan,0.99,0.69,1.48
-USA_Los Angeles_Female_38_Slow,USA,Los Angeles,Westcoast US,Female,38,Slow,tara,0.99,0.51,1.11
-USA_Miami_Female_26_Normal,USA,Miami,Latin,Female,26,Normal,tara,0.9,0.64,1.18
-USA_New York_Female_49_Normal,USA,New York,Eastcoast US,Female,49,Normal,emma,0.9,0.69,1.1
-USA_Los Angeles_Male_19_Slow,USA,Los Angeles,Westcoast US,Male,19,Slow,josh,0.94,0.54,1.36
-USA_New York_Male_40_Slow,USA,New York,Eastcoast US,Male,40,Slow,josh,0.98,0.61,1.46
-USA_Dallas_Male_31_Normal,USA,Dallas,South US,Male,31,Normal,dan,1.0,0.68,1.2
-USA_New York_Male_38_Normal,USA,New York,Eastcoast US,Male,38,Normal,dan,0.92,0.51,1.47
-USA_Miami_Male_54_Normal,USA,Miami,Latin,Male,54,Normal,josh,0.96,0.64,1.12
-UK_London_Male_33_Normal,UK,London,England,Male,33,Normal,josh,0.94,0.56,1.47
-USA_Los Angeles_Female_51_Normal,USA,Los Angeles,Westcoast US,Female,51,Normal,emma,1.0,0.68,1.24
-USA_Los Angeles_Male_34_Fast,USA,Los Angeles,Westcoast US,Male,34,Fast,josh,0.98,0.69,1.14
-USA_New York_Female_34_Slow,USA,New York,Eastcoast US,Female,34,Slow,tara,0.98,0.69,1.29
-IND_Delhi_Female_64_Slow,IND,Delhi,India,Female,64,Slow,emma,0.95,0.59,1.2
-USA_Miami_Female_51_Normal,USA,Miami,Latin,Female,51,Normal,tara,0.94,0.67,1.21
-USA_Miami_Male_42_Fast,USA,Miami,Latin,Male,42,Fast,josh,0.93,0.67,1.22
-IND_Delhi_Female_16_Normal,IND,Delhi,India,Female,16,Normal,tara,0.91,0.56,1.42
-USA_Chicago_Male_39_Normal,USA,Chicago,Midwest US,Male,39,Normal,josh,0.99,0.67,1.32
-IND_Delhi_Female_51_Fast,IND,Delhi,India,Female,51,Fast,emma,0.98,0.51,1.22
-USA_New York_Female_46_Normal,USA,New York,Eastcoast US,Female,46,Normal,emma,1.0,0.62,1.34
-USA_Los Angeles_Female_43_Slow,USA,Los Angeles,Westcoast US,Female,43,Slow,emma,1.0,0.55,1.39
-USA_Los Angeles_Male_32_Slow,USA,Los Angeles,Westcoast US,Male,32,Slow,dan,0.96,0.52,1.21
-USA_Los Angeles_Female_28_Slow,USA,Los Angeles,Westcoast US,Female,28,Slow,emma,0.98,0.52,1.27
-USA_Miami_Male_61_Normal,USA,Miami,Latin,Male,61,Normal,dan,0.99,0.64,1.15
-USA_Los Angeles_Female_26_Fast,USA,Los Angeles,Westcoast US,Female,26,Fast,tara,0.98,0.57,1.17
-AUS_Sydney_Female_28_Normal,AUS,Sydney,Australia,Female,28,Normal,tara,0.92,0.64,1.37
-USA_Miami_Male_23_Fast,USA,Miami,Latin,Male,23,Fast,dan,0.95,0.51,1.17
-IND_Delhi_Male_51_Normal,IND,Delhi,India,Male,51,Normal,josh,0.91,0.56,1.31
-USA_New York_Male_15_Slow,USA,New York,Eastcoast US,Male,15,Slow,dan,1.0,0.61,1.38
-USA_Los Angeles_Female_48_Fast,USA,Los Angeles,Westcoast US,Female,48,Fast,tara,0.96,0.66,1.14
-CA_Montreal_Female_56_Normal,CA,Montreal,French,Female,56,Normal,tara,0.92,0.56,1.33
-USA_Los Angeles_Male_28_Normal,USA,Los Angeles,Westcoast US,Male,28,Normal,josh,0.97,0.63,1.2
-USA_Los Angeles_Female_40_Slow,USA,Los Angeles,Westcoast US,Female,40,Slow,emma,0.96,0.68,1.49
-USA_Los Angeles_Male_37_Slow,USA,Los Angeles,Westcoast US,Male,37,Slow,josh,0.94,0.62,1.29
-USA_Los Angeles_Female_16_Normal,USA,Los Angeles,Westcoast US,Female,16,Normal,emma,0.91,0.55,1.42
-UK_London_Female_31_Normal,UK,London,England,Female,31,Normal,tara,0.97,0.5,1.32
-USA_Los Angeles_Male_19_Fast,USA,Los Angeles,Westcoast US,Male,19,Fast,dan,0.95,0.67,1.12
-USA_Los Angeles_Male_65_Normal,USA,Los Angeles,Westcoast US,Male,65,Normal,josh,0.98,0.5,1.35
-USA_Los Angeles_Female_32_Slow,USA,Los Angeles,Westcoast US,Female,32,Slow,tara,0.95,0.67,1.48
-USA_Los Angeles_Female_41_Normal,USA,Los Angeles,Westcoast US,Female,41,Normal,tara,0.99,0.61,1.34
-USA_New York_Male_20_Normal,USA,New York,Eastcoast US,Male,20,Normal,dan,0.96,0.69,1.43
-USA_Chicago_Male_37_Normal,USA,Chicago,Midwest US,Male,37,Normal,josh,0.96,0.66,1.45
-IND_Delhi_Female_46_Fast,IND,Delhi,India,Female,46,Fast,emma,0.99,0.7,1.19
-USA_Chicago_Female_32_Normal,USA,Chicago,Midwest US,Female,32,Normal,tara,0.94,0.57,1.18
-USA_Los Angeles_Male_51_Normal,USA,Los Angeles,Westcoast US,Male,51,Normal,josh,0.91,0.65,1.34
-USA_New York_Female_70_Normal,USA,New York,Eastcoast US,Female,70,Normal,emma,0.9,0.58,1.26
-USA_Los Angeles_Male_31_Slow,USA,Los Angeles,Westcoast US,Male,31,Slow,josh,0.98,0.6,1.44
-CA_Montreal_Male_21_Normal,CA,Montreal,French,Male,21,Normal,josh,0.96,0.63,1.46
-USA_New York_Female_18_Normal,USA,New York,Eastcoast US,Female,18,Normal,emma,0.97,0.67,1.24
-USA_Los Angeles_Male_23_Slow,USA,Los Angeles,Westcoast US,Male,23,Slow,dan,0.92,0.7,1.19
-USA_New York_Male_59_Normal,USA,New York,Eastcoast US,Male,59,Normal,josh,0.91,0.65,1.41
-USA_New York_Male_45_Slow,USA,New York,Eastcoast US,Male,45,Slow,dan,0.9,0.58,1.21
-USA_Miami_Female_60_Fast,USA,Miami,Latin,Female,60,Fast,tara,0.94,0.58,1.43
-USA_New York_Female_60_Normal,USA,New York,Eastcoast US,Female,60,Normal,emma,0.96,0.65,1.27
-USA_Chicago_Female_62_Normal,USA,Chicago,Midwest US,Female,62,Normal,tara,0.94,0.55,1.37
-USA_Chicago_Female_38_Normal,USA,Chicago,Midwest US,Female,38,Normal,tara,0.94,0.52,1.14
-USA_Los Angeles_Female_26_Normal,USA,Los Angeles,Westcoast US,Female,26,Normal,tara,0.99,0.57,1.35
-CA_Montreal_Male_26_Normal,CA,Montreal,French,Male,26,Normal,josh,0.93,0.56,1.28
-USA_New York_Male_32_Normal,USA,New York,Eastcoast US,Male,32,Normal,josh,0.95,0.56,1.33
-USA_Los Angeles_Female_15_Fast,USA,Los Angeles,Westcoast US,Female,15,Fast,tara,0.98,0.55,1.17
-USA_Los Angeles_Female_64_Slow,USA,Los Angeles,Westcoast US,Female,64,Slow,emma,0.94,0.51,1.39
-USA_New York_Female_23_Normal,USA,New York,Eastcoast US,Female,23,Normal,emma,0.96,0.5,1.45
-USA_New York_Female_41_Normal,USA,New York,Eastcoast US,Female,41,Normal,emma,0.99,0.7,1.19
-USA_New York_Female_33_Fast,USA,New York,Eastcoast US,Female,33,Fast,emma,0.99,0.59,1.14
-USA_Los Angeles_Male_44_Slow,USA,Los Angeles,Westcoast US,Male,44,Slow,dan,0.91,0.58,1.11
-UK_London_Male_54_Normal,UK,London,England,Male,54,Normal,dan,0.99,0.64,1.36
-USA_Los Angeles_Male_53_Normal,USA,Los Angeles,Westcoast US,Male,53,Normal,josh,0.95,0.54,1.34
-USA_Los Angeles_Female_52_Normal,USA,Los Angeles,Westcoast US,Female,52,Normal,emma,0.93,0.69,1.32
-USA_Miami_Male_26_Normal,USA,Miami,Latin,Male,26,Normal,dan,0.95,0.66,1.19
-CA_Montreal_Female_34_Normal,CA,Montreal,French,Female,34,Normal,tara,1.0,0.52,1.26
-USA_Los Angeles_Male_72_Normal,USA,Los Angeles,Westcoast US,Male,72,Normal,josh,0.95,0.58,1.34
-USA_Los Angeles_Female_23_Normal,USA,Los Angeles,Westcoast US,Female,23,Normal,tara,0.93,0.68,1.3
-USA_Los Angeles_Male_43_Normal,USA,Los Angeles,Westcoast US,Male,43,Normal,josh,0.96,0.69,1.5
-USA_New York_Male_19_Slow,USA,New York,Eastcoast US,Male,19,Slow,josh,0.92,0.59,1.15
-USA_New York_Male_25_Normal,USA,New York,Eastcoast US,Male,25,Normal,dan,0.91,0.62,1.38
-IND_Delhi_Female_21_Normal,IND,Delhi,India,Female,21,Normal,tara,0.91,0.53,1.26
-USA_Los Angeles_Male_30_Fast,USA,Los Angeles,Westcoast US,Male,30,Fast,josh,0.91,0.7,1.27
-USA_Chicago_Female_23_Fast,USA,Chicago,Midwest US,Female,23,Fast,emma,0.92,0.55,1.39
-USA_New York_Female_33_Normal,USA,New York,Eastcoast US,Female,33,Normal,tara,0.91,0.69,1.38
-UK_London_Male_20_Slow,UK,London,England,Male,20,Slow,josh,0.96,0.63,1.5
-USA_New York_Female_19_Fast,USA,New York,Eastcoast US,Female,19,Fast,tara,0.92,0.62,1.15
-USA_Chicago_Female_34_Normal,USA,Chicago,Midwest US,Female,34,Normal,emma,0.93,0.6,1.14
-USA_New York_Male_27_Normal,USA,New York,Eastcoast US,Male,27,Normal,dan,0.99,0.55,1.39
-USA_Chicago_Male_37_Fast,USA,Chicago,Midwest US,Male,37,Fast,dan,0.95,0.54,1.33
-USA_Chicago_Male_40_Fast,USA,Chicago,Midwest US,Male,40,Fast,dan,0.97,0.54,1.21
-USA_Chicago_Male_34_Fast,USA,Chicago,Midwest US,Male,34,Fast,josh,0.92,0.54,1.13
-USA_New York_Female_60_Slow,USA,New York,Eastcoast US,Female,60,Slow,emma,0.92,0.66,1.13
-USA_Miami_Female_59_Fast,USA,Miami,Latin,Female,59,Fast,tara,0.9,0.57,1.46
-USA_New York_Female_32_Slow,USA,New York,Eastcoast US,Female,32,Slow,emma,0.92,0.51,1.18
-USA_New York_Male_17_Normal,USA,New York,Eastcoast US,Male,17,Normal,dan,0.93,0.69,1.23
-UK_London_Female_42_Normal,UK,London,England,Female,42,Normal,tara,0.92,0.68,1.19
-USA_New York_Male_54_Slow,USA,New York,Eastcoast US,Male,54,Slow,josh,0.91,0.69,1.24
-USA_Chicago_Female_16_Fast,USA,Chicago,Midwest US,Female,16,Fast,emma,0.91,0.7,1.13
-USA_Los Angeles_Female_38_Fast,USA,Los Angeles,Westcoast US,Female,38,Fast,tara,0.95,0.53,1.31
-USA_Los Angeles_Female_34_Fast,USA,Los Angeles,Westcoast US,Female,34,Fast,emma,0.92,0.58,1.13
-AUS_Sydney_Female_46_Normal,AUS,Sydney,Australia,Female,46,Normal,emma,0.94,0.65,1.42
-USA_Los Angeles_Male_41_Normal,USA,Los Angeles,Westcoast US,Male,41,Normal,dan,0.95,0.64,1.19
-USA_Los Angeles_Male_39_Fast,USA,Los Angeles,Westcoast US,Male,39,Fast,dan,0.97,0.53,1.32
-USA_Miami_Female_19_Slow,USA,Miami,Latin,Female,19,Slow,emma,0.9,0.66,1.45
-UK_London_Female_37_Normal,UK,London,England,Female,37,Normal,tara,0.98,0.54,1.36
-USA_New York_Male_29_Slow,USA,New York,Eastcoast US,Male,29,Slow,dan,0.96,0.54,1.31
-USA_Los Angeles_Female_28_Fast,USA,Los Angeles,Westcoast US,Female,28,Fast,emma,0.91,0.61,1.23
-USA_New York_Female_30_Fast,USA,New York,Eastcoast US,Female,30,Fast,tara,0.99,0.62,1.23
-USA_Miami_Male_39_Slow,USA,Miami,Latin,Male,39,Slow,dan,0.99,0.62,1.37
-USA_Los Angeles_Female_30_Fast,USA,Los Angeles,Westcoast US,Female,30,Fast,emma,0.91,0.52,1.5
-USA_New York_Male_43_Normal,USA,New York,Eastcoast US,Male,43,Normal,josh,0.93,0.68,1.36
-USA_Los Angeles_Male_35_Normal,USA,Los Angeles,Westcoast US,Male,35,Normal,dan,0.98,0.55,1.32
-USA_Chicago_Female_31_Slow,USA,Chicago,Midwest US,Female,31,Slow,tara,0.97,0.53,1.39
-USA_Los Angeles_Female_23_Fast,USA,Los Angeles,Westcoast US,Female,23,Fast,emma,0.92,0.68,1.29
-USA_Los Angeles_Male_38_Normal,USA,Los Angeles,Westcoast US,Male,38,Normal,josh,0.92,0.69,1.12
-USA_Chicago_Female_15_Normal,USA,Chicago,Midwest US,Female,15,Normal,emma,0.94,0.67,1.32
-UK_London_Female_26_Normal,UK,London,England,Female,26,Normal,emma,0.95,0.66,1.48
-UK_London_Female_39_Fast,UK,London,England,Female,39,Fast,tara,0.96,0.63,1.17
-USA_New York_Female_22_Normal,USA,New York,Eastcoast US,Female,22,Normal,emma,0.94,0.61,1.38
-USA_New York_Female_49_Slow,USA,New York,Eastcoast US,Female,49,Slow,emma,0.95,0.52,1.18
-USA_New York_Male_28_Fast,USA,New York,Eastcoast US,Male,28,Fast,dan,0.97,0.58,1.31
-UK_London_Female_48_Slow,UK,London,England,Female,48,Slow,emma,0.9,0.57,1.14
-USA_Los Angeles_Male_57_Normal,USA,Los Angeles,Westcoast US,Male,57,Normal,dan,0.93,0.55,1.28
-USA_Los Angeles_Female_56_Normal,USA,Los Angeles,Westcoast US,Female,56,Normal,emma,0.97,0.64,1.4
-USA_Chicago_Male_15_Normal,USA,Chicago,Midwest US,Male,15,Normal,josh,0.99,0.6,1.24
-USA_Miami_Male_33_Normal,USA,Miami,Latin,Male,33,Normal,josh,0.95,0.52,1.37
-USA_Miami_Female_32_Normal,USA,Miami,Latin,Female,32,Normal,tara,0.95,0.54,1.42
-USA_Chicago_Male_31_Slow,USA,Chicago,Midwest US,Male,31,Slow,dan,0.91,0.64,1.47
-USA_Los Angeles_Male_29_Fast,USA,Los Angeles,Westcoast US,Male,29,Fast,josh,0.94,0.52,1.19
-USA_Los Angeles_Male_41_Fast,USA,Los Angeles,Westcoast US,Male,41,Fast,dan,0.95,0.67,1.26
-UK_London_Female_15_Fast,UK,London,England,Female,15,Fast,tara,0.92,0.6,1.16
-USA_Los Angeles_Male_33_Fast,USA,Los Angeles,Westcoast US,Male,33,Fast,dan,0.93,0.6,1.5
-USA_Miami_Male_29_Normal,USA,Miami,Latin,Male,29,Normal,dan,0.94,0.62,1.47
-USA_Dallas_Female_19_Slow,USA,Dallas,South US,Female,19,Slow,tara,0.9,0.66,1.32
-USA_Los Angeles_Male_35_Fast,USA,Los Angeles,Westcoast US,Male,35,Fast,dan,0.93,0.57,1.44
-IND_Delhi_Male_20_Slow,IND,Delhi,India,Male,20,Slow,josh,0.92,0.64,1.31
-USA_Dallas_Male_78_Fast,USA,Dallas,South US,Male,78,Fast,josh,0.93,0.61,1.35
-USA_New York_Male_46_Fast,USA,New York,Eastcoast US,Male,46,Fast,dan,0.91,0.55,1.14
-USA_Miami_Female_58_Normal,USA,Miami,Latin,Female,58,Normal,emma,0.99,0.68,1.4
-USA_New York_Male_60_Normal,USA,New York,Eastcoast US,Male,60,Normal,josh,0.96,0.66,1.15
-USA_New York_Male_57_Normal,USA,New York,Eastcoast US,Male,57,Normal,josh,0.97,0.63,1.43
-USA_Los Angeles_Female_53_Normal,USA,Los Angeles,Westcoast US,Female,53,Normal,emma,0.98,0.67,1.41
-USA_Miami_Female_74_Fast,USA,Miami,Latin,Female,74,Fast,tara,0.95,0.67,1.38
-USA_New York_Female_29_Slow,USA,New York,Eastcoast US,Female,29,Slow,emma,0.91,0.64,1.11
-USA_Los Angeles_Male_38_Slow,USA,Los Angeles,Westcoast US,Male,38,Slow,josh,0.95,0.67,1.22
-UK_London_Female_43_Fast,UK,London,England,Female,43,Fast,tara,0.96,0.64,1.21
-USA_Chicago_Female_51_Slow,USA,Chicago,Midwest US,Female,51,Slow,tara,0.97,0.64,1.24
-USA_Miami_Male_43_Normal,USA,Miami,Latin,Male,43,Normal,josh,0.94,0.62,1.14
-UK_London_Male_40_Normal,UK,London,England,Male,40,Normal,josh,0.91,0.65,1.47
-USA_Miami_Male_46_Normal,USA,Miami,Latin,Male,46,Normal,josh,0.93,0.53,1.32
-USA_New York_Male_29_Normal,USA,New York,Eastcoast US,Male,29,Normal,josh,0.94,0.68,1.22
-USA_Dallas_Female_29_Normal,USA,Dallas,South US,Female,29,Normal,emma,0.96,0.67,1.26
-UK_London_Female_44_Fast,UK,London,England,Female,44,Fast,emma,0.96,0.51,1.28
-USA_Los Angeles_Male_52_Fast,USA,Los Angeles,Westcoast US,Male,52,Fast,dan,0.94,0.67,1.34
-USA_New York_Female_28_Slow,USA,New York,Eastcoast US,Female,28,Slow,emma,1.0,0.53,1.31
-USA_New York_Male_33_Slow,USA,New York,Eastcoast US,Male,33,Slow,josh,0.96,0.57,1.47
-USA_Miami_Female_63_Normal,USA,Miami,Latin,Female,63,Normal,tara,0.92,0.65,1.3
-USA_Dallas_Female_33_Slow,USA,Dallas,South US,Female,33,Slow,tara,0.91,0.53,1.5
-USA_Chicago_Male_34_Normal,USA,Chicago,Midwest US,Male,34,Normal,dan,0.92,0.66,1.44
-USA_New York_Male_45_Fast,USA,New York,Eastcoast US,Male,45,Fast,dan,0.92,0.67,1.18
-UK_London_Male_20_Fast,UK,London,England,Male,20,Fast,josh,0.92,0.6,1.47
-USA_Miami_Female_61_Slow,USA,Miami,Latin,Female,61,Slow,emma,0.92,0.5,1.15
-USA_New York_Female_25_Slow,USA,New York,Eastcoast US,Female,25,Slow,emma,0.93,0.56,1.43
-UK_London_Female_35_Normal,UK,London,England,Female,35,Normal,emma,0.92,0.62,1.25
-USA_New York_Female_18_Slow,USA,New York,Eastcoast US,Female,18,Slow,emma,0.99,0.7,1.45
-CA_Montreal_Female_64_Fast,CA,Montreal,French,Female,64,Fast,emma,0.91,0.63,1.45
-USA_Los Angeles_Female_28_Normal,USA,Los Angeles,Westcoast US,Female,28,Normal,tara,0.95,0.55,1.42
-USA_Los Angeles_Female_43_Normal,USA,Los Angeles,Westcoast US,Female,43,Normal,emma,0.94,0.63,1.42
-AUS_Sydney_Male_27_Slow,AUS,Sydney,Australia,Male,27,Slow,dan,1.0,0.61,1.22
-USA_Dallas_Male_42_Normal,USA,Dallas,South US,Male,42,Normal,dan,0.91,0.66,1.13
-USA_Miami_Male_40_Fast,USA,Miami,Latin,Male,40,Fast,josh,0.94,0.52,1.26
-USA_Los Angeles_Female_39_Fast,USA,Los Angeles,Westcoast US,Female,39,Fast,tara,1.0,0.65,1.17
-USA_Chicago_Male_25_Normal,USA,Chicago,Midwest US,Male,25,Normal,josh,0.99,0.61,1.38
-USA_New York_Male_35_Slow,USA,New York,Eastcoast US,Male,35,Slow,dan,0.98,0.69,1.24
-UK_London_Male_43_Fast,UK,London,England,Male,43,Fast,josh,0.93,0.57,1.49
-USA_New York_Female_21_Slow,USA,New York,Eastcoast US,Female,21,Slow,tara,0.92,0.63,1.36
-UK_London_Male_46_Normal,UK,London,England,Male,46,Normal,josh,0.97,0.69,1.43
-USA_Miami_Female_45_Normal,USA,Miami,Latin,Female,45,Normal,emma,0.99,0.52,1.15
-USA_Los Angeles_Female_67_Slow,USA,Los Angeles,Westcoast US,Female,67,Slow,emma,0.96,0.69,1.44
-USA_Chicago_Female_38_Slow,USA,Chicago,Midwest US,Female,38,Slow,emma,0.96,0.64,1.47
-USA_Los Angeles_Female_26_Slow,USA,Los Angeles,Westcoast US,Female,26,Slow,emma,0.93,0.51,1.29
-USA_Los Angeles_Female_50_Slow,USA,Los Angeles,Westcoast US,Female,50,Slow,tara,0.98,0.56,1.34
-USA_New York_Female_26_Normal,USA,New York,Eastcoast US,Female,26,Normal,tara,0.92,0.64,1.41
-USA_Los Angeles_Male_17_Fast,USA,Los Angeles,Westcoast US,Male,17,Fast,dan,0.93,0.51,1.17
-USA_Los Angeles_Male_35_Slow,USA,Los Angeles,Westcoast US,Male,35,Slow,josh,0.94,0.62,1.3
-USA_Los Angeles_Male_27_Fast,USA,Los Angeles,Westcoast US,Male,27,Fast,dan,0.95,0.57,1.26
-CA_Montreal_Female_16_Normal,CA,Montreal,French,Female,16,Normal,emma,0.92,0.62,1.16
-USA_Los Angeles_Male_27_Slow,USA,Los Angeles,Westcoast US,Male,27,Slow,josh,0.91,0.51,1.25
-USA_New York_Male_57_Fast,USA,New York,Eastcoast US,Male,57,Fast,dan,0.96,0.67,1.13
-USA_Los Angeles_Male_42_Slow,USA,Los Angeles,Westcoast US,Male,42,Slow,dan,0.93,0.69,1.11
-CA_Montreal_Male_16_Fast,CA,Montreal,French,Male,16,Fast,josh,0.96,0.69,1.15
-USA_New York_Female_56_Slow,USA,New York,Eastcoast US,Female,56,Slow,tara,0.92,0.65,1.49
-CA_Montreal_Female_21_Normal,CA,Montreal,French,Female,21,Normal,emma,0.95,0.53,1.32
-USA_Los Angeles_Male_28_Fast,USA,Los Angeles,Westcoast US,Male,28,Fast,josh,0.95,0.65,1.49
-USA_Dallas_Male_41_Fast,USA,Dallas,South US,Male,41,Fast,josh,0.91,0.5,1.27
-USA_Los Angeles_Female_15_Slow,USA,Los Angeles,Westcoast US,Female,15,Slow,emma,0.93,0.5,1.22
-USA_New York_Female_24_Normal,USA,New York,Eastcoast US,Female,24,Normal,emma,0.91,0.56,1.3
-UK_London_Female_35_Fast,UK,London,England,Female,35,Fast,tara,0.91,0.6,1.28
-USA_Chicago_Female_20_Normal,USA,Chicago,Midwest US,Female,20,Normal,tara,1.0,0.65,1.14
-USA_Los Angeles_Male_29_Normal,USA,Los Angeles,Westcoast US,Male,29,Normal,josh,0.93,0.64,1.36
-USA_Los Angeles_Male_25_Normal,USA,Los Angeles,Westcoast US,Male,25,Normal,josh,0.98,0.59,1.19
-USA_Chicago_Male_38_Fast,USA,Chicago,Midwest US,Male,38,Fast,dan,0.93,0.55,1.35
-USA_Los Angeles_Male_55_Slow,USA,Los Angeles,Westcoast US,Male,55,Slow,dan,0.97,0.7,1.36
-USA_Los Angeles_Male_58_Normal,USA,Los Angeles,Westcoast US,Male,58,Normal,josh,0.98,0.59,1.16
-USA_Dallas_Female_30_Normal,USA,Dallas,South US,Female,30,Normal,tara,0.96,0.59,1.12
-UK_London_Male_36_Slow,UK,London,England,Male,36,Slow,josh,0.95,0.53,1.41
-USA_Chicago_Female_18_Slow,USA,Chicago,Midwest US,Female,18,Slow,tara,0.94,0.66,1.28
-USA_Chicago_Male_72_Normal,USA,Chicago,Midwest US,Male,72,Normal,josh,0.93,0.64,1.12
-USA_Miami_Female_17_Normal,USA,Miami,Latin,Female,17,Normal,tara,0.99,0.54,1.5
-UK_London_Male_30_Normal,UK,London,England,Male,30,Normal,josh,0.98,0.52,1.12
-USA_Los Angeles_Male_51_Fast,USA,Los Angeles,Westcoast US,Male,51,Fast,dan,1.0,0.64,1.38
-USA_New York_Male_33_Normal,USA,New York,Eastcoast US,Male,33,Normal,dan,0.91,0.63,1.49
-USA_Chicago_Female_26_Slow,USA,Chicago,Midwest US,Female,26,Slow,emma,0.97,0.55,1.2
-USA_New York_Male_32_Slow,USA,New York,Eastcoast US,Male,32,Slow,dan,0.99,0.69,1.16
-USA_Miami_Female_29_Fast,USA,Miami,Latin,Female,29,Fast,emma,0.92,0.53,1.15
-USA_Los Angeles_Female_60_Fast,USA,Los Angeles,Westcoast US,Female,60,Fast,tara,0.91,0.59,1.22
-USA_Los Angeles_Male_19_Normal,USA,Los Angeles,Westcoast US,Male,19,Normal,josh,0.97,0.69,1.14
-USA_New York_Female_52_Normal,USA,New York,Eastcoast US,Female,52,Normal,tara,0.96,0.58,1.38
-USA_Los Angeles_Female_33_Slow,USA,Los Angeles,Westcoast US,Female,33,Slow,emma,0.98,0.63,1.12
-USA_New York_Male_26_Fast,USA,New York,Eastcoast US,Male,26,Fast,dan,0.91,0.58,1.3
-USA_Miami_Male_56_Slow,USA,Miami,Latin,Male,56,Slow,josh,0.98,0.55,1.5
-UK_London_Female_34_Normal,UK,London,England,Female,34,Normal,tara,0.92,0.7,1.43
-USA_Los Angeles_Female_24_Normal,USA,Los Angeles,Westcoast US,Female,24,Normal,emma,0.92,0.58,1.35
-USA_New York_Male_32_Fast,USA,New York,Eastcoast US,Male,32,Fast,josh,0.92,0.68,1.22
-CA_Montreal_Female_31_Normal,CA,Montreal,French,Female,31,Normal,emma,0.98,0.55,1.35
-USA_Los Angeles_Female_42_Slow,USA,Los Angeles,Westcoast US,Female,42,Slow,tara,0.97,0.54,1.31
-USA_Los Angeles_Male_47_Normal,USA,Los Angeles,Westcoast US,Male,47,Normal,josh,0.95,0.51,1.27
-USA_Miami_Female_70_Fast,USA,Miami,Latin,Female,70,Fast,tara,0.94,0.63,1.15
-UK_London_Male_42_Normal,UK,London,England,Male,42,Normal,josh,0.99,0.57,1.45
-CA_Montreal_Male_46_Normal,CA,Montreal,French,Male,46,Normal,dan,0.94,0.67,1.28
-USA_New York_Male_73_Normal,USA,New York,Eastcoast US,Male,73,Normal,josh,0.98,0.59,1.18
-USA_New York_Male_30_Fast,USA,New York,Eastcoast US,Male,30,Fast,dan,0.94,0.69,1.25
-USA_New York_Female_57_Normal,USA,New York,Eastcoast US,Female,57,Normal,tara,0.94,0.54,1.27
-USA_Los Angeles_Female_72_Slow,USA,Los Angeles,Westcoast US,Female,72,Slow,emma,0.95,0.67,1.43
-USA_Miami_Male_34_Normal,USA,Miami,Latin,Male,34,Normal,dan,0.93,0.66,1.39
-USA_New York_Female_61_Fast,USA,New York,Eastcoast US,Female,61,Fast,tara,0.97,0.65,1.41
-USA_New York_Female_29_Fast,USA,New York,Eastcoast US,Female,29,Fast,emma,0.95,0.67,1.1
-USA_New York_Male_38_Fast,USA,New York,Eastcoast US,Male,38,Fast,dan,0.92,0.65,1.27
-USA_Los Angeles_Female_21_Normal,USA,Los Angeles,Westcoast US,Female,21,Normal,tara,0.99,0.63,1.29
-USA_Los Angeles_Female_18_Normal,USA,Los Angeles,Westcoast US,Female,18,Normal,tara,0.94,0.53,1.11
-USA_New York_Female_61_Slow,USA,New York,Eastcoast US,Female,61,Slow,emma,0.95,0.51,1.2
-USA_New York_Male_44_Fast,USA,New York,Eastcoast US,Male,44,Fast,dan,0.99,0.68,1.4
-USA_New York_Male_28_Slow,USA,New York,Eastcoast US,Male,28,Slow,josh,0.96,0.62,1.15
+IND_Delhi_Female_39_Normal,IND,Delhi,India,Female,39,Normal,tara,0.95,0.51,1.26
+USA_Los Angeles_Female_53_Fast,USA,Los Angeles,Westcoast US,Female,53,Fast,emma,0.99,0.56,1.37
+USA_Chicago_Female_33_Normal,USA,Chicago,Midwest US,Female,33,Normal,tara,0.96,0.55,1.2
+USA_Los Angeles_Female_17_Normal,USA,Los Angeles,Westcoast US,Female,17,Normal,tara,0.96,0.57,1.24
+USA_Miami_Female_48_Fast,USA,Miami,Latin,Female,48,Fast,tara,0.99,0.52,1.47
+USA_Los Angeles_Male_42_Normal,USA,Los Angeles,Westcoast US,Male,42,Normal,josh,0.94,0.69,1.22
+USA_Miami_Male_51_Normal,USA,Miami,Latin,Male,51,Normal,dan,0.91,0.61,1.29
+USA_New York_Female_46_Fast,USA,New York,Eastcoast US,Female,46,Fast,tara,0.9,0.56,1.46
+USA_New York_Female_44_Normal,USA,New York,Eastcoast US,Female,44,Normal,tara,0.98,0.58,1.38
+USA_Chicago_Female_44_Slow,USA,Chicago,Midwest US,Female,44,Slow,emma,0.96,0.59,1.12
+USA_Dallas_Female_80_Slow,USA,Dallas,South US,Female,80,Slow,tara,0.97,0.62,1.16
+USA_New York_Male_26_Normal,USA,New York,Eastcoast US,Male,26,Normal,dan,0.92,0.6,1.1
+USA_New York_Male_15_Normal,USA,New York,Eastcoast US,Male,15,Normal,dan,0.91,0.68,1.35
+USA_Los Angeles_Male_71_Normal,USA,Los Angeles,Westcoast US,Male,71,Normal,dan,0.9,0.6,1.28
+USA_New York_Female_38_Normal,USA,New York,Eastcoast US,Female,38,Normal,emma,0.94,0.7,1.15
+USA_Los Angeles_Male_27_Normal,USA,Los Angeles,Westcoast US,Male,27,Normal,dan,0.96,0.67,1.48
+USA_Miami_Female_31_Normal,USA,Miami,Latin,Female,31,Normal,emma,0.94,0.54,1.31
+USA_New York_Female_34_Fast,USA,New York,Eastcoast US,Female,34,Fast,emma,0.94,0.69,1.2
+USA_Los Angeles_Male_30_Slow,USA,Los Angeles,Westcoast US,Male,30,Slow,josh,0.99,0.52,1.3
+USA_Los Angeles_Female_32_Normal,USA,Los Angeles,Westcoast US,Female,32,Normal,tara,0.93,0.66,1.37
+USA_Chicago_Female_55_Normal,USA,Chicago,Midwest US,Female,55,Normal,emma,0.95,0.58,1.13
+USA_Dallas_Female_29_Slow,USA,Dallas,South US,Female,29,Slow,tara,0.98,0.68,1.21
+USA_Dallas_Male_21_Normal,USA,Dallas,South US,Male,21,Normal,josh,0.94,0.67,1.42
+USA_Los Angeles_Male_20_Slow,USA,Los Angeles,Westcoast US,Male,20,Slow,josh,0.96,0.66,1.28
+USA_Miami_Female_71_Slow,USA,Miami,Latin,Female,71,Slow,emma,0.99,0.66,1.32
+USA_Los Angeles_Male_21_Fast,USA,Los Angeles,Westcoast US,Male,21,Fast,josh,0.99,0.56,1.27
+USA_Miami_Male_19_Fast,USA,Miami,Latin,Male,19,Fast,josh,0.91,0.52,1.12
+USA_Chicago_Male_44_Normal,USA,Chicago,Midwest US,Male,44,Normal,josh,0.99,0.58,1.17
+USA_New York_Female_21_Fast,USA,New York,Eastcoast US,Female,21,Fast,emma,0.95,0.53,1.28
+CA_Montreal_Male_39_Fast,CA,Montreal,French,Male,39,Fast,josh,0.93,0.64,1.18
+CA_Montreal_Male_61_Normal,CA,Montreal,French,Male,61,Normal,dan,0.95,0.57,1.12
+USA_Chicago_Male_31_Normal,USA,Chicago,Midwest US,Male,31,Normal,dan,1.0,0.7,1.44
+USA_Los Angeles_Male_31_Normal,USA,Los Angeles,Westcoast US,Male,31,Normal,josh,0.95,0.63,1.49
+USA_New York_Male_39_Fast,USA,New York,Eastcoast US,Male,39,Fast,josh,0.93,0.66,1.42
+IND_Delhi_Female_37_Normal,IND,Delhi,India,Female,37,Normal,emma,0.96,0.53,1.44
+IND_Delhi_Female_54_Fast,IND,Delhi,India,Female,54,Fast,tara,0.92,0.67,1.2
+UK_London_Female_40_Normal,UK,London,England,Female,40,Normal,emma,0.91,0.68,1.48
+USA_Miami_Male_18_Normal,USA,Miami,Latin,Male,18,Normal,dan,0.91,0.6,1.18
+USA_New York_Male_41_Normal,USA,New York,Eastcoast US,Male,41,Normal,dan,0.91,0.62,1.48
+USA_New York_Female_26_Slow,USA,New York,Eastcoast US,Female,26,Slow,tara,0.92,0.65,1.5
+USA_Los Angeles_Female_42_Normal,USA,Los Angeles,Westcoast US,Female,42,Normal,tara,0.91,0.53,1.38
+USA_Los Angeles_Male_21_Normal,USA,Los Angeles,Westcoast US,Male,21,Normal,dan,0.96,0.6,1.49
+USA_Miami_Female_79_Normal,USA,Miami,Latin,Female,79,Normal,emma,0.92,0.58,1.33
+USA_Los Angeles_Male_67_Normal,USA,Los Angeles,Westcoast US,Male,67,Normal,josh,0.93,0.53,1.2
+USA_New York_Male_37_Fast,USA,New York,Eastcoast US,Male,37,Fast,josh,0.99,0.57,1.27
+USA_New York_Male_49_Slow,USA,New York,Eastcoast US,Male,49,Slow,josh,0.95,0.51,1.34
+UK_London_Female_27_Slow,UK,London,England,Female,27,Slow,emma,0.97,0.51,1.13
+USA_Dallas_Female_52_Slow,USA,Dallas,South US,Female,52,Slow,tara,0.92,0.53,1.35
+USA_Los Angeles_Male_45_Slow,USA,Los Angeles,Westcoast US,Male,45,Slow,josh,0.92,0.69,1.49
+USA_Los Angeles_Female_39_Normal,USA,Los Angeles,Westcoast US,Female,39,Normal,emma,0.9,0.61,1.18
+USA_Los Angeles_Female_29_Slow,USA,Los Angeles,Westcoast US,Female,29,Slow,tara,0.92,0.69,1.42
+AUS_Sydney_Female_33_Normal,AUS,Sydney,Australia,Female,33,Normal,emma,0.93,0.59,1.46
+USA_Miami_Female_68_Normal,USA,Miami,Latin,Female,68,Normal,tara,0.92,0.56,1.48
+USA_Dallas_Female_17_Normal,USA,Dallas,South US,Female,17,Normal,emma,0.91,0.6,1.48
+USA_New York_Female_29_Normal,USA,New York,Eastcoast US,Female,29,Normal,tara,0.91,0.59,1.31
+USA_New York_Female_64_Fast,USA,New York,Eastcoast US,Female,64,Fast,emma,0.95,0.52,1.49
+USA_Miami_Male_17_Normal,USA,Miami,Latin,Male,17,Normal,josh,0.92,0.63,1.4
+USA_Los Angeles_Female_32_Fast,USA,Los Angeles,Westcoast US,Female,32,Fast,tara,0.94,0.54,1.16
+AUS_Sydney_Male_19_Normal,AUS,Sydney,Australia,Male,19,Normal,dan,0.95,0.62,1.29
+USA_New York_Male_70_Normal,USA,New York,Eastcoast US,Male,70,Normal,dan,0.97,0.63,1.39
+CA_Montreal_Male_28_Normal,CA,Montreal,French,Male,28,Normal,dan,0.9,0.53,1.2
+USA_Chicago_Female_29_Fast,USA,Chicago,Midwest US,Female,29,Fast,tara,0.98,0.51,1.36
+UK_London_Female_33_Normal,UK,London,England,Female,33,Normal,tara,0.96,0.66,1.37
+USA_New York_Male_73_Fast,USA,New York,Eastcoast US,Male,73,Fast,dan,0.91,0.59,1.17
+USA_Los Angeles_Male_25_Slow,USA,Los Angeles,Westcoast US,Male,25,Slow,dan,0.99,0.51,1.33
+USA_New York_Female_53_Normal,USA,New York,Eastcoast US,Female,53,Normal,emma,0.99,0.7,1.41
+USA_Chicago_Female_31_Normal,USA,Chicago,Midwest US,Female,31,Normal,emma,0.91,0.51,1.3
+USA_Los Angeles_Male_52_Normal,USA,Los Angeles,Westcoast US,Male,52,Normal,dan,0.93,0.64,1.1
+USA_Miami_Female_35_Slow,USA,Miami,Latin,Female,35,Slow,emma,0.98,0.7,1.1
+USA_Miami_Female_27_Fast,USA,Miami,Latin,Female,27,Fast,emma,0.97,0.55,1.24
+USA_New York_Male_53_Normal,USA,New York,Eastcoast US,Male,53,Normal,josh,0.92,0.53,1.47
+USA_Miami_Female_47_Normal,USA,Miami,Latin,Female,47,Normal,emma,0.92,0.52,1.19
+USA_Miami_Male_63_Normal,USA,Miami,Latin,Male,63,Normal,dan,0.94,0.56,1.35
+IND_Delhi_Male_43_Normal,IND,Delhi,India,Male,43,Normal,josh,0.95,0.52,1.19
+USA_New York_Female_36_Slow,USA,New York,Eastcoast US,Female,36,Slow,tara,0.96,0.64,1.23
+USA_Los Angeles_Male_36_Slow,USA,Los Angeles,Westcoast US,Male,36,Slow,josh,0.94,0.51,1.44
+USA_New York_Female_28_Normal,USA,New York,Eastcoast US,Female,28,Normal,emma,0.95,0.6,1.39
+USA_Miami_Male_50_Fast,USA,Miami,Latin,Male,50,Fast,josh,0.97,0.7,1.14
+USA_New York_Female_62_Slow,USA,New York,Eastcoast US,Female,62,Slow,tara,0.9,0.66,1.27
+USA_New York_Male_42_Fast,USA,New York,Eastcoast US,Male,42,Fast,josh,0.93,0.62,1.11
+USA_Dallas_Male_30_Fast,USA,Dallas,South US,Male,30,Fast,dan,0.97,0.56,1.29
+USA_Chicago_Male_15_Fast,USA,Chicago,Midwest US,Male,15,Fast,josh,0.99,0.62,1.36
+USA_New York_Female_37_Slow,USA,New York,Eastcoast US,Female,37,Slow,tara,0.95,0.61,1.15
+USA_Los Angeles_Male_40_Normal,USA,Los Angeles,Westcoast US,Male,40,Normal,josh,0.95,0.59,1.22
+USA_New York_Female_38_Fast,USA,New York,Eastcoast US,Female,38,Fast,tara,0.91,0.53,1.26
+USA_Los Angeles_Female_27_Slow,USA,Los Angeles,Westcoast US,Female,27,Slow,tara,0.94,0.68,1.47
+USA_Los Angeles_Female_15_Normal,USA,Los Angeles,Westcoast US,Female,15,Normal,emma,0.95,0.59,1.5
+USA_New York_Male_36_Normal,USA,New York,Eastcoast US,Male,36,Normal,dan,0.92,0.54,1.12
+USA_New York_Female_58_Normal,USA,New York,Eastcoast US,Female,58,Normal,emma,0.93,0.57,1.4
+USA_New York_Male_76_Normal,USA,New York,Eastcoast US,Male,76,Normal,josh,0.94,0.58,1.25
+CA_Montreal_Male_41_Normal,CA,Montreal,French,Male,41,Normal,josh,0.9,0.67,1.26
+IND_Delhi_Female_39_Slow,IND,Delhi,India,Female,39,Slow,emma,0.93,0.65,1.4
+USA_Los Angeles_Female_35_Slow,USA,Los Angeles,Westcoast US,Female,35,Slow,emma,0.92,0.65,1.47
+USA_Miami_Female_19_Normal,USA,Miami,Latin,Female,19,Normal,emma,0.93,0.5,1.48
+USA_Miami_Female_39_Normal,USA,Miami,Latin,Female,39,Normal,emma,0.91,0.58,1.33
+UK_London_Male_39_Normal,UK,London,England,Male,39,Normal,josh,0.99,0.6,1.24
+CA_Montreal_Male_44_Slow,CA,Montreal,French,Male,44,Slow,josh,0.96,0.5,1.42
+USA_Miami_Female_43_Normal,USA,Miami,Latin,Female,43,Normal,emma,0.97,0.55,1.2
+USA_Los Angeles_Male_44_Normal,USA,Los Angeles,Westcoast US,Male,44,Normal,josh,0.98,0.65,1.33
+CA_Montreal_Male_22_Normal,CA,Montreal,French,Male,22,Normal,dan,0.95,0.53,1.24
+USA_New York_Female_37_Normal,USA,New York,Eastcoast US,Female,37,Normal,tara,0.91,0.61,1.36
+CA_Montreal_Male_30_Normal,CA,Montreal,French,Male,30,Normal,josh,0.95,0.54,1.2
+USA_Chicago_Male_51_Normal,USA,Chicago,Midwest US,Male,51,Normal,josh,0.96,0.5,1.18
+UK_London_Male_15_Normal,UK,London,England,Male,15,Normal,josh,0.97,0.55,1.47
+USA_Chicago_Male_57_Slow,USA,Chicago,Midwest US,Male,57,Slow,josh,0.94,0.7,1.14
+USA_Los Angeles_Female_19_Normal,USA,Los Angeles,Westcoast US,Female,19,Normal,emma,0.91,0.66,1.3
+USA_Los Angeles_Male_62_Fast,USA,Los Angeles,Westcoast US,Male,62,Fast,josh,0.93,0.69,1.19
+USA_Miami_Male_28_Slow,USA,Miami,Latin,Male,28,Slow,josh,0.94,0.6,1.12
+USA_Los Angeles_Male_43_Slow,USA,Los Angeles,Westcoast US,Male,43,Slow,josh,0.96,0.52,1.11
+UK_London_Female_53_Fast,UK,London,England,Female,53,Fast,tara,0.96,0.61,1.17
+USA_Los Angeles_Male_50_Normal,USA,Los Angeles,Westcoast US,Male,50,Normal,josh,0.94,0.59,1.45
+USA_New York_Female_40_Normal,USA,New York,Eastcoast US,Female,40,Normal,tara,1.0,0.67,1.21
+UK_London_Female_23_Normal,UK,London,England,Female,23,Normal,emma,0.96,0.52,1.48
+USA_Los Angeles_Female_27_Fast,USA,Los Angeles,Westcoast US,Female,27,Fast,emma,0.92,0.6,1.33
+USA_Los Angeles_Female_36_Normal,USA,Los Angeles,Westcoast US,Female,36,Normal,tara,0.91,0.53,1.27
+USA_Los Angeles_Female_40_Normal,USA,Los Angeles,Westcoast US,Female,40,Normal,emma,0.92,0.56,1.33
+USA_New York_Female_16_Normal,USA,New York,Eastcoast US,Female,16,Normal,tara,0.92,0.65,1.31
+USA_Los Angeles_Female_33_Fast,USA,Los Angeles,Westcoast US,Female,33,Fast,emma,0.92,0.6,1.4
+CA_Montreal_Male_60_Normal,CA,Montreal,French,Male,60,Normal,josh,0.92,0.58,1.21
+CA_Montreal_Female_46_Normal,CA,Montreal,French,Female,46,Normal,tara,0.93,0.58,1.24
+USA_New York_Female_34_Normal,USA,New York,Eastcoast US,Female,34,Normal,emma,0.92,0.59,1.46
+USA_New York_Male_34_Normal,USA,New York,Eastcoast US,Male,34,Normal,dan,0.99,0.66,1.48
+UK_London_Female_41_Normal,UK,London,England,Female,41,Normal,emma,0.91,0.68,1.46
+CA_Montreal_Male_48_Normal,CA,Montreal,French,Male,48,Normal,dan,0.95,0.69,1.27
+USA_Chicago_Female_79_Normal,USA,Chicago,Midwest US,Female,79,Normal,tara,0.94,0.66,1.41
+USA_Los Angeles_Female_35_Fast,USA,Los Angeles,Westcoast US,Female,35,Fast,emma,1.0,0.56,1.29
+USA_Miami_Female_49_Normal,USA,Miami,Latin,Female,49,Normal,emma,0.91,0.64,1.3
+USA_Los Angeles_Female_17_Fast,USA,Los Angeles,Westcoast US,Female,17,Fast,tara,0.94,0.59,1.18
+USA_New York_Male_42_Slow,USA,New York,Eastcoast US,Male,42,Slow,josh,1.0,0.55,1.34
+USA_Los Angeles_Female_67_Normal,USA,Los Angeles,Westcoast US,Female,67,Normal,emma,0.99,0.67,1.17
+USA_Los Angeles_Female_60_Normal,USA,Los Angeles,Westcoast US,Female,60,Normal,emma,0.98,0.51,1.23
+UK_London_Male_39_Fast,UK,London,England,Male,39,Fast,dan,0.93,0.68,1.44
+USA_New York_Male_23_Normal,USA,New York,Eastcoast US,Male,23,Normal,dan,0.92,0.59,1.18
+USA_New York_Male_77_Slow,USA,New York,Eastcoast US,Male,77,Slow,dan,0.97,0.63,1.13
+USA_New York_Female_32_Normal,USA,New York,Eastcoast US,Female,32,Normal,tara,0.99,0.63,1.13
+USA_New York_Female_32_Fast,USA,New York,Eastcoast US,Female,32,Fast,tara,0.96,0.68,1.48
+USA_Los Angeles_Female_63_Normal,USA,Los Angeles,Westcoast US,Female,63,Normal,tara,0.96,0.63,1.3
+USA_New York_Female_17_Normal,USA,New York,Eastcoast US,Female,17,Normal,tara,0.93,0.62,1.26
+USA_Los Angeles_Female_20_Normal,USA,Los Angeles,Westcoast US,Female,20,Normal,tara,0.98,0.51,1.42
+UK_London_Male_27_Normal,UK,London,England,Male,27,Normal,dan,0.92,0.6,1.43
+UK_London_Male_35_Normal,UK,London,England,Male,35,Normal,josh,0.93,0.53,1.23
+USA_Los Angeles_Male_30_Normal,USA,Los Angeles,Westcoast US,Male,30,Normal,dan,0.94,0.65,1.38
+UK_London_Female_36_Fast,UK,London,England,Female,36,Fast,emma,0.95,0.6,1.41
+AUS_Sydney_Male_45_Normal,AUS,Sydney,Australia,Male,45,Normal,josh,0.92,0.64,1.36
+UK_London_Male_58_Slow,UK,London,England,Male,58,Slow,josh,0.91,0.51,1.16
+USA_Los Angeles_Female_58_Normal,USA,Los Angeles,Westcoast US,Female,58,Normal,tara,0.96,0.52,1.45
+UK_London_Male_27_Slow,UK,London,England,Male,27,Slow,dan,0.93,0.64,1.32
+USA_New York_Male_46_Normal,USA,New York,Eastcoast US,Male,46,Normal,dan,0.96,0.51,1.21
+USA_Chicago_Male_26_Normal,USA,Chicago,Midwest US,Male,26,Normal,dan,0.92,0.51,1.27
+USA_New York_Male_31_Fast,USA,New York,Eastcoast US,Male,31,Fast,josh,0.95,0.5,1.12
+USA_Los Angeles_Male_71_Slow,USA,Los Angeles,Westcoast US,Male,71,Slow,dan,0.95,0.69,1.15
+USA_Los Angeles_Male_18_Fast,USA,Los Angeles,Westcoast US,Male,18,Fast,dan,0.91,0.65,1.41
+USA_Los Angeles_Male_36_Fast,USA,Los Angeles,Westcoast US,Male,36,Fast,dan,0.93,0.57,1.1
+USA_Los Angeles_Male_32_Normal,USA,Los Angeles,Westcoast US,Male,32,Normal,dan,0.91,0.56,1.27
+USA_New York_Male_25_Fast,USA,New York,Eastcoast US,Male,25,Fast,dan,0.91,0.57,1.31
+USA_Chicago_Female_35_Normal,USA,Chicago,Midwest US,Female,35,Normal,emma,1.0,0.65,1.12
+UK_London_Female_30_Normal,UK,London,England,Female,30,Normal,tara,0.93,0.63,1.49
+USA_Dallas_Female_27_Slow,USA,Dallas,South US,Female,27,Slow,emma,0.98,0.54,1.19
+UK_London_Male_41_Normal,UK,London,England,Male,41,Normal,dan,0.93,0.53,1.22
+USA_New York_Male_36_Slow,USA,New York,Eastcoast US,Male,36,Slow,josh,0.97,0.52,1.22
+USA_New York_Male_36_Fast,USA,New York,Eastcoast US,Male,36,Fast,dan,0.98,0.63,1.19
+USA_Miami_Female_26_Fast,USA,Miami,Latin,Female,26,Fast,tara,0.96,0.65,1.1
+USA_Los Angeles_Male_36_Normal,USA,Los Angeles,Westcoast US,Male,36,Normal,josh,0.95,0.55,1.39
+USA_Los Angeles_Female_64_Normal,USA,Los Angeles,Westcoast US,Female,64,Normal,emma,0.94,0.5,1.49
+USA_New York_Male_34_Slow,USA,New York,Eastcoast US,Male,34,Slow,josh,0.93,0.52,1.19
+USA_Chicago_Female_44_Normal,USA,Chicago,Midwest US,Female,44,Normal,tara,0.99,0.69,1.37
+USA_Los Angeles_Female_31_Normal,USA,Los Angeles,Westcoast US,Female,31,Normal,emma,0.98,0.56,1.4
+USA_Los Angeles_Male_45_Normal,USA,Los Angeles,Westcoast US,Male,45,Normal,dan,1.0,0.65,1.44
+CA_Montreal_Male_17_Normal,CA,Montreal,French,Male,17,Normal,dan,0.91,0.62,1.27
+USA_New York_Male_28_Normal,USA,New York,Eastcoast US,Male,28,Normal,josh,0.97,0.58,1.22
+USA_New York_Female_17_Slow,USA,New York,Eastcoast US,Female,17,Slow,emma,0.99,0.54,1.23
+USA_Los Angeles_Male_23_Normal,USA,Los Angeles,Westcoast US,Male,23,Normal,dan,0.92,0.52,1.39
+USA_Los Angeles_Female_22_Normal,USA,Los Angeles,Westcoast US,Female,22,Normal,tara,0.91,0.62,1.43
+USA_New York_Female_25_Normal,USA,New York,Eastcoast US,Female,25,Normal,emma,0.97,0.65,1.17
+USA_New York_Female_56_Normal,USA,New York,Eastcoast US,Female,56,Normal,emma,0.96,0.63,1.25
+USA_New York_Female_30_Normal,USA,New York,Eastcoast US,Female,30,Normal,emma,0.98,0.61,1.46
+USA_Los Angeles_Female_27_Normal,USA,Los Angeles,Westcoast US,Female,27,Normal,tara,0.91,0.51,1.42
+CA_Montreal_Female_40_Normal,CA,Montreal,French,Female,40,Normal,tara,0.98,0.69,1.49
+USA_Los Angeles_Female_76_Normal,USA,Los Angeles,Westcoast US,Female,76,Normal,tara,0.92,0.66,1.4
+USA_New York_Female_48_Normal,USA,New York,Eastcoast US,Female,48,Normal,tara,0.92,0.56,1.26
+IND_Delhi_Female_33_Normal,IND,Delhi,India,Female,33,Normal,tara,0.92,0.7,1.34
+UK_London_Male_61_Normal,UK,London,England,Male,61,Normal,dan,0.98,0.62,1.36
+USA_New York_Male_18_Fast,USA,New York,Eastcoast US,Male,18,Fast,josh,0.97,0.62,1.13
+USA_Los Angeles_Male_15_Normal,USA,Los Angeles,Westcoast US,Male,15,Normal,dan,0.95,0.65,1.32
+USA_Los Angeles_Female_19_Fast,USA,Los Angeles,Westcoast US,Female,19,Fast,tara,0.94,0.66,1.38
+USA_New York_Male_50_Normal,USA,New York,Eastcoast US,Male,50,Normal,dan,0.99,0.63,1.17
+USA_Los Angeles_Female_33_Normal,USA,Los Angeles,Westcoast US,Female,33,Normal,emma,0.94,0.53,1.41
+USA_Los Angeles_Female_40_Fast,USA,Los Angeles,Westcoast US,Female,40,Fast,tara,0.98,0.57,1.33
+CA_Montreal_Male_67_Slow,CA,Montreal,French,Male,67,Slow,dan,0.94,0.69,1.48
+USA_New York_Male_31_Slow,USA,New York,Eastcoast US,Male,31,Slow,josh,0.94,0.54,1.12
+USA_New York_Male_42_Normal,USA,New York,Eastcoast US,Male,42,Normal,dan,0.95,0.57,1.21
+USA_New York_Female_51_Fast,USA,New York,Eastcoast US,Female,51,Fast,tara,0.93,0.59,1.34
+USA_Chicago_Male_60_Fast,USA,Chicago,Midwest US,Male,60,Fast,dan,0.97,0.59,1.22
+USA_Dallas_Female_25_Normal,USA,Dallas,South US,Female,25,Normal,tara,0.95,0.62,1.39
+USA_Dallas_Female_21_Normal,USA,Dallas,South US,Female,21,Normal,tara,0.92,0.69,1.4
+USA_Los Angeles_Male_40_Fast,USA,Los Angeles,Westcoast US,Male,40,Fast,josh,0.99,0.55,1.14
+UK_London_Male_20_Normal,UK,London,England,Male,20,Normal,josh,0.94,0.52,1.31
+USA_Los Angeles_Female_45_Slow,USA,Los Angeles,Westcoast US,Female,45,Slow,emma,0.95,0.54,1.3
+UK_London_Male_26_Slow,UK,London,England,Male,26,Slow,dan,0.99,0.68,1.25
+USA_Chicago_Male_33_Normal,USA,Chicago,Midwest US,Male,33,Normal,dan,0.96,0.63,1.47
+USA_Chicago_Female_18_Normal,USA,Chicago,Midwest US,Female,18,Normal,tara,0.91,0.56,1.43
+UK_London_Male_56_Slow,UK,London,England,Male,56,Slow,josh,0.99,0.66,1.38
+USA_Chicago_Female_58_Slow,USA,Chicago,Midwest US,Female,58,Slow,tara,0.96,0.67,1.39
+USA_New York_Female_19_Normal,USA,New York,Eastcoast US,Female,19,Normal,tara,0.93,0.67,1.28
+USA_Los Angeles_Female_35_Normal,USA,Los Angeles,Westcoast US,Female,35,Normal,emma,0.91,0.68,1.47
+USA_Los Angeles_Male_32_Fast,USA,Los Angeles,Westcoast US,Male,32,Fast,dan,0.98,0.55,1.38
+UK_London_Female_28_Normal,UK,London,England,Female,28,Normal,emma,0.96,0.65,1.39
+USA_New York_Male_23_Slow,USA,New York,Eastcoast US,Male,23,Slow,josh,0.95,0.59,1.44
+IND_Delhi_Male_19_Slow,IND,Delhi,India,Male,19,Slow,josh,0.99,0.67,1.21
+USA_Los Angeles_Male_48_Slow,USA,Los Angeles,Westcoast US,Male,48,Slow,dan,0.98,0.65,1.42
+UK_London_Male_44_Fast,UK,London,England,Male,44,Fast,dan,0.92,0.66,1.18
+CA_Montreal_Female_55_Slow,CA,Montreal,French,Female,55,Slow,tara,0.93,0.63,1.24
+USA_New York_Male_54_Normal,USA,New York,Eastcoast US,Male,54,Normal,dan,0.92,0.54,1.23
+CA_Montreal_Female_25_Normal,CA,Montreal,French,Female,25,Normal,tara,0.97,0.61,1.49
+USA_New York_Female_65_Normal,USA,New York,Eastcoast US,Female,65,Normal,tara,0.9,0.7,1.44
+USA_Miami_Male_25_Normal,USA,Miami,Latin,Male,25,Normal,dan,0.96,0.69,1.38
+USA_Los Angeles_Male_46_Fast,USA,Los Angeles,Westcoast US,Male,46,Fast,josh,0.98,0.51,1.39
+USA_Chicago_Male_17_Normal,USA,Chicago,Midwest US,Male,17,Normal,dan,0.99,0.53,1.32
+USA_New York_Male_53_Fast,USA,New York,Eastcoast US,Male,53,Fast,josh,0.93,0.53,1.48
+USA_Chicago_Male_39_Slow,USA,Chicago,Midwest US,Male,39,Slow,dan,0.98,0.65,1.3
+USA_New York_Female_42_Normal,USA,New York,Eastcoast US,Female,42,Normal,tara,0.91,0.66,1.25
+USA_Los Angeles_Female_49_Fast,USA,Los Angeles,Westcoast US,Female,49,Fast,tara,0.98,0.54,1.17
+USA_Miami_Female_16_Normal,USA,Miami,Latin,Female,16,Normal,emma,0.91,0.6,1.41
+USA_New York_Female_73_Fast,USA,New York,Eastcoast US,Female,73,Fast,emma,0.94,0.67,1.39
+CA_Montreal_Female_43_Normal,CA,Montreal,French,Female,43,Normal,emma,0.98,0.65,1.25
+USA_Los Angeles_Female_38_Normal,USA,Los Angeles,Westcoast US,Female,38,Normal,emma,0.91,0.61,1.11
+USA_New York_Male_24_Fast,USA,New York,Eastcoast US,Male,24,Fast,dan,0.92,0.62,1.44
+USA_New York_Male_30_Slow,USA,New York,Eastcoast US,Male,30,Slow,josh,0.97,0.6,1.1
+USA_New York_Male_58_Normal,USA,New York,Eastcoast US,Male,58,Normal,dan,0.97,0.56,1.38
+USA_Los Angeles_Male_33_Slow,USA,Los Angeles,Westcoast US,Male,33,Slow,dan,0.96,0.61,1.49
+USA_New York_Female_28_Fast,USA,New York,Eastcoast US,Female,28,Fast,emma,0.97,0.64,1.28
+USA_Los Angeles_Female_74_Fast,USA,Los Angeles,Westcoast US,Female,74,Fast,emma,0.95,0.67,1.19
+USA_Los Angeles_Male_37_Normal,USA,Los Angeles,Westcoast US,Male,37,Normal,josh,0.93,0.63,1.38
+USA_Chicago_Female_43_Normal,USA,Chicago,Midwest US,Female,43,Normal,emma,0.93,0.65,1.43
+USA_New York_Female_20_Fast,USA,New York,Eastcoast US,Female,20,Fast,emma,0.92,0.53,1.32
+USA_New York_Male_23_Fast,USA,New York,Eastcoast US,Male,23,Fast,josh,0.99,0.59,1.49
+USA_Dallas_Male_20_Normal,USA,Dallas,South US,Male,20,Normal,josh,0.96,0.5,1.12
+USA_Miami_Female_30_Slow,USA,Miami,Latin,Female,30,Slow,emma,0.94,0.55,1.3
+USA_Los Angeles_Male_65_Fast,USA,Los Angeles,Westcoast US,Male,65,Fast,dan,0.95,0.65,1.39
+UK_London_Female_36_Slow,UK,London,England,Female,36,Slow,emma,0.99,0.7,1.45
+CA_Montreal_Male_20_Normal,CA,Montreal,French,Male,20,Normal,josh,0.92,0.52,1.17
+USA_New York_Male_40_Normal,USA,New York,Eastcoast US,Male,40,Normal,dan,0.96,0.58,1.42
+USA_Los Angeles_Female_34_Slow,USA,Los Angeles,Westcoast US,Female,34,Slow,emma,0.95,0.66,1.32
+USA_Los Angeles_Female_30_Normal,USA,Los Angeles,Westcoast US,Female,30,Normal,tara,0.96,0.54,1.26
+USA_Miami_Female_35_Normal,USA,Miami,Latin,Female,35,Normal,tara,0.9,0.61,1.15
+USA_Miami_Male_54_Fast,USA,Miami,Latin,Male,54,Fast,josh,0.99,0.65,1.45
+USA_Los Angeles_Male_24_Normal,USA,Los Angeles,Westcoast US,Male,24,Normal,dan,0.99,0.62,1.16
+USA_New York_Female_20_Normal,USA,New York,Eastcoast US,Female,20,Normal,tara,0.96,0.54,1.22
+UK_London_Female_61_Normal,UK,London,England,Female,61,Normal,tara,0.97,0.57,1.22
+UK_London_Male_52_Fast,UK,London,England,Male,52,Fast,dan,0.99,0.66,1.45
+USA_Los Angeles_Male_26_Normal,USA,Los Angeles,Westcoast US,Male,26,Normal,josh,0.97,0.61,1.37
+IND_Delhi_Male_71_Fast,IND,Delhi,India,Male,71,Fast,dan,0.92,0.5,1.42
+USA_Chicago_Female_35_Fast,USA,Chicago,Midwest US,Female,35,Fast,emma,0.96,0.65,1.2
+CA_Montreal_Male_35_Fast,CA,Montreal,French,Male,35,Fast,dan,0.96,0.51,1.35
+USA_New York_Male_31_Normal,USA,New York,Eastcoast US,Male,31,Normal,dan,0.94,0.65,1.33
+USA_Miami_Female_51_Slow,USA,Miami,Latin,Female,51,Slow,tara,0.97,0.54,1.43
+USA_Miami_Male_27_Normal,USA,Miami,Latin,Male,27,Normal,dan,0.99,0.69,1.46
+USA_Los Angeles_Female_22_Fast,USA,Los Angeles,Westcoast US,Female,22,Fast,emma,0.99,0.57,1.1
+USA_Chicago_Male_43_Fast,USA,Chicago,Midwest US,Male,43,Fast,josh,0.95,0.57,1.37
+USA_Chicago_Female_39_Normal,USA,Chicago,Midwest US,Female,39,Normal,tara,0.91,0.53,1.12
+USA_Dallas_Female_55_Slow,USA,Dallas,South US,Female,55,Slow,tara,1.0,0.56,1.32
+USA_Los Angeles_Female_31_Slow,USA,Los Angeles,Westcoast US,Female,31,Slow,emma,0.98,0.68,1.22
+USA_New York_Male_15_Fast,USA,New York,Eastcoast US,Male,15,Fast,dan,0.91,0.7,1.22
+USA_Los Angeles_Female_38_Slow,USA,Los Angeles,Westcoast US,Female,38,Slow,tara,0.99,0.57,1.24
+USA_Miami_Female_26_Normal,USA,Miami,Latin,Female,26,Normal,tara,0.99,0.59,1.35
+USA_New York_Female_49_Normal,USA,New York,Eastcoast US,Female,49,Normal,emma,0.95,0.64,1.23
+USA_Los Angeles_Male_19_Slow,USA,Los Angeles,Westcoast US,Male,19,Slow,josh,0.96,0.68,1.39
+USA_New York_Male_40_Slow,USA,New York,Eastcoast US,Male,40,Slow,josh,0.94,0.62,1.26
+USA_Dallas_Male_31_Normal,USA,Dallas,South US,Male,31,Normal,dan,0.91,0.58,1.13
+USA_New York_Male_38_Normal,USA,New York,Eastcoast US,Male,38,Normal,dan,0.93,0.58,1.41
+USA_Miami_Male_54_Normal,USA,Miami,Latin,Male,54,Normal,josh,0.98,0.64,1.21
+UK_London_Male_33_Normal,UK,London,England,Male,33,Normal,josh,0.9,0.5,1.27
+USA_Los Angeles_Female_51_Normal,USA,Los Angeles,Westcoast US,Female,51,Normal,emma,0.93,0.62,1.37
+USA_Los Angeles_Male_34_Fast,USA,Los Angeles,Westcoast US,Male,34,Fast,josh,0.94,0.57,1.23
+USA_New York_Female_34_Slow,USA,New York,Eastcoast US,Female,34,Slow,tara,0.95,0.66,1.12
+IND_Delhi_Female_64_Slow,IND,Delhi,India,Female,64,Slow,emma,0.99,0.52,1.25
+USA_Miami_Female_51_Normal,USA,Miami,Latin,Female,51,Normal,tara,0.93,0.62,1.48
+USA_Miami_Male_42_Fast,USA,Miami,Latin,Male,42,Fast,josh,0.93,0.6,1.36
+IND_Delhi_Female_16_Normal,IND,Delhi,India,Female,16,Normal,tara,0.97,0.63,1.37
+USA_Chicago_Male_39_Normal,USA,Chicago,Midwest US,Male,39,Normal,josh,0.95,0.51,1.35
+IND_Delhi_Female_51_Fast,IND,Delhi,India,Female,51,Fast,emma,0.92,0.62,1.18
+USA_New York_Female_46_Normal,USA,New York,Eastcoast US,Female,46,Normal,emma,0.95,0.61,1.27
+USA_Los Angeles_Female_43_Slow,USA,Los Angeles,Westcoast US,Female,43,Slow,emma,0.91,0.61,1.4
+USA_Los Angeles_Male_32_Slow,USA,Los Angeles,Westcoast US,Male,32,Slow,dan,0.92,0.62,1.14
+USA_Los Angeles_Female_28_Slow,USA,Los Angeles,Westcoast US,Female,28,Slow,emma,0.95,0.64,1.21
+USA_Miami_Male_61_Normal,USA,Miami,Latin,Male,61,Normal,dan,0.94,0.66,1.21
+USA_Los Angeles_Female_26_Fast,USA,Los Angeles,Westcoast US,Female,26,Fast,tara,0.99,0.55,1.27
+AUS_Sydney_Female_28_Normal,AUS,Sydney,Australia,Female,28,Normal,tara,0.94,0.67,1.49
+USA_Miami_Male_23_Fast,USA,Miami,Latin,Male,23,Fast,dan,0.96,0.6,1.13
+IND_Delhi_Male_51_Normal,IND,Delhi,India,Male,51,Normal,josh,0.96,0.52,1.31
+USA_New York_Male_15_Slow,USA,New York,Eastcoast US,Male,15,Slow,dan,0.9,0.51,1.17
+USA_Los Angeles_Female_48_Fast,USA,Los Angeles,Westcoast US,Female,48,Fast,tara,0.97,0.57,1.49
+CA_Montreal_Female_56_Normal,CA,Montreal,French,Female,56,Normal,tara,0.92,0.66,1.15
+USA_Los Angeles_Male_28_Normal,USA,Los Angeles,Westcoast US,Male,28,Normal,josh,1.0,0.64,1.26
+USA_Los Angeles_Female_40_Slow,USA,Los Angeles,Westcoast US,Female,40,Slow,emma,0.91,0.66,1.4
+USA_Los Angeles_Male_37_Slow,USA,Los Angeles,Westcoast US,Male,37,Slow,josh,0.94,0.6,1.38
+USA_Los Angeles_Female_16_Normal,USA,Los Angeles,Westcoast US,Female,16,Normal,emma,0.91,0.59,1.27
+UK_London_Female_31_Normal,UK,London,England,Female,31,Normal,tara,1.0,0.53,1.24
+USA_Los Angeles_Male_19_Fast,USA,Los Angeles,Westcoast US,Male,19,Fast,dan,0.95,0.57,1.26
+USA_Los Angeles_Male_65_Normal,USA,Los Angeles,Westcoast US,Male,65,Normal,josh,0.96,0.59,1.21
+USA_Los Angeles_Female_32_Slow,USA,Los Angeles,Westcoast US,Female,32,Slow,tara,0.91,0.52,1.18
+USA_Los Angeles_Female_41_Normal,USA,Los Angeles,Westcoast US,Female,41,Normal,tara,0.97,0.54,1.29
+USA_New York_Male_20_Normal,USA,New York,Eastcoast US,Male,20,Normal,dan,0.92,0.62,1.21
+USA_Chicago_Male_37_Normal,USA,Chicago,Midwest US,Male,37,Normal,josh,0.99,0.65,1.21
+IND_Delhi_Female_46_Fast,IND,Delhi,India,Female,46,Fast,emma,0.92,0.7,1.36
+USA_Chicago_Female_32_Normal,USA,Chicago,Midwest US,Female,32,Normal,tara,0.92,0.69,1.49
+USA_Los Angeles_Male_51_Normal,USA,Los Angeles,Westcoast US,Male,51,Normal,josh,0.9,0.63,1.34
+USA_New York_Female_70_Normal,USA,New York,Eastcoast US,Female,70,Normal,emma,0.95,0.58,1.13
+USA_Los Angeles_Male_31_Slow,USA,Los Angeles,Westcoast US,Male,31,Slow,josh,0.96,0.63,1.13
+CA_Montreal_Male_21_Normal,CA,Montreal,French,Male,21,Normal,josh,0.91,0.66,1.48
+USA_New York_Female_18_Normal,USA,New York,Eastcoast US,Female,18,Normal,emma,0.98,0.52,1.22
+USA_Los Angeles_Male_23_Slow,USA,Los Angeles,Westcoast US,Male,23,Slow,dan,0.95,0.58,1.14
+USA_New York_Male_59_Normal,USA,New York,Eastcoast US,Male,59,Normal,josh,0.95,0.67,1.34
+USA_New York_Male_45_Slow,USA,New York,Eastcoast US,Male,45,Slow,dan,0.94,0.58,1.35
+USA_Miami_Female_60_Fast,USA,Miami,Latin,Female,60,Fast,tara,0.94,0.61,1.36
+USA_New York_Female_60_Normal,USA,New York,Eastcoast US,Female,60,Normal,emma,0.96,0.62,1.21
+USA_Chicago_Female_62_Normal,USA,Chicago,Midwest US,Female,62,Normal,tara,0.92,0.54,1.11
+USA_Chicago_Female_38_Normal,USA,Chicago,Midwest US,Female,38,Normal,tara,0.92,0.57,1.49
+USA_Los Angeles_Female_26_Normal,USA,Los Angeles,Westcoast US,Female,26,Normal,tara,0.99,0.57,1.2
+CA_Montreal_Male_26_Normal,CA,Montreal,French,Male,26,Normal,josh,0.99,0.51,1.37
+USA_New York_Male_32_Normal,USA,New York,Eastcoast US,Male,32,Normal,josh,0.94,0.5,1.38
+USA_Los Angeles_Female_15_Fast,USA,Los Angeles,Westcoast US,Female,15,Fast,tara,0.93,0.67,1.34
+USA_Los Angeles_Female_64_Slow,USA,Los Angeles,Westcoast US,Female,64,Slow,emma,0.96,0.55,1.23
+USA_New York_Female_23_Normal,USA,New York,Eastcoast US,Female,23,Normal,emma,0.94,0.6,1.21
+USA_New York_Female_41_Normal,USA,New York,Eastcoast US,Female,41,Normal,emma,0.9,0.56,1.34
+USA_New York_Female_33_Fast,USA,New York,Eastcoast US,Female,33,Fast,emma,0.92,0.69,1.45
+USA_Los Angeles_Male_44_Slow,USA,Los Angeles,Westcoast US,Male,44,Slow,dan,0.97,0.55,1.48
+UK_London_Male_54_Normal,UK,London,England,Male,54,Normal,dan,0.97,0.59,1.14
+USA_Los Angeles_Male_53_Normal,USA,Los Angeles,Westcoast US,Male,53,Normal,josh,0.9,0.67,1.16
+USA_Los Angeles_Female_52_Normal,USA,Los Angeles,Westcoast US,Female,52,Normal,emma,0.92,0.67,1.48
+USA_Miami_Male_26_Normal,USA,Miami,Latin,Male,26,Normal,dan,0.92,0.54,1.39
+CA_Montreal_Female_34_Normal,CA,Montreal,French,Female,34,Normal,tara,0.97,0.66,1.45
+USA_Los Angeles_Male_72_Normal,USA,Los Angeles,Westcoast US,Male,72,Normal,josh,0.9,0.59,1.18
+USA_Los Angeles_Female_23_Normal,USA,Los Angeles,Westcoast US,Female,23,Normal,tara,0.91,0.6,1.34
+USA_Los Angeles_Male_43_Normal,USA,Los Angeles,Westcoast US,Male,43,Normal,josh,0.98,0.53,1.38
+USA_New York_Male_19_Slow,USA,New York,Eastcoast US,Male,19,Slow,josh,0.92,0.52,1.37
+USA_New York_Male_25_Normal,USA,New York,Eastcoast US,Male,25,Normal,dan,0.97,0.65,1.26
+IND_Delhi_Female_21_Normal,IND,Delhi,India,Female,21,Normal,tara,0.92,0.6,1.11
+USA_Los Angeles_Male_30_Fast,USA,Los Angeles,Westcoast US,Male,30,Fast,josh,0.91,0.59,1.33
+USA_Chicago_Female_23_Fast,USA,Chicago,Midwest US,Female,23,Fast,emma,0.92,0.65,1.2
+USA_New York_Female_33_Normal,USA,New York,Eastcoast US,Female,33,Normal,tara,0.97,0.65,1.28
+UK_London_Male_20_Slow,UK,London,England,Male,20,Slow,josh,0.99,0.53,1.48
+USA_New York_Female_19_Fast,USA,New York,Eastcoast US,Female,19,Fast,tara,0.98,0.62,1.26
+USA_Chicago_Female_34_Normal,USA,Chicago,Midwest US,Female,34,Normal,emma,0.94,0.53,1.44
+USA_New York_Male_27_Normal,USA,New York,Eastcoast US,Male,27,Normal,dan,0.97,0.65,1.18
+USA_Chicago_Male_37_Fast,USA,Chicago,Midwest US,Male,37,Fast,dan,0.92,0.63,1.37
+USA_Chicago_Male_40_Fast,USA,Chicago,Midwest US,Male,40,Fast,dan,0.93,0.69,1.49
+USA_Chicago_Male_34_Fast,USA,Chicago,Midwest US,Male,34,Fast,josh,0.99,0.51,1.14
+USA_New York_Female_60_Slow,USA,New York,Eastcoast US,Female,60,Slow,emma,0.9,0.51,1.1
+USA_Miami_Female_59_Fast,USA,Miami,Latin,Female,59,Fast,tara,0.91,0.56,1.27
+USA_New York_Female_32_Slow,USA,New York,Eastcoast US,Female,32,Slow,emma,0.92,0.55,1.14
+USA_New York_Male_17_Normal,USA,New York,Eastcoast US,Male,17,Normal,dan,0.9,0.55,1.4
+UK_London_Female_42_Normal,UK,London,England,Female,42,Normal,tara,0.92,0.68,1.47
+USA_New York_Male_54_Slow,USA,New York,Eastcoast US,Male,54,Slow,josh,0.96,0.55,1.27
+USA_Chicago_Female_16_Fast,USA,Chicago,Midwest US,Female,16,Fast,emma,0.94,0.55,1.2
+USA_Los Angeles_Female_38_Fast,USA,Los Angeles,Westcoast US,Female,38,Fast,tara,0.99,0.65,1.27
+USA_Los Angeles_Female_34_Fast,USA,Los Angeles,Westcoast US,Female,34,Fast,emma,0.98,0.59,1.39
+AUS_Sydney_Female_46_Normal,AUS,Sydney,Australia,Female,46,Normal,emma,0.93,0.66,1.1
+USA_Los Angeles_Male_41_Normal,USA,Los Angeles,Westcoast US,Male,41,Normal,dan,0.93,0.51,1.34
+USA_Los Angeles_Male_39_Fast,USA,Los Angeles,Westcoast US,Male,39,Fast,dan,0.94,0.6,1.35
+USA_Miami_Female_19_Slow,USA,Miami,Latin,Female,19,Slow,emma,0.96,0.51,1.36
+UK_London_Female_37_Normal,UK,London,England,Female,37,Normal,tara,0.93,0.51,1.2
+USA_New York_Male_29_Slow,USA,New York,Eastcoast US,Male,29,Slow,dan,0.96,0.68,1.39
+USA_Los Angeles_Female_28_Fast,USA,Los Angeles,Westcoast US,Female,28,Fast,emma,0.94,0.53,1.14
+USA_New York_Female_30_Fast,USA,New York,Eastcoast US,Female,30,Fast,tara,0.96,0.61,1.18
+USA_Miami_Male_39_Slow,USA,Miami,Latin,Male,39,Slow,dan,0.94,0.58,1.45
+USA_Los Angeles_Female_30_Fast,USA,Los Angeles,Westcoast US,Female,30,Fast,emma,0.93,0.57,1.4
+USA_New York_Male_43_Normal,USA,New York,Eastcoast US,Male,43,Normal,josh,0.99,0.68,1.11
+USA_Los Angeles_Male_35_Normal,USA,Los Angeles,Westcoast US,Male,35,Normal,dan,0.98,0.5,1.2
+USA_Chicago_Female_31_Slow,USA,Chicago,Midwest US,Female,31,Slow,tara,0.91,0.63,1.19
+USA_Los Angeles_Female_23_Fast,USA,Los Angeles,Westcoast US,Female,23,Fast,emma,0.99,0.69,1.21
+USA_Los Angeles_Male_38_Normal,USA,Los Angeles,Westcoast US,Male,38,Normal,josh,0.95,0.61,1.2
+USA_Chicago_Female_15_Normal,USA,Chicago,Midwest US,Female,15,Normal,emma,0.99,0.69,1.13
+UK_London_Female_26_Normal,UK,London,England,Female,26,Normal,emma,0.98,0.51,1.28
+UK_London_Female_39_Fast,UK,London,England,Female,39,Fast,tara,0.94,0.58,1.39
+USA_New York_Female_22_Normal,USA,New York,Eastcoast US,Female,22,Normal,emma,0.9,0.55,1.34
+USA_New York_Female_49_Slow,USA,New York,Eastcoast US,Female,49,Slow,emma,0.93,0.65,1.37
+USA_New York_Male_28_Fast,USA,New York,Eastcoast US,Male,28,Fast,dan,0.95,0.7,1.13
+UK_London_Female_48_Slow,UK,London,England,Female,48,Slow,emma,0.96,0.55,1.48
+USA_Los Angeles_Male_57_Normal,USA,Los Angeles,Westcoast US,Male,57,Normal,dan,0.93,0.63,1.44
+USA_Los Angeles_Female_56_Normal,USA,Los Angeles,Westcoast US,Female,56,Normal,emma,0.91,0.54,1.42
+USA_Chicago_Male_15_Normal,USA,Chicago,Midwest US,Male,15,Normal,josh,0.98,0.61,1.43
+USA_Miami_Male_33_Normal,USA,Miami,Latin,Male,33,Normal,josh,1.0,0.59,1.47
+USA_Miami_Female_32_Normal,USA,Miami,Latin,Female,32,Normal,tara,0.95,0.69,1.32
+USA_Chicago_Male_31_Slow,USA,Chicago,Midwest US,Male,31,Slow,dan,0.92,0.62,1.18
+USA_Los Angeles_Male_29_Fast,USA,Los Angeles,Westcoast US,Male,29,Fast,josh,0.93,0.57,1.35
+USA_Los Angeles_Male_41_Fast,USA,Los Angeles,Westcoast US,Male,41,Fast,dan,0.9,0.52,1.4
+UK_London_Female_15_Fast,UK,London,England,Female,15,Fast,tara,0.99,0.53,1.4
+USA_Los Angeles_Male_33_Fast,USA,Los Angeles,Westcoast US,Male,33,Fast,dan,0.91,0.55,1.31
+USA_Miami_Male_29_Normal,USA,Miami,Latin,Male,29,Normal,dan,0.96,0.55,1.13
+USA_Dallas_Female_19_Slow,USA,Dallas,South US,Female,19,Slow,tara,0.93,0.67,1.25
+USA_Los Angeles_Male_35_Fast,USA,Los Angeles,Westcoast US,Male,35,Fast,dan,0.96,0.61,1.47
+IND_Delhi_Male_20_Slow,IND,Delhi,India,Male,20,Slow,josh,0.97,0.6,1.33
+USA_Dallas_Male_78_Fast,USA,Dallas,South US,Male,78,Fast,josh,0.98,0.52,1.32
+USA_New York_Male_46_Fast,USA,New York,Eastcoast US,Male,46,Fast,dan,0.92,0.67,1.21
+USA_Miami_Female_58_Normal,USA,Miami,Latin,Female,58,Normal,emma,0.9,0.64,1.25
+USA_New York_Male_60_Normal,USA,New York,Eastcoast US,Male,60,Normal,josh,0.91,0.51,1.46
+USA_New York_Male_57_Normal,USA,New York,Eastcoast US,Male,57,Normal,josh,0.99,0.64,1.37
+USA_Los Angeles_Female_53_Normal,USA,Los Angeles,Westcoast US,Female,53,Normal,emma,0.99,0.61,1.41
+USA_Miami_Female_74_Fast,USA,Miami,Latin,Female,74,Fast,tara,0.96,0.52,1.28
+USA_New York_Female_29_Slow,USA,New York,Eastcoast US,Female,29,Slow,emma,0.96,0.59,1.35
+USA_Los Angeles_Male_38_Slow,USA,Los Angeles,Westcoast US,Male,38,Slow,josh,0.97,0.6,1.2
+UK_London_Female_43_Fast,UK,London,England,Female,43,Fast,tara,0.92,0.53,1.38
+USA_Chicago_Female_51_Slow,USA,Chicago,Midwest US,Female,51,Slow,tara,0.99,0.69,1.27
+USA_Miami_Male_43_Normal,USA,Miami,Latin,Male,43,Normal,josh,0.94,0.67,1.28
+UK_London_Male_40_Normal,UK,London,England,Male,40,Normal,josh,0.94,0.63,1.36
+USA_Miami_Male_46_Normal,USA,Miami,Latin,Male,46,Normal,josh,0.95,0.59,1.47
+USA_New York_Male_29_Normal,USA,New York,Eastcoast US,Male,29,Normal,josh,0.9,0.58,1.13
+USA_Dallas_Female_29_Normal,USA,Dallas,South US,Female,29,Normal,emma,0.92,0.63,1.43
+UK_London_Female_44_Fast,UK,London,England,Female,44,Fast,emma,0.97,0.61,1.22
+USA_Los Angeles_Male_52_Fast,USA,Los Angeles,Westcoast US,Male,52,Fast,dan,0.91,0.51,1.28
+USA_New York_Female_28_Slow,USA,New York,Eastcoast US,Female,28,Slow,emma,0.96,0.6,1.11
+USA_New York_Male_33_Slow,USA,New York,Eastcoast US,Male,33,Slow,josh,0.92,0.66,1.22
+USA_Miami_Female_63_Normal,USA,Miami,Latin,Female,63,Normal,tara,0.94,0.59,1.3
+USA_Dallas_Female_33_Slow,USA,Dallas,South US,Female,33,Slow,tara,0.93,0.51,1.12
+USA_Chicago_Male_34_Normal,USA,Chicago,Midwest US,Male,34,Normal,dan,0.94,0.66,1.3
+USA_New York_Male_45_Fast,USA,New York,Eastcoast US,Male,45,Fast,dan,0.97,0.54,1.47
+UK_London_Male_20_Fast,UK,London,England,Male,20,Fast,josh,0.93,0.55,1.14
+USA_Miami_Female_61_Slow,USA,Miami,Latin,Female,61,Slow,emma,0.96,0.53,1.41
+USA_New York_Female_25_Slow,USA,New York,Eastcoast US,Female,25,Slow,emma,0.95,0.57,1.26
+UK_London_Female_35_Normal,UK,London,England,Female,35,Normal,emma,0.97,0.65,1.36
+USA_New York_Female_18_Slow,USA,New York,Eastcoast US,Female,18,Slow,emma,0.99,0.6,1.2
+CA_Montreal_Female_64_Fast,CA,Montreal,French,Female,64,Fast,emma,0.97,0.54,1.16
+USA_Los Angeles_Female_28_Normal,USA,Los Angeles,Westcoast US,Female,28,Normal,tara,0.92,0.68,1.16
+USA_Los Angeles_Female_43_Normal,USA,Los Angeles,Westcoast US,Female,43,Normal,emma,0.9,0.68,1.13
+AUS_Sydney_Male_27_Slow,AUS,Sydney,Australia,Male,27,Slow,dan,0.93,0.67,1.17
+USA_Dallas_Male_42_Normal,USA,Dallas,South US,Male,42,Normal,dan,0.96,0.55,1.37
+USA_Miami_Male_40_Fast,USA,Miami,Latin,Male,40,Fast,josh,0.91,0.59,1.45
+USA_Los Angeles_Female_39_Fast,USA,Los Angeles,Westcoast US,Female,39,Fast,tara,0.95,0.7,1.43
+USA_Chicago_Male_25_Normal,USA,Chicago,Midwest US,Male,25,Normal,josh,0.96,0.65,1.37
+USA_New York_Male_35_Slow,USA,New York,Eastcoast US,Male,35,Slow,dan,0.93,0.51,1.14
+UK_London_Male_43_Fast,UK,London,England,Male,43,Fast,josh,0.98,0.51,1.22
+USA_New York_Female_21_Slow,USA,New York,Eastcoast US,Female,21,Slow,tara,0.91,0.59,1.22
+UK_London_Male_46_Normal,UK,London,England,Male,46,Normal,josh,0.91,0.68,1.2
+USA_Miami_Female_45_Normal,USA,Miami,Latin,Female,45,Normal,emma,0.97,0.61,1.31
+USA_Los Angeles_Female_67_Slow,USA,Los Angeles,Westcoast US,Female,67,Slow,emma,0.95,0.6,1.31
+USA_Chicago_Female_38_Slow,USA,Chicago,Midwest US,Female,38,Slow,emma,0.97,0.52,1.24
+USA_Los Angeles_Female_26_Slow,USA,Los Angeles,Westcoast US,Female,26,Slow,emma,0.94,0.63,1.24
+USA_Los Angeles_Female_50_Slow,USA,Los Angeles,Westcoast US,Female,50,Slow,tara,0.92,0.66,1.43
+USA_New York_Female_26_Normal,USA,New York,Eastcoast US,Female,26,Normal,tara,0.98,0.58,1.42
+USA_Los Angeles_Male_17_Fast,USA,Los Angeles,Westcoast US,Male,17,Fast,dan,0.98,0.66,1.22
+USA_Los Angeles_Male_35_Slow,USA,Los Angeles,Westcoast US,Male,35,Slow,josh,0.97,0.69,1.47
+USA_Los Angeles_Male_27_Fast,USA,Los Angeles,Westcoast US,Male,27,Fast,dan,0.93,0.54,1.48
+CA_Montreal_Female_16_Normal,CA,Montreal,French,Female,16,Normal,emma,0.96,0.6,1.23
+USA_Los Angeles_Male_27_Slow,USA,Los Angeles,Westcoast US,Male,27,Slow,josh,0.94,0.56,1.24
+USA_New York_Male_57_Fast,USA,New York,Eastcoast US,Male,57,Fast,dan,0.91,0.66,1.3
+USA_Los Angeles_Male_42_Slow,USA,Los Angeles,Westcoast US,Male,42,Slow,dan,0.99,0.62,1.48
+CA_Montreal_Male_16_Fast,CA,Montreal,French,Male,16,Fast,josh,0.91,0.63,1.45
+USA_New York_Female_56_Slow,USA,New York,Eastcoast US,Female,56,Slow,tara,1.0,0.66,1.14
+CA_Montreal_Female_21_Normal,CA,Montreal,French,Female,21,Normal,emma,0.94,0.58,1.26
+USA_Los Angeles_Male_28_Fast,USA,Los Angeles,Westcoast US,Male,28,Fast,josh,0.92,0.68,1.32
+USA_Dallas_Male_41_Fast,USA,Dallas,South US,Male,41,Fast,josh,0.95,0.61,1.3
+USA_Los Angeles_Female_15_Slow,USA,Los Angeles,Westcoast US,Female,15,Slow,emma,0.99,0.53,1.18
+USA_New York_Female_24_Normal,USA,New York,Eastcoast US,Female,24,Normal,emma,0.97,0.64,1.44
+UK_London_Female_35_Fast,UK,London,England,Female,35,Fast,tara,0.98,0.66,1.37
+USA_Chicago_Female_20_Normal,USA,Chicago,Midwest US,Female,20,Normal,tara,0.97,0.56,1.44
+USA_Los Angeles_Male_29_Normal,USA,Los Angeles,Westcoast US,Male,29,Normal,josh,0.97,0.67,1.44
+USA_Los Angeles_Male_25_Normal,USA,Los Angeles,Westcoast US,Male,25,Normal,josh,0.98,0.68,1.4
+USA_Chicago_Male_38_Fast,USA,Chicago,Midwest US,Male,38,Fast,dan,0.92,0.56,1.28
+USA_Los Angeles_Male_55_Slow,USA,Los Angeles,Westcoast US,Male,55,Slow,dan,0.95,0.7,1.34
+USA_Los Angeles_Male_58_Normal,USA,Los Angeles,Westcoast US,Male,58,Normal,josh,0.92,0.53,1.16
+USA_Dallas_Female_30_Normal,USA,Dallas,South US,Female,30,Normal,tara,1.0,0.54,1.37
+UK_London_Male_36_Slow,UK,London,England,Male,36,Slow,josh,0.99,0.54,1.17
+USA_Chicago_Female_18_Slow,USA,Chicago,Midwest US,Female,18,Slow,tara,0.9,0.68,1.38
+USA_Chicago_Male_72_Normal,USA,Chicago,Midwest US,Male,72,Normal,josh,0.97,0.63,1.19
+USA_Miami_Female_17_Normal,USA,Miami,Latin,Female,17,Normal,tara,0.99,0.53,1.15
+UK_London_Male_30_Normal,UK,London,England,Male,30,Normal,josh,0.92,0.59,1.17
+USA_Los Angeles_Male_51_Fast,USA,Los Angeles,Westcoast US,Male,51,Fast,dan,0.96,0.62,1.1
+USA_New York_Male_33_Normal,USA,New York,Eastcoast US,Male,33,Normal,dan,0.99,0.52,1.39
+USA_Chicago_Female_26_Slow,USA,Chicago,Midwest US,Female,26,Slow,emma,0.9,0.68,1.39
+USA_New York_Male_32_Slow,USA,New York,Eastcoast US,Male,32,Slow,dan,0.97,0.66,1.31
+USA_Miami_Female_29_Fast,USA,Miami,Latin,Female,29,Fast,emma,0.93,0.6,1.16
+USA_Los Angeles_Female_60_Fast,USA,Los Angeles,Westcoast US,Female,60,Fast,tara,0.99,0.69,1.13
+USA_Los Angeles_Male_19_Normal,USA,Los Angeles,Westcoast US,Male,19,Normal,josh,1.0,0.58,1.11
+USA_New York_Female_52_Normal,USA,New York,Eastcoast US,Female,52,Normal,tara,0.99,0.7,1.17
+USA_Los Angeles_Female_33_Slow,USA,Los Angeles,Westcoast US,Female,33,Slow,emma,0.95,0.63,1.46
+USA_New York_Male_26_Fast,USA,New York,Eastcoast US,Male,26,Fast,dan,0.99,0.63,1.2
+USA_Miami_Male_56_Slow,USA,Miami,Latin,Male,56,Slow,josh,0.98,0.53,1.24
+UK_London_Female_34_Normal,UK,London,England,Female,34,Normal,tara,0.93,0.68,1.14
+USA_Los Angeles_Female_24_Normal,USA,Los Angeles,Westcoast US,Female,24,Normal,emma,0.98,0.59,1.19
+USA_New York_Male_32_Fast,USA,New York,Eastcoast US,Male,32,Fast,josh,0.9,0.53,1.31
+CA_Montreal_Female_31_Normal,CA,Montreal,French,Female,31,Normal,emma,0.96,0.5,1.34
+USA_Los Angeles_Female_42_Slow,USA,Los Angeles,Westcoast US,Female,42,Slow,tara,0.92,0.61,1.2
+USA_Los Angeles_Male_47_Normal,USA,Los Angeles,Westcoast US,Male,47,Normal,josh,0.91,0.61,1.12
+USA_Miami_Female_70_Fast,USA,Miami,Latin,Female,70,Fast,tara,0.91,0.64,1.26
+UK_London_Male_42_Normal,UK,London,England,Male,42,Normal,josh,0.97,0.68,1.19
+CA_Montreal_Male_46_Normal,CA,Montreal,French,Male,46,Normal,dan,0.93,0.52,1.19
+USA_New York_Male_73_Normal,USA,New York,Eastcoast US,Male,73,Normal,josh,0.97,0.65,1.48
+USA_New York_Male_30_Fast,USA,New York,Eastcoast US,Male,30,Fast,dan,0.91,0.54,1.35
+USA_New York_Female_57_Normal,USA,New York,Eastcoast US,Female,57,Normal,tara,0.93,0.67,1.32
+USA_Los Angeles_Female_72_Slow,USA,Los Angeles,Westcoast US,Female,72,Slow,emma,0.95,0.66,1.27
+USA_Miami_Male_34_Normal,USA,Miami,Latin,Male,34,Normal,dan,0.98,0.61,1.27
+USA_New York_Female_61_Fast,USA,New York,Eastcoast US,Female,61,Fast,tara,0.93,0.64,1.32
+USA_New York_Female_29_Fast,USA,New York,Eastcoast US,Female,29,Fast,emma,0.96,0.56,1.38
+USA_New York_Male_38_Fast,USA,New York,Eastcoast US,Male,38,Fast,dan,0.99,0.59,1.38
+USA_Los Angeles_Female_21_Normal,USA,Los Angeles,Westcoast US,Female,21,Normal,tara,0.96,0.66,1.17
+USA_Los Angeles_Female_18_Normal,USA,Los Angeles,Westcoast US,Female,18,Normal,tara,0.92,0.59,1.3
+USA_New York_Female_61_Slow,USA,New York,Eastcoast US,Female,61,Slow,emma,0.9,0.57,1.26
+USA_New York_Male_44_Fast,USA,New York,Eastcoast US,Male,44,Fast,dan,0.99,0.6,1.45
+USA_New York_Male_28_Slow,USA,New York,Eastcoast US,Male,28,Slow,josh,0.9,0.67,1.35
+USA_New York_Female_26_Slow,USA,New York,Eastcoast US,Female,26,Slow,tara,0.99,0.57,1.31
+USA_Los Angeles_Male_39_Slow,USA,Los Angeles,Westcoast US,Male,39,Slow,dan,0.95,0.53,1.15
+USA_New York_Female_24_Fast,USA,New York,Eastcoast US,Female,24,Fast,tara,0.99,0.64,1.34
+USA_Miami_Female_50_Normal,USA,Miami,Latin,Female,50,Normal,emma,0.98,0.67,1.15
+USA_Los Angeles_Female_38_Fast,USA,Los Angeles,Westcoast US,Female,38,Fast,tara,1.0,0.52,1.23
+UK_London_Male_34_Normal,UK,London,England,Male,34,Normal,dan,0.94,0.55,1.16
+USA_Chicago_Male_43_Normal,USA,Chicago,Midwest US,Male,43,Normal,josh,0.98,0.53,1.38
+CA_Montreal_Female_57_Normal,CA,Montreal,French,Female,57,Normal,tara,0.94,0.57,1.18
+USA_Chicago_Male_41_Normal,USA,Chicago,Midwest US,Male,41,Normal,josh,0.95,0.59,1.26
+USA_Los Angeles_Female_19_Normal,USA,Los Angeles,Westcoast US,Female,19,Normal,emma,0.96,0.65,1.46
+CA_Montreal_Male_24_Slow,CA,Montreal,French,Male,24,Slow,dan,0.99,0.63,1.18
+IND_Delhi_Male_49_Slow,IND,Delhi,India,Male,49,Slow,josh,1.0,0.62,1.3
+IND_Delhi_Male_17_Normal,IND,Delhi,India,Male,17,Normal,dan,0.98,0.57,1.27
+USA_Los Angeles_Female_31_Normal,USA,Los Angeles,Westcoast US,Female,31,Normal,emma,0.94,0.67,1.11
+USA_Los Angeles_Female_16_Fast,USA,Los Angeles,Westcoast US,Female,16,Fast,emma,0.94,0.59,1.42
+AUS_Sydney_Female_37_Fast,AUS,Sydney,Australia,Female,37,Fast,tara,0.97,0.7,1.13
+USA_New York_Male_17_Normal,USA,New York,Eastcoast US,Male,17,Normal,josh,0.92,0.63,1.29
+USA_Dallas_Male_32_Normal,USA,Dallas,South US,Male,32,Normal,josh,0.91,0.53,1.32
+USA_New York_Female_24_Normal,USA,New York,Eastcoast US,Female,24,Normal,emma,0.94,0.64,1.35
+USA_Los Angeles_Male_48_Normal,USA,Los Angeles,Westcoast US,Male,48,Normal,josh,0.93,0.57,1.38
+USA_Dallas_Female_41_Normal,USA,Dallas,South US,Female,41,Normal,emma,0.93,0.64,1.2
+USA_New York_Male_33_Fast,USA,New York,Eastcoast US,Male,33,Fast,dan,0.92,0.51,1.1
+CA_Montreal_Female_63_Normal,CA,Montreal,French,Female,63,Normal,emma,0.9,0.53,1.39
+USA_Miami_Female_29_Slow,USA,Miami,Latin,Female,29,Slow,tara,0.9,0.67,1.31
+USA_Miami_Female_42_Normal,USA,Miami,Latin,Female,42,Normal,emma,1.0,0.55,1.43
+USA_New York_Male_50_Normal,USA,New York,Eastcoast US,Male,50,Normal,dan,0.94,0.67,1.43
+USA_Los Angeles_Female_53_Normal,USA,Los Angeles,Westcoast US,Female,53,Normal,tara,0.94,0.56,1.44
+USA_New York_Female_28_Fast,USA,New York,Eastcoast US,Female,28,Fast,emma,0.97,0.63,1.29
+USA_Los Angeles_Female_27_Normal,USA,Los Angeles,Westcoast US,Female,27,Normal,emma,0.92,0.64,1.23
+USA_Los Angeles_Male_30_Slow,USA,Los Angeles,Westcoast US,Male,30,Slow,josh,0.99,0.6,1.42
+USA_New York_Female_34_Slow,USA,New York,Eastcoast US,Female,34,Slow,tara,0.98,0.56,1.28
+USA_Los Angeles_Female_44_Slow,USA,Los Angeles,Westcoast US,Female,44,Slow,emma,0.91,0.54,1.17
+USA_New York_Female_55_Normal,USA,New York,Eastcoast US,Female,55,Normal,tara,0.94,0.51,1.44
+USA_Chicago_Female_44_Fast,USA,Chicago,Midwest US,Female,44,Fast,tara,0.99,0.56,1.45
+USA_Los Angeles_Female_55_Normal,USA,Los Angeles,Westcoast US,Female,55,Normal,tara,0.99,0.63,1.29
+USA_Dallas_Female_52_Slow,USA,Dallas,South US,Female,52,Slow,emma,0.95,0.69,1.13
+USA_Miami_Female_24_Normal,USA,Miami,Latin,Female,24,Normal,emma,0.96,0.67,1.26
+USA_Los Angeles_Male_38_Fast,USA,Los Angeles,Westcoast US,Male,38,Fast,dan,0.92,0.65,1.42
+UK_London_Female_32_Normal,UK,London,England,Female,32,Normal,tara,1.0,0.66,1.46
+USA_Miami_Female_36_Normal,USA,Miami,Latin,Female,36,Normal,emma,0.92,0.63,1.18
+USA_New York_Male_51_Normal,USA,New York,Eastcoast US,Male,51,Normal,dan,0.99,0.55,1.13
+USA_Los Angeles_Female_30_Normal,USA,Los Angeles,Westcoast US,Female,30,Normal,emma,0.96,0.68,1.45
+UK_London_Female_23_Slow,UK,London,England,Female,23,Slow,tara,0.96,0.63,1.26
+UK_London_Male_35_Normal,UK,London,England,Male,35,Normal,josh,0.95,0.61,1.32
+UK_London_Female_33_Normal,UK,London,England,Female,33,Normal,tara,0.92,0.52,1.49
+USA_Miami_Female_71_Normal,USA,Miami,Latin,Female,71,Normal,emma,0.92,0.59,1.13
+UK_London_Female_52_Normal,UK,London,England,Female,52,Normal,tara,0.92,0.59,1.36
+USA_Los Angeles_Female_35_Normal,USA,Los Angeles,Westcoast US,Female,35,Normal,emma,0.92,0.67,1.13
+USA_Los Angeles_Male_30_Normal,USA,Los Angeles,Westcoast US,Male,30,Normal,josh,0.98,0.61,1.25
+USA_Chicago_Female_51_Normal,USA,Chicago,Midwest US,Female,51,Normal,tara,0.94,0.58,1.42
+USA_Los Angeles_Female_40_Normal,USA,Los Angeles,Westcoast US,Female,40,Normal,tara,0.91,0.7,1.27
+USA_Los Angeles_Male_49_Normal,USA,Los Angeles,Westcoast US,Male,49,Normal,josh,1.0,0.52,1.5
+CA_Montreal_Female_22_Slow,CA,Montreal,French,Female,22,Slow,tara,0.99,0.58,1.32
+USA_Los Angeles_Female_20_Normal,USA,Los Angeles,Westcoast US,Female,20,Normal,emma,0.99,0.51,1.23
+USA_Miami_Female_25_Fast,USA,Miami,Latin,Female,25,Fast,tara,1.0,0.65,1.19
+USA_Los Angeles_Female_51_Normal,USA,Los Angeles,Westcoast US,Female,51,Normal,emma,0.92,0.68,1.24
+USA_Los Angeles_Male_26_Normal,USA,Los Angeles,Westcoast US,Male,26,Normal,josh,0.94,0.56,1.25
+USA_Los Angeles_Female_77_Slow,USA,Los Angeles,Westcoast US,Female,77,Slow,emma,0.98,0.67,1.13
+USA_Chicago_Male_15_Normal,USA,Chicago,Midwest US,Male,15,Normal,josh,0.97,0.56,1.25
+USA_New York_Female_22_Normal,USA,New York,Eastcoast US,Female,22,Normal,emma,0.92,0.68,1.29
+USA_New York_Male_30_Normal,USA,New York,Eastcoast US,Male,30,Normal,josh,0.98,0.65,1.39
+USA_Chicago_Male_53_Normal,USA,Chicago,Midwest US,Male,53,Normal,dan,0.92,0.66,1.36
+USA_Los Angeles_Male_19_Normal,USA,Los Angeles,Westcoast US,Male,19,Normal,dan,0.92,0.5,1.38
+IND_Delhi_Male_36_Normal,IND,Delhi,India,Male,36,Normal,dan,0.95,0.69,1.1
+USA_Los Angeles_Female_39_Normal,USA,Los Angeles,Westcoast US,Female,39,Normal,emma,0.96,0.65,1.19
+USA_Miami_Female_31_Normal,USA,Miami,Latin,Female,31,Normal,emma,0.96,0.56,1.36
+USA_Chicago_Female_24_Normal,USA,Chicago,Midwest US,Female,24,Normal,emma,0.91,0.67,1.29
+USA_Los Angeles_Male_54_Slow,USA,Los Angeles,Westcoast US,Male,54,Slow,josh,0.99,0.56,1.1
+UK_London_Female_38_Normal,UK,London,England,Female,38,Normal,tara,0.93,0.67,1.42
+UK_London_Female_42_Slow,UK,London,England,Female,42,Slow,tara,0.91,0.52,1.41
+USA_Miami_Male_53_Normal,USA,Miami,Latin,Male,53,Normal,josh,0.99,0.64,1.32
+UK_London_Female_53_Normal,UK,London,England,Female,53,Normal,tara,1.0,0.61,1.13
+USA_Dallas_Male_38_Fast,USA,Dallas,South US,Male,38,Fast,dan,0.99,0.52,1.41
+USA_Los Angeles_Male_60_Slow,USA,Los Angeles,Westcoast US,Male,60,Slow,josh,0.98,0.55,1.33
+USA_New York_Female_36_Normal,USA,New York,Eastcoast US,Female,36,Normal,tara,0.97,0.5,1.41
+USA_Los Angeles_Female_33_Fast,USA,Los Angeles,Westcoast US,Female,33,Fast,emma,0.96,0.59,1.4
+CA_Montreal_Male_20_Fast,CA,Montreal,French,Male,20,Fast,dan,0.91,0.56,1.42
+USA_Los Angeles_Female_45_Normal,USA,Los Angeles,Westcoast US,Female,45,Normal,emma,0.94,0.62,1.31
+USA_New York_Male_37_Normal,USA,New York,Eastcoast US,Male,37,Normal,josh,0.94,0.56,1.16
+USA_New York_Male_27_Normal,USA,New York,Eastcoast US,Male,27,Normal,josh,0.93,0.56,1.37
+USA_Miami_Male_42_Normal,USA,Miami,Latin,Male,42,Normal,josh,0.97,0.65,1.35
+USA_New York_Female_20_Normal,USA,New York,Eastcoast US,Female,20,Normal,tara,0.95,0.51,1.4
+USA_Los Angeles_Male_72_Normal,USA,Los Angeles,Westcoast US,Male,72,Normal,josh,0.91,0.68,1.17
+USA_New York_Male_41_Normal,USA,New York,Eastcoast US,Male,41,Normal,josh,0.92,0.67,1.18
+CA_Montreal_Female_59_Fast,CA,Montreal,French,Female,59,Fast,emma,0.97,0.63,1.46
+USA_New York_Male_34_Normal,USA,New York,Eastcoast US,Male,34,Normal,dan,0.91,0.62,1.4
+USA_Dallas_Female_48_Normal,USA,Dallas,South US,Female,48,Normal,emma,0.99,0.68,1.46
+CA_Montreal_Male_32_Fast,CA,Montreal,French,Male,32,Fast,dan,0.95,0.54,1.4
+USA_Los Angeles_Male_37_Normal,USA,Los Angeles,Westcoast US,Male,37,Normal,josh,0.95,0.52,1.34
+USA_Los Angeles_Male_31_Normal,USA,Los Angeles,Westcoast US,Male,31,Normal,dan,0.96,0.55,1.36
+IND_Delhi_Male_25_Normal,IND,Delhi,India,Male,25,Normal,dan,0.98,0.66,1.46
+USA_New York_Female_29_Normal,USA,New York,Eastcoast US,Female,29,Normal,emma,0.93,0.51,1.33
+USA_New York_Male_18_Normal,USA,New York,Eastcoast US,Male,18,Normal,dan,0.97,0.62,1.35
+UK_London_Female_16_Slow,UK,London,England,Female,16,Slow,emma,0.96,0.7,1.16
+USA_Los Angeles_Female_44_Fast,USA,Los Angeles,Westcoast US,Female,44,Fast,emma,0.93,0.67,1.29
+USA_Chicago_Male_45_Normal,USA,Chicago,Midwest US,Male,45,Normal,josh,0.99,0.6,1.39
+USA_New York_Male_29_Slow,USA,New York,Eastcoast US,Male,29,Slow,dan,0.98,0.51,1.21
+USA_New York_Female_28_Normal,USA,New York,Eastcoast US,Female,28,Normal,tara,0.97,0.67,1.18
+USA_Chicago_Male_26_Slow,USA,Chicago,Midwest US,Male,26,Slow,josh,0.99,0.62,1.23
+USA_Los Angeles_Female_80_Normal,USA,Los Angeles,Westcoast US,Female,80,Normal,emma,0.99,0.52,1.2
+USA_Los Angeles_Female_18_Normal,USA,Los Angeles,Westcoast US,Female,18,Normal,tara,0.97,0.52,1.19
+USA_Dallas_Male_22_Normal,USA,Dallas,South US,Male,22,Normal,josh,0.98,0.68,1.27
+USA_Los Angeles_Female_32_Fast,USA,Los Angeles,Westcoast US,Female,32,Fast,emma,0.97,0.63,1.46
+USA_Dallas_Male_29_Slow,USA,Dallas,South US,Male,29,Slow,josh,0.97,0.67,1.3
+USA_New York_Female_41_Normal,USA,New York,Eastcoast US,Female,41,Normal,tara,0.96,0.68,1.18
+USA_Chicago_Male_37_Normal,USA,Chicago,Midwest US,Male,37,Normal,dan,0.98,0.61,1.13
+USA_Miami_Female_26_Normal,USA,Miami,Latin,Female,26,Normal,tara,0.92,0.6,1.38
+USA_Los Angeles_Female_24_Normal,USA,Los Angeles,Westcoast US,Female,24,Normal,emma,0.99,0.59,1.25
+USA_New York_Male_53_Fast,USA,New York,Eastcoast US,Male,53,Fast,josh,0.99,0.56,1.43
+USA_New York_Male_45_Normal,USA,New York,Eastcoast US,Male,45,Normal,josh,0.9,0.59,1.36
+USA_Chicago_Female_23_Fast,USA,Chicago,Midwest US,Female,23,Fast,tara,0.98,0.65,1.42
+USA_New York_Female_72_Normal,USA,New York,Eastcoast US,Female,72,Normal,emma,0.91,0.62,1.21
+USA_Los Angeles_Male_16_Slow,USA,Los Angeles,Westcoast US,Male,16,Slow,josh,0.93,0.68,1.38
+CA_Montreal_Female_36_Slow,CA,Montreal,French,Female,36,Slow,emma,0.97,0.59,1.21
+USA_New York_Female_25_Normal,USA,New York,Eastcoast US,Female,25,Normal,emma,0.92,0.62,1.48
+USA_Los Angeles_Female_47_Fast,USA,Los Angeles,Westcoast US,Female,47,Fast,tara,0.98,0.63,1.35
+USA_Chicago_Male_65_Normal,USA,Chicago,Midwest US,Male,65,Normal,dan,0.98,0.62,1.23
+USA_New York_Female_36_Fast,USA,New York,Eastcoast US,Female,36,Fast,emma,0.95,0.64,1.21
+USA_Chicago_Male_34_Normal,USA,Chicago,Midwest US,Male,34,Normal,dan,0.9,0.55,1.18
+UK_London_Female_48_Normal,UK,London,England,Female,48,Normal,tara,0.93,0.6,1.38
+USA_Miami_Male_54_Slow,USA,Miami,Latin,Male,54,Slow,josh,0.96,0.52,1.19
+IND_Delhi_Female_37_Normal,IND,Delhi,India,Female,37,Normal,emma,1.0,0.58,1.34
+USA_Los Angeles_Female_29_Normal,USA,Los Angeles,Westcoast US,Female,29,Normal,tara,0.96,0.6,1.21
+AUS_Sydney_Female_29_Normal,AUS,Sydney,Australia,Female,29,Normal,emma,0.93,0.63,1.36
+USA_Miami_Male_50_Normal,USA,Miami,Latin,Male,50,Normal,dan,0.96,0.69,1.43
+USA_Miami_Male_45_Fast,USA,Miami,Latin,Male,45,Fast,josh,0.95,0.62,1.41
+USA_Miami_Female_77_Normal,USA,Miami,Latin,Female,77,Normal,tara,0.98,0.65,1.4
+UK_London_Male_20_Normal,UK,London,England,Male,20,Normal,josh,0.91,0.6,1.18
+CA_Montreal_Female_50_Slow,CA,Montreal,French,Female,50,Slow,tara,0.98,0.63,1.14
+USA_Chicago_Male_51_Slow,USA,Chicago,Midwest US,Male,51,Slow,dan,0.95,0.51,1.38
+USA_Miami_Male_70_Fast,USA,Miami,Latin,Male,70,Fast,dan,1.0,0.55,1.25
+USA_Los Angeles_Male_20_Slow,USA,Los Angeles,Westcoast US,Male,20,Slow,josh,0.93,0.57,1.27
+USA_Los Angeles_Male_32_Normal,USA,Los Angeles,Westcoast US,Male,32,Normal,dan,0.96,0.59,1.11
+USA_Miami_Female_75_Normal,USA,Miami,Latin,Female,75,Normal,tara,0.99,0.51,1.2
+USA_New York_Female_33_Fast,USA,New York,Eastcoast US,Female,33,Fast,emma,0.91,0.53,1.11
+UK_London_Male_46_Slow,UK,London,England,Male,46,Slow,josh,0.99,0.56,1.45
+AUS_Sydney_Female_46_Normal,AUS,Sydney,Australia,Female,46,Normal,tara,0.97,0.69,1.2
+USA_New York_Male_42_Normal,USA,New York,Eastcoast US,Male,42,Normal,dan,0.91,0.57,1.32
+AUS_Sydney_Male_54_Normal,AUS,Sydney,Australia,Male,54,Normal,josh,0.93,0.6,1.12
+USA_Los Angeles_Female_38_Normal,USA,Los Angeles,Westcoast US,Female,38,Normal,emma,0.97,0.54,1.37
+USA_New York_Female_35_Normal,USA,New York,Eastcoast US,Female,35,Normal,emma,0.91,0.62,1.23
+USA_Miami_Female_35_Slow,USA,Miami,Latin,Female,35,Slow,emma,0.96,0.56,1.46
+USA_Los Angeles_Male_50_Slow,USA,Los Angeles,Westcoast US,Male,50,Slow,josh,0.93,0.54,1.46
+USA_Los Angeles_Male_27_Normal,USA,Los Angeles,Westcoast US,Male,27,Normal,dan,0.96,0.6,1.23
+USA_New York_Male_22_Normal,USA,New York,Eastcoast US,Male,22,Normal,josh,0.9,0.5,1.46
+USA_New York_Female_15_Fast,USA,New York,Eastcoast US,Female,15,Fast,tara,0.99,0.5,1.5
+IND_Delhi_Female_45_Fast,IND,Delhi,India,Female,45,Fast,tara,1.0,0.54,1.43
+UK_London_Female_44_Normal,UK,London,England,Female,44,Normal,tara,1.0,0.51,1.44
+USA_Los Angeles_Female_32_Normal,USA,Los Angeles,Westcoast US,Female,32,Normal,emma,0.97,0.52,1.2
+USA_Chicago_Female_19_Fast,USA,Chicago,Midwest US,Female,19,Fast,tara,0.91,0.57,1.33
+USA_New York_Male_16_Fast,USA,New York,Eastcoast US,Male,16,Fast,dan,0.98,0.66,1.13
+USA_New York_Female_26_Fast,USA,New York,Eastcoast US,Female,26,Fast,emma,0.9,0.61,1.14
+CA_Montreal_Male_54_Normal,CA,Montreal,French,Male,54,Normal,dan,0.9,0.6,1.5
+USA_New York_Female_25_Slow,USA,New York,Eastcoast US,Female,25,Slow,tara,0.93,0.56,1.23
+USA_Los Angeles_Female_22_Slow,USA,Los Angeles,Westcoast US,Female,22,Slow,emma,0.95,0.69,1.4
+USA_New York_Male_35_Normal,USA,New York,Eastcoast US,Male,35,Normal,dan,0.98,0.58,1.42
+USA_Los Angeles_Female_40_Fast,USA,Los Angeles,Westcoast US,Female,40,Fast,tara,0.97,0.52,1.44
+USA_New York_Male_38_Normal,USA,New York,Eastcoast US,Male,38,Normal,dan,0.94,0.62,1.5
+USA_New York_Male_48_Normal,USA,New York,Eastcoast US,Male,48,Normal,josh,0.93,0.52,1.2
+USA_Los Angeles_Female_33_Normal,USA,Los Angeles,Westcoast US,Female,33,Normal,emma,1.0,0.57,1.12
+AUS_Sydney_Female_78_Normal,AUS,Sydney,Australia,Female,78,Normal,emma,0.94,0.6,1.26
+USA_Los Angeles_Male_20_Normal,USA,Los Angeles,Westcoast US,Male,20,Normal,dan,0.95,0.67,1.15
+AUS_Sydney_Female_15_Slow,AUS,Sydney,Australia,Female,15,Slow,tara,0.92,0.6,1.11
+USA_New York_Male_24_Fast,USA,New York,Eastcoast US,Male,24,Fast,josh,0.98,0.64,1.24
+USA_New York_Female_23_Fast,USA,New York,Eastcoast US,Female,23,Fast,tara,0.97,0.7,1.41
+USA_Los Angeles_Male_47_Fast,USA,Los Angeles,Westcoast US,Male,47,Fast,dan,0.92,0.53,1.33
+USA_Miami_Male_54_Fast,USA,Miami,Latin,Male,54,Fast,josh,0.91,0.55,1.23
+USA_New York_Male_40_Normal,USA,New York,Eastcoast US,Male,40,Normal,josh,0.97,0.58,1.36
+USA_New York_Female_42_Normal,USA,New York,Eastcoast US,Female,42,Normal,tara,0.97,0.58,1.19
+USA_Miami_Female_34_Slow,USA,Miami,Latin,Female,34,Slow,tara,0.93,0.58,1.11
+USA_Los Angeles_Male_17_Slow,USA,Los Angeles,Westcoast US,Male,17,Slow,dan,1.0,0.68,1.41
+USA_Dallas_Male_41_Normal,USA,Dallas,South US,Male,41,Normal,josh,0.92,0.64,1.35
+UK_London_Male_46_Fast,UK,London,England,Male,46,Fast,josh,0.94,0.62,1.4
+CA_Montreal_Female_29_Normal,CA,Montreal,French,Female,29,Normal,emma,0.99,0.56,1.12
+UK_London_Male_15_Fast,UK,London,England,Male,15,Fast,josh,0.94,0.66,1.43
+CA_Montreal_Male_20_Slow,CA,Montreal,French,Male,20,Slow,dan,0.96,0.69,1.35
+USA_Miami_Female_26_Fast,USA,Miami,Latin,Female,26,Fast,emma,0.94,0.66,1.33
+USA_Los Angeles_Female_25_Normal,USA,Los Angeles,Westcoast US,Female,25,Normal,emma,0.93,0.5,1.35
+USA_Los Angeles_Male_33_Fast,USA,Los Angeles,Westcoast US,Male,33,Fast,josh,1.0,0.63,1.45
+USA_Miami_Male_52_Normal,USA,Miami,Latin,Male,52,Normal,josh,0.94,0.51,1.33
+USA_Los Angeles_Female_60_Slow,USA,Los Angeles,Westcoast US,Female,60,Slow,emma,0.99,0.55,1.33
+AUS_Sydney_Female_41_Normal,AUS,Sydney,Australia,Female,41,Normal,tara,0.92,0.51,1.5
+USA_Los Angeles_Male_61_Normal,USA,Los Angeles,Westcoast US,Male,61,Normal,dan,0.92,0.62,1.4
+USA_Los Angeles_Female_52_Normal,USA,Los Angeles,Westcoast US,Female,52,Normal,emma,0.9,0.64,1.28
+USA_Los Angeles_Male_20_Fast,USA,Los Angeles,Westcoast US,Male,20,Fast,dan,0.97,0.52,1.38
+UK_London_Male_39_Fast,UK,London,England,Male,39,Fast,josh,0.94,0.58,1.26
+USA_Dallas_Female_39_Normal,USA,Dallas,South US,Female,39,Normal,emma,0.99,0.59,1.19
+USA_New York_Male_44_Slow,USA,New York,Eastcoast US,Male,44,Slow,dan,0.95,0.57,1.34
+USA_Los Angeles_Male_24_Fast,USA,Los Angeles,Westcoast US,Male,24,Fast,dan,1.0,0.52,1.47
+USA_Miami_Female_70_Fast,USA,Miami,Latin,Female,70,Fast,emma,0.92,0.58,1.47
+USA_Miami_Male_46_Normal,USA,Miami,Latin,Male,46,Normal,josh,0.99,0.65,1.24
+IND_Delhi_Male_15_Normal,IND,Delhi,India,Male,15,Normal,josh,0.98,0.51,1.31
+UK_London_Female_35_Slow,UK,London,England,Female,35,Slow,tara,0.98,0.52,1.18
+USA_New York_Male_29_Normal,USA,New York,Eastcoast US,Male,29,Normal,josh,0.98,0.57,1.5
+USA_Los Angeles_Male_18_Normal,USA,Los Angeles,Westcoast US,Male,18,Normal,josh,0.98,0.69,1.49
+USA_New York_Female_42_Slow,USA,New York,Eastcoast US,Female,42,Slow,emma,0.96,0.63,1.36
+USA_Chicago_Male_58_Normal,USA,Chicago,Midwest US,Male,58,Normal,dan,0.91,0.64,1.42
+AUS_Sydney_Male_63_Normal,AUS,Sydney,Australia,Male,63,Normal,josh,0.9,0.57,1.39
+AUS_Sydney_Male_27_Slow,AUS,Sydney,Australia,Male,27,Slow,josh,0.99,0.62,1.34
+USA_Chicago_Male_27_Normal,USA,Chicago,Midwest US,Male,27,Normal,dan,0.96,0.5,1.12
+USA_Los Angeles_Male_34_Fast,USA,Los Angeles,Westcoast US,Male,34,Fast,josh,0.98,0.63,1.28
+USA_New York_Female_28_Slow,USA,New York,Eastcoast US,Female,28,Slow,emma,0.95,0.68,1.37
+USA_Los Angeles_Male_36_Slow,USA,Los Angeles,Westcoast US,Male,36,Slow,dan,0.91,0.62,1.37
+UK_London_Male_34_Fast,UK,London,England,Male,34,Fast,josh,0.91,0.67,1.25
+UK_London_Male_49_Normal,UK,London,England,Male,49,Normal,dan,0.97,0.64,1.48
+USA_Chicago_Female_21_Normal,USA,Chicago,Midwest US,Female,21,Normal,tara,0.94,0.52,1.17
+USA_Los Angeles_Female_21_Normal,USA,Los Angeles,Westcoast US,Female,21,Normal,emma,0.92,0.68,1.3
+USA_New York_Male_36_Normal,USA,New York,Eastcoast US,Male,36,Normal,josh,0.95,0.51,1.38
+USA_Los Angeles_Male_24_Slow,USA,Los Angeles,Westcoast US,Male,24,Slow,josh,0.91,0.61,1.38
+USA_New York_Male_53_Normal,USA,New York,Eastcoast US,Male,53,Normal,josh,0.96,0.53,1.36
+USA_Miami_Male_31_Normal,USA,Miami,Latin,Male,31,Normal,dan,0.93,0.5,1.21
+USA_Los Angeles_Male_28_Slow,USA,Los Angeles,Westcoast US,Male,28,Slow,josh,0.98,0.58,1.16
+UK_London_Female_48_Slow,UK,London,England,Female,48,Slow,tara,0.93,0.56,1.35
+USA_Los Angeles_Male_74_Slow,USA,Los Angeles,Westcoast US,Male,74,Slow,josh,0.95,0.6,1.34
+USA_Los Angeles_Female_26_Normal,USA,Los Angeles,Westcoast US,Female,26,Normal,emma,0.9,0.62,1.17
+USA_Chicago_Male_23_Normal,USA,Chicago,Midwest US,Male,23,Normal,josh,0.91,0.51,1.38
+USA_New York_Male_21_Slow,USA,New York,Eastcoast US,Male,21,Slow,dan,0.94,0.52,1.28
+USA_Miami_Male_24_Fast,USA,Miami,Latin,Male,24,Fast,josh,0.95,0.61,1.37
+USA_Los Angeles_Male_61_Slow,USA,Los Angeles,Westcoast US,Male,61,Slow,josh,0.96,0.57,1.43
+USA_Los Angeles_Female_32_Slow,USA,Los Angeles,Westcoast US,Female,32,Slow,emma,0.93,0.65,1.17
+USA_Los Angeles_Female_30_Slow,USA,Los Angeles,Westcoast US,Female,30,Slow,emma,0.97,0.63,1.11
+USA_Chicago_Female_41_Normal,USA,Chicago,Midwest US,Female,41,Normal,tara,0.99,0.67,1.41
+USA_New York_Female_60_Normal,USA,New York,Eastcoast US,Female,60,Normal,emma,0.98,0.64,1.34
+USA_Los Angeles_Female_31_Slow,USA,Los Angeles,Westcoast US,Female,31,Slow,tara,0.9,0.59,1.38
+USA_Dallas_Female_22_Fast,USA,Dallas,South US,Female,22,Fast,tara,0.95,0.63,1.44
+USA_New York_Male_26_Normal,USA,New York,Eastcoast US,Male,26,Normal,dan,0.91,0.56,1.42
+USA_Los Angeles_Male_32_Fast,USA,Los Angeles,Westcoast US,Male,32,Fast,dan,0.92,0.56,1.48
+USA_Chicago_Female_28_Normal,USA,Chicago,Midwest US,Female,28,Normal,tara,1.0,0.66,1.31
+AUS_Sydney_Male_59_Fast,AUS,Sydney,Australia,Male,59,Fast,dan,0.91,0.59,1.3
+USA_Miami_Male_35_Normal,USA,Miami,Latin,Male,35,Normal,josh,0.95,0.66,1.26
+UK_London_Female_37_Normal,UK,London,England,Female,37,Normal,tara,0.96,0.66,1.16
+CA_Montreal_Male_31_Normal,CA,Montreal,French,Male,31,Normal,dan,0.97,0.67,1.33
+USA_Los Angeles_Male_34_Normal,USA,Los Angeles,Westcoast US,Male,34,Normal,dan,0.96,0.68,1.21
+USA_Miami_Female_37_Normal,USA,Miami,Latin,Female,37,Normal,emma,0.9,0.59,1.47
+CA_Montreal_Male_47_Fast,CA,Montreal,French,Male,47,Fast,josh,0.93,0.56,1.33
+UK_London_Male_30_Normal,UK,London,England,Male,30,Normal,dan,0.95,0.62,1.34
+USA_New York_Male_31_Normal,USA,New York,Eastcoast US,Male,31,Normal,josh,0.91,0.57,1.24
+USA_Miami_Male_17_Slow,USA,Miami,Latin,Male,17,Slow,dan,0.94,0.62,1.12
+USA_Los Angeles_Male_25_Fast,USA,Los Angeles,Westcoast US,Male,25,Fast,dan,0.9,0.64,1.11
+UK_London_Female_27_Slow,UK,London,England,Female,27,Slow,emma,0.91,0.64,1.27
+USA_Los Angeles_Female_58_Normal,USA,Los Angeles,Westcoast US,Female,58,Normal,tara,0.94,0.57,1.13
+CA_Montreal_Male_18_Normal,CA,Montreal,French,Male,18,Normal,josh,0.91,0.53,1.34
+USA_Los Angeles_Male_75_Normal,USA,Los Angeles,Westcoast US,Male,75,Normal,josh,0.96,0.59,1.45
+USA_New York_Female_56_Normal,USA,New York,Eastcoast US,Female,56,Normal,tara,0.97,0.53,1.45
+USA_Chicago_Female_32_Normal,USA,Chicago,Midwest US,Female,32,Normal,tara,0.98,0.68,1.36
+USA_Los Angeles_Female_15_Fast,USA,Los Angeles,Westcoast US,Female,15,Fast,emma,0.92,0.57,1.18
+USA_Chicago_Male_30_Fast,USA,Chicago,Midwest US,Male,30,Fast,dan,0.92,0.53,1.45
+USA_New York_Male_36_Fast,USA,New York,Eastcoast US,Male,36,Fast,dan,0.91,0.51,1.45
+USA_Los Angeles_Male_31_Slow,USA,Los Angeles,Westcoast US,Male,31,Slow,dan,0.96,0.63,1.18
+USA_New York_Female_62_Normal,USA,New York,Eastcoast US,Female,62,Normal,emma,0.97,0.63,1.39
+USA_Los Angeles_Male_35_Slow,USA,Los Angeles,Westcoast US,Male,35,Slow,josh,0.9,0.57,1.21
+USA_New York_Male_30_Slow,USA,New York,Eastcoast US,Male,30,Slow,dan,0.99,0.51,1.42
+USA_New York_Female_43_Normal,USA,New York,Eastcoast US,Female,43,Normal,emma,0.91,0.58,1.5
+UK_London_Female_58_Normal,UK,London,England,Female,58,Normal,emma,0.95,0.56,1.11
+USA_New York_Male_24_Normal,USA,New York,Eastcoast US,Male,24,Normal,josh,0.97,0.64,1.46
+USA_Chicago_Male_44_Normal,USA,Chicago,Midwest US,Male,44,Normal,josh,0.99,0.62,1.35
+USA_Miami_Male_41_Normal,USA,Miami,Latin,Male,41,Normal,josh,0.97,0.57,1.49
+USA_Dallas_Male_34_Normal,USA,Dallas,South US,Male,34,Normal,dan,0.98,0.54,1.29
+USA_Los Angeles_Male_56_Fast,USA,Los Angeles,Westcoast US,Male,56,Fast,dan,0.93,0.7,1.44
+USA_New York_Female_19_Normal,USA,New York,Eastcoast US,Female,19,Normal,tara,0.98,0.59,1.12
+USA_Dallas_Male_19_Normal,USA,Dallas,South US,Male,19,Normal,josh,0.91,0.64,1.23
+USA_Miami_Female_39_Normal,USA,Miami,Latin,Female,39,Normal,emma,0.99,0.53,1.13
+USA_Dallas_Female_44_Normal,USA,Dallas,South US,Female,44,Normal,tara,0.95,0.6,1.49
+USA_New York_Female_34_Fast,USA,New York,Eastcoast US,Female,34,Fast,emma,0.98,0.51,1.43
+USA_Dallas_Male_27_Normal,USA,Dallas,South US,Male,27,Normal,dan,0.95,0.6,1.44
+USA_New York_Female_31_Normal,USA,New York,Eastcoast US,Female,31,Normal,tara,0.96,0.69,1.48
+UK_London_Male_18_Normal,UK,London,England,Male,18,Normal,dan,0.95,0.58,1.13
+UK_London_Female_37_Slow,UK,London,England,Female,37,Slow,emma,0.97,0.51,1.25
+USA_Los Angeles_Male_42_Slow,USA,Los Angeles,Westcoast US,Male,42,Slow,josh,0.91,0.51,1.13
+USA_New York_Female_41_Slow,USA,New York,Eastcoast US,Female,41,Slow,tara,0.91,0.58,1.18
+USA_Dallas_Female_33_Normal,USA,Dallas,South US,Female,33,Normal,tara,0.92,0.53,1.19
+CA_Montreal_Female_17_Slow,CA,Montreal,French,Female,17,Slow,tara,0.92,0.5,1.29
+USA_Los Angeles_Female_26_Fast,USA,Los Angeles,Westcoast US,Female,26,Fast,tara,0.99,0.65,1.21
+UK_London_Male_51_Normal,UK,London,England,Male,51,Normal,josh,0.92,0.59,1.14
+CA_Montreal_Male_21_Normal,CA,Montreal,French,Male,21,Normal,josh,1.0,0.56,1.17
+USA_New York_Male_16_Normal,USA,New York,Eastcoast US,Male,16,Normal,dan,0.93,0.68,1.16
+USA_Chicago_Female_27_Slow,USA,Chicago,Midwest US,Female,27,Slow,tara,0.92,0.52,1.49
+USA_Los Angeles_Female_25_Fast,USA,Los Angeles,Westcoast US,Female,25,Fast,emma,0.98,0.69,1.4
+IND_Delhi_Female_53_Fast,IND,Delhi,India,Female,53,Fast,emma,0.97,0.56,1.49
+USA_New York_Female_51_Normal,USA,New York,Eastcoast US,Female,51,Normal,tara,0.95,0.68,1.28
+USA_New York_Female_45_Slow,USA,New York,Eastcoast US,Female,45,Slow,tara,0.96,0.62,1.21
+USA_Miami_Male_29_Normal,USA,Miami,Latin,Male,29,Normal,dan,0.97,0.67,1.42
+USA_Chicago_Female_23_Normal,USA,Chicago,Midwest US,Female,23,Normal,emma,0.92,0.7,1.23
+USA_Los Angeles_Male_50_Normal,USA,Los Angeles,Westcoast US,Male,50,Normal,josh,1.0,0.56,1.22
+USA_Los Angeles_Male_33_Normal,USA,Los Angeles,Westcoast US,Male,33,Normal,josh,1.0,0.69,1.19
+USA_Los Angeles_Female_17_Slow,USA,Los Angeles,Westcoast US,Female,17,Slow,tara,0.97,0.58,1.15
+CA_Montreal_Female_32_Fast,CA,Montreal,French,Female,32,Fast,tara,0.92,0.58,1.2
+USA_Chicago_Female_35_Fast,USA,Chicago,Midwest US,Female,35,Fast,emma,0.97,0.57,1.24
+USA_Los Angeles_Male_34_Slow,USA,Los Angeles,Westcoast US,Male,34,Slow,josh,0.91,0.61,1.37
+USA_New York_Male_20_Slow,USA,New York,Eastcoast US,Male,20,Slow,dan,0.9,0.53,1.13
+USA_Miami_Female_17_Slow,USA,Miami,Latin,Female,17,Slow,emma,0.93,0.61,1.18
+USA_Los Angeles_Male_35_Normal,USA,Los Angeles,Westcoast US,Male,35,Normal,josh,0.95,0.61,1.42
+USA_Chicago_Female_29_Fast,USA,Chicago,Midwest US,Female,29,Fast,tara,0.99,0.65,1.16
+USA_Los Angeles_Female_41_Normal,USA,Los Angeles,Westcoast US,Female,41,Normal,emma,0.97,0.67,1.24
+USA_Miami_Male_17_Fast,USA,Miami,Latin,Male,17,Fast,dan,0.97,0.59,1.45
+USA_Miami_Male_27_Normal,USA,Miami,Latin,Male,27,Normal,dan,0.94,0.56,1.16
+USA_New York_Female_20_Slow,USA,New York,Eastcoast US,Female,20,Slow,tara,0.93,0.55,1.13
+UK_London_Male_22_Normal,UK,London,England,Male,22,Normal,dan,0.94,0.54,1.29
+CA_Montreal_Female_34_Fast,CA,Montreal,French,Female,34,Fast,tara,1.0,0.51,1.22
+USA_Los Angeles_Male_28_Normal,USA,Los Angeles,Westcoast US,Male,28,Normal,dan,0.9,0.57,1.33
+UK_London_Male_59_Normal,UK,London,England,Male,59,Normal,dan,0.99,0.55,1.42
+USA_Los Angeles_Male_57_Slow,USA,Los Angeles,Westcoast US,Male,57,Slow,josh,0.96,0.69,1.15
+USA_Los Angeles_Female_72_Slow,USA,Los Angeles,Westcoast US,Female,72,Slow,tara,0.94,0.61,1.33
+UK_London_Male_37_Normal,UK,London,England,Male,37,Normal,dan,0.97,0.57,1.3
+USA_New York_Male_64_Slow,USA,New York,Eastcoast US,Male,64,Slow,josh,0.95,0.62,1.16
+USA_New York_Male_34_Normal,USA,New York,Eastcoast US,Male,34,Normal,josh,0.99,0.53,1.35
+USA_New York_Male_36_Slow,USA,New York,Eastcoast US,Male,36,Slow,josh,0.99,0.59,1.21
+USA_Los Angeles_Male_21_Normal,USA,Los Angeles,Westcoast US,Male,21,Normal,dan,0.94,0.63,1.3
+USA_Los Angeles_Male_26_Normal,USA,Los Angeles,Westcoast US,Male,26,Normal,josh,0.93,0.6,1.13
+UK_London_Female_26_Slow,UK,London,England,Female,26,Slow,tara,0.96,0.58,1.28
+USA_Los Angeles_Female_36_Fast,USA,Los Angeles,Westcoast US,Female,36,Fast,tara,0.99,0.7,1.22
+USA_New York_Female_54_Normal,USA,New York,Eastcoast US,Female,54,Normal,tara,0.92,0.68,1.43
+UK_London_Male_45_Normal,UK,London,England,Male,45,Normal,dan,0.96,0.62,1.12
+USA_Dallas_Male_21_Normal,USA,Dallas,South US,Male,21,Normal,josh,0.96,0.61,1.27
+USA_Los Angeles_Male_31_Fast,USA,Los Angeles,Westcoast US,Male,31,Fast,josh,0.97,0.62,1.28
+USA_Chicago_Male_19_Fast,USA,Chicago,Midwest US,Male,19,Fast,dan,0.91,0.54,1.39
+IND_Delhi_Male_42_Fast,IND,Delhi,India,Male,42,Fast,dan,0.97,0.58,1.33
+USA_Miami_Female_45_Fast,USA,Miami,Latin,Female,45,Fast,tara,0.99,0.51,1.37
+USA_Los Angeles_Male_27_Fast,USA,Los Angeles,Westcoast US,Male,27,Fast,josh,0.92,0.6,1.41
+IND_Delhi_Female_54_Normal,IND,Delhi,India,Female,54,Normal,tara,0.92,0.61,1.44
+USA_Los Angeles_Male_21_Fast,USA,Los Angeles,Westcoast US,Male,21,Fast,dan,1.0,0.55,1.23
+UK_London_Male_39_Slow,UK,London,England,Male,39,Slow,josh,0.92,0.69,1.32
+USA_Miami_Male_63_Fast,USA,Miami,Latin,Male,63,Fast,josh,0.99,0.68,1.44
+IND_Delhi_Male_33_Slow,IND,Delhi,India,Male,33,Slow,dan,0.95,0.64,1.5
+UK_London_Female_30_Slow,UK,London,England,Female,30,Slow,emma,0.92,0.61,1.46
+USA_Miami_Male_41_Normal,USA,Miami,Latin,Male,41,Normal,josh,0.99,0.67,1.25
+UK_London_Female_18_Normal,UK,London,England,Female,18,Normal,tara,0.94,0.53,1.18
+USA_New York_Female_27_Normal,USA,New York,Eastcoast US,Female,27,Normal,emma,0.95,0.66,1.3
+USA_Los Angeles_Male_32_Fast,USA,Los Angeles,Westcoast US,Male,32,Fast,dan,0.94,0.52,1.4
+USA_New York_Female_33_Normal,USA,New York,Eastcoast US,Female,33,Normal,emma,0.96,0.66,1.3
+USA_Los Angeles_Male_48_Normal,USA,Los Angeles,Westcoast US,Male,48,Normal,dan,0.92,0.56,1.29
+USA_Los Angeles_Male_38_Normal,USA,Los Angeles,Westcoast US,Male,38,Normal,dan,0.94,0.68,1.44
+USA_Los Angeles_Male_51_Normal,USA,Los Angeles,Westcoast US,Male,51,Normal,dan,1.0,0.69,1.24
+USA_Dallas_Female_38_Fast,USA,Dallas,South US,Female,38,Fast,emma,0.93,0.53,1.44
+USA_Dallas_Female_34_Fast,USA,Dallas,South US,Female,34,Fast,tara,0.97,0.59,1.26
+USA_Los Angeles_Male_40_Normal,USA,Los Angeles,Westcoast US,Male,40,Normal,josh,0.93,0.7,1.23
+UK_London_Male_38_Normal,UK,London,England,Male,38,Normal,dan,0.98,0.6,1.28
+USA_Los Angeles_Male_21_Slow,USA,Los Angeles,Westcoast US,Male,21,Slow,dan,0.91,0.67,1.4
+USA_New York_Male_28_Normal,USA,New York,Eastcoast US,Male,28,Normal,josh,1.0,0.62,1.15
+USA_New York_Male_35_Normal,USA,New York,Eastcoast US,Male,35,Normal,dan,0.95,0.58,1.18
+IND_Delhi_Female_16_Slow,IND,Delhi,India,Female,16,Slow,tara,0.92,0.56,1.48
+USA_New York_Female_47_Normal,USA,New York,Eastcoast US,Female,47,Normal,emma,0.91,0.54,1.17
+USA_New York_Female_28_Normal,USA,New York,Eastcoast US,Female,28,Normal,tara,0.92,0.65,1.33
+USA_Chicago_Male_65_Normal,USA,Chicago,Midwest US,Male,65,Normal,dan,0.95,0.58,1.33
+USA_New York_Female_54_Normal_1,USA,New York,Eastcoast US,Female,54,Normal,tara,0.93,0.6,1.3
+USA_Los Angeles_Male_31_Fast_1,USA,Los Angeles,Westcoast US,Male,31,Fast,dan,0.98,0.6,1.36
+USA_Los Angeles_Male_47_Slow,USA,Los Angeles,Westcoast US,Male,47,Slow,josh,0.94,0.62,1.19
+UK_London_Male_27_Normal,UK,London,England,Male,27,Normal,josh,0.92,0.67,1.32
+USA_Los Angeles_Female_25_Normal,USA,Los Angeles,Westcoast US,Female,25,Normal,tara,0.96,0.7,1.25
+CA_Montreal_Female_17_Normal,CA,Montreal,French,Female,17,Normal,emma,0.97,0.58,1.36
+USA_New York_Female_37_Normal,USA,New York,Eastcoast US,Female,37,Normal,tara,0.92,0.67,1.16
+USA_Los Angeles_Female_25_Slow,USA,Los Angeles,Westcoast US,Female,25,Slow,emma,0.92,0.65,1.33
+USA_Los Angeles_Male_36_Slow,USA,Los Angeles,Westcoast US,Male,36,Slow,dan,0.9,0.61,1.17
+USA_Miami_Female_30_Slow,USA,Miami,Latin,Female,30,Slow,tara,0.97,0.69,1.21
+USA_Miami_Female_30_Fast,USA,Miami,Latin,Female,30,Fast,tara,0.97,0.54,1.19
+USA_New York_Male_16_Normal,USA,New York,Eastcoast US,Male,16,Normal,dan,0.95,0.52,1.17
+USA_Los Angeles_Male_18_Fast,USA,Los Angeles,Westcoast US,Male,18,Fast,dan,0.98,0.67,1.43
+USA_New York_Female_35_Slow,USA,New York,Eastcoast US,Female,35,Slow,tara,0.98,0.59,1.21
+USA_Los Angeles_Male_18_Normal,USA,Los Angeles,Westcoast US,Male,18,Normal,josh,0.96,0.67,1.47
+USA_Los Angeles_Female_42_Fast,USA,Los Angeles,Westcoast US,Female,42,Fast,tara,0.99,0.68,1.49
+USA_Los Angeles_Male_37_Fast,USA,Los Angeles,Westcoast US,Male,37,Fast,josh,0.92,0.51,1.33
+USA_Los Angeles_Male_15_Normal,USA,Los Angeles,Westcoast US,Male,15,Normal,dan,0.91,0.68,1.16
+UK_London_Male_43_Slow,UK,London,England,Male,43,Slow,josh,0.93,0.59,1.25
+USA_Miami_Female_52_Slow,USA,Miami,Latin,Female,52,Slow,emma,0.91,0.6,1.42
+USA_Los Angeles_Female_17_Normal,USA,Los Angeles,Westcoast US,Female,17,Normal,emma,0.95,0.63,1.25
+USA_New York_Male_48_Normal,USA,New York,Eastcoast US,Male,48,Normal,dan,0.99,0.69,1.13
+USA_Los Angeles_Female_49_Normal,USA,Los Angeles,Westcoast US,Female,49,Normal,tara,0.9,0.5,1.32
+USA_New York_Male_39_Normal,USA,New York,Eastcoast US,Male,39,Normal,josh,0.91,0.6,1.44
+USA_New York_Male_29_Normal,USA,New York,Eastcoast US,Male,29,Normal,dan,0.95,0.64,1.42
+USA_New York_Female_36_Fast,USA,New York,Eastcoast US,Female,36,Fast,emma,0.99,0.64,1.17
+USA_Miami_Female_39_Normal,USA,Miami,Latin,Female,39,Normal,tara,0.93,0.64,1.37
+USA_Dallas_Male_28_Normal,USA,Dallas,South US,Male,28,Normal,josh,0.95,0.53,1.19
+UK_London_Female_38_Fast,UK,London,England,Female,38,Fast,emma,0.9,0.56,1.19
+USA_Los Angeles_Male_67_Normal,USA,Los Angeles,Westcoast US,Male,67,Normal,dan,0.91,0.57,1.45
+USA_Chicago_Male_68_Normal,USA,Chicago,Midwest US,Male,68,Normal,josh,1.0,0.66,1.2
+USA_Miami_Female_34_Normal,USA,Miami,Latin,Female,34,Normal,tara,1.0,0.56,1.21
+USA_New York_Male_72_Fast,USA,New York,Eastcoast US,Male,72,Fast,josh,0.9,0.54,1.1
+USA_New York_Male_28_Normal_1,USA,New York,Eastcoast US,Male,28,Normal,josh,1.0,0.69,1.45
+IND_Delhi_Female_52_Normal,IND,Delhi,India,Female,52,Normal,tara,0.96,0.5,1.42
+USA_Los Angeles_Female_31_Normal,USA,Los Angeles,Westcoast US,Female,31,Normal,tara,0.99,0.7,1.35
+UK_London_Male_16_Normal,UK,London,England,Male,16,Normal,dan,0.95,0.64,1.4
+USA_Los Angeles_Female_63_Slow,USA,Los Angeles,Westcoast US,Female,63,Slow,emma,0.95,0.67,1.16
+USA_New York_Female_40_Normal,USA,New York,Eastcoast US,Female,40,Normal,tara,0.95,0.56,1.28
+USA_Los Angeles_Female_25_Normal_1,USA,Los Angeles,Westcoast US,Female,25,Normal,emma,0.97,0.5,1.24
+USA_New York_Female_36_Normal,USA,New York,Eastcoast US,Female,36,Normal,emma,0.91,0.65,1.14
+USA_Los Angeles_Female_52_Slow,USA,Los Angeles,Westcoast US,Female,52,Slow,tara,0.9,0.67,1.29
+USA_Los Angeles_Male_48_Normal_1,USA,Los Angeles,Westcoast US,Male,48,Normal,dan,0.93,0.65,1.47
+USA_Los Angeles_Female_33_Normal,USA,Los Angeles,Westcoast US,Female,33,Normal,emma,0.97,0.53,1.12
+USA_Miami_Female_38_Slow,USA,Miami,Latin,Female,38,Slow,emma,0.92,0.65,1.22
+USA_Los Angeles_Female_58_Normal,USA,Los Angeles,Westcoast US,Female,58,Normal,tara,0.97,0.65,1.18
+USA_Los Angeles_Female_61_Normal,USA,Los Angeles,Westcoast US,Female,61,Normal,tara,1.0,0.63,1.2
+USA_New York_Female_32_Normal,USA,New York,Eastcoast US,Female,32,Normal,tara,0.91,0.65,1.46
+USA_Los Angeles_Female_48_Normal,USA,Los Angeles,Westcoast US,Female,48,Normal,tara,0.97,0.67,1.29
+USA_New York_Male_72_Normal,USA,New York,Eastcoast US,Male,72,Normal,dan,0.94,0.62,1.29
+USA_New York_Female_38_Normal,USA,New York,Eastcoast US,Female,38,Normal,emma,0.99,0.52,1.4
+USA_Los Angeles_Female_49_Normal_1,USA,Los Angeles,Westcoast US,Female,49,Normal,emma,0.92,0.6,1.16
+USA_Miami_Male_44_Normal,USA,Miami,Latin,Male,44,Normal,josh,0.97,0.52,1.29
+USA_Miami_Female_43_Normal,USA,Miami,Latin,Female,43,Normal,emma,0.98,0.58,1.27
+USA_Los Angeles_Male_25_Slow,USA,Los Angeles,Westcoast US,Male,25,Slow,dan,0.99,0.58,1.34
+USA_Los Angeles_Female_64_Normal,USA,Los Angeles,Westcoast US,Female,64,Normal,tara,0.97,0.51,1.5
+IND_Delhi_Male_39_Slow,IND,Delhi,India,Male,39,Slow,dan,0.95,0.57,1.41
+USA_New York_Male_60_Normal,USA,New York,Eastcoast US,Male,60,Normal,josh,0.96,0.52,1.26
+CA_Montreal_Female_24_Slow,CA,Montreal,French,Female,24,Slow,emma,0.99,0.66,1.43
+USA_Los Angeles_Female_40_Fast,USA,Los Angeles,Westcoast US,Female,40,Fast,tara,0.96,0.69,1.17
+USA_New York_Male_59_Normal,USA,New York,Eastcoast US,Male,59,Normal,dan,0.9,0.51,1.11
+USA_Chicago_Male_44_Normal,USA,Chicago,Midwest US,Male,44,Normal,josh,0.99,0.69,1.18
+USA_Chicago_Male_23_Normal,USA,Chicago,Midwest US,Male,23,Normal,josh,0.97,0.6,1.24
+USA_Los Angeles_Male_18_Normal_1,USA,Los Angeles,Westcoast US,Male,18,Normal,dan,0.97,0.56,1.3
+UK_London_Female_56_Normal,UK,London,England,Female,56,Normal,tara,0.92,0.52,1.35
+USA_New York_Female_24_Normal,USA,New York,Eastcoast US,Female,24,Normal,emma,0.97,0.6,1.46
+USA_Chicago_Male_26_Normal,USA,Chicago,Midwest US,Male,26,Normal,dan,0.94,0.66,1.3
+USA_Los Angeles_Male_61_Normal,USA,Los Angeles,Westcoast US,Male,61,Normal,dan,0.97,0.64,1.3
+CA_Montreal_Female_26_Normal,CA,Montreal,French,Female,26,Normal,tara,0.91,0.51,1.12
+USA_Los Angeles_Male_16_Normal,USA,Los Angeles,Westcoast US,Male,16,Normal,josh,0.97,0.51,1.11
+USA_New York_Female_24_Normal_1,USA,New York,Eastcoast US,Female,24,Normal,emma,1.0,0.58,1.32
+AUS_Sydney_Male_17_Normal,AUS,Sydney,Australia,Male,17,Normal,josh,0.9,0.56,1.28
+USA_Los Angeles_Female_22_Slow,USA,Los Angeles,Westcoast US,Female,22,Slow,emma,1.0,0.55,1.44
+USA_Miami_Male_53_Normal,USA,Miami,Latin,Male,53,Normal,josh,0.94,0.56,1.16
+CA_Montreal_Male_53_Slow,CA,Montreal,French,Male,53,Slow,josh,0.99,0.66,1.11
+USA_Chicago_Female_38_Normal,USA,Chicago,Midwest US,Female,38,Normal,emma,0.98,0.69,1.28
+USA_New York_Female_24_Normal_2,USA,New York,Eastcoast US,Female,24,Normal,tara,0.96,0.58,1.19
+USA_New York_Male_51_Fast,USA,New York,Eastcoast US,Male,51,Fast,dan,0.97,0.68,1.12
+USA_Dallas_Female_33_Normal,USA,Dallas,South US,Female,33,Normal,tara,0.99,0.56,1.39
+USA_Los Angeles_Male_21_Normal_1,USA,Los Angeles,Westcoast US,Male,21,Normal,dan,0.94,0.6,1.14
+UK_London_Female_46_Normal,UK,London,England,Female,46,Normal,tara,0.93,0.55,1.34
+USA_Los Angeles_Male_59_Normal,USA,Los Angeles,Westcoast US,Male,59,Normal,dan,0.97,0.63,1.21
+CA_Montreal_Female_43_Normal,CA,Montreal,French,Female,43,Normal,tara,0.98,0.7,1.17
+USA_Dallas_Female_54_Normal,USA,Dallas,South US,Female,54,Normal,emma,0.98,0.62,1.25
+USA_Los Angeles_Female_37_Normal,USA,Los Angeles,Westcoast US,Female,37,Normal,emma,0.98,0.57,1.42
+USA_Los Angeles_Male_58_Normal,USA,Los Angeles,Westcoast US,Male,58,Normal,dan,0.94,0.63,1.26
+USA_Los Angeles_Female_44_Slow,USA,Los Angeles,Westcoast US,Female,44,Slow,tara,0.98,0.52,1.4
+USA_New York_Male_36_Fast,USA,New York,Eastcoast US,Male,36,Fast,josh,0.91,0.68,1.15
+USA_Los Angeles_Male_38_Normal_1,USA,Los Angeles,Westcoast US,Male,38,Normal,dan,0.95,0.6,1.41
+USA_Los Angeles_Female_18_Slow,USA,Los Angeles,Westcoast US,Female,18,Slow,tara,0.9,0.59,1.19
+IND_Delhi_Male_32_Normal,IND,Delhi,India,Male,32,Normal,josh,0.93,0.62,1.37
+USA_New York_Male_32_Slow,USA,New York,Eastcoast US,Male,32,Slow,dan,0.94,0.62,1.33
+USA_New York_Female_36_Normal_1,USA,New York,Eastcoast US,Female,36,Normal,emma,0.94,0.51,1.47
+USA_New York_Male_20_Normal,USA,New York,Eastcoast US,Male,20,Normal,dan,0.97,0.64,1.25
+USA_Miami_Male_39_Slow,USA,Miami,Latin,Male,39,Slow,josh,0.94,0.55,1.13
+USA_Los Angeles_Female_29_Normal,USA,Los Angeles,Westcoast US,Female,29,Normal,emma,0.94,0.64,1.11
+USA_Dallas_Female_74_Normal,USA,Dallas,South US,Female,74,Normal,emma,0.92,0.66,1.43
+USA_New York_Female_37_Fast,USA,New York,Eastcoast US,Female,37,Fast,tara,0.94,0.66,1.31
+USA_New York_Female_29_Normal,USA,New York,Eastcoast US,Female,29,Normal,emma,0.92,0.61,1.41
+USA_New York_Male_22_Slow,USA,New York,Eastcoast US,Male,22,Slow,dan,0.91,0.6,1.19
+USA_Miami_Male_42_Normal,USA,Miami,Latin,Male,42,Normal,dan,0.96,0.53,1.24
+USA_Dallas_Male_80_Normal,USA,Dallas,South US,Male,80,Normal,dan,0.97,0.66,1.11
+USA_Miami_Female_39_Normal_1,USA,Miami,Latin,Female,39,Normal,tara,0.96,0.55,1.48
+USA_New York_Female_34_Normal,USA,New York,Eastcoast US,Female,34,Normal,emma,0.95,0.6,1.37
+IND_Delhi_Male_48_Normal,IND,Delhi,India,Male,48,Normal,josh,0.94,0.56,1.47
+CA_Montreal_Male_39_Fast,CA,Montreal,French,Male,39,Fast,dan,0.99,0.53,1.21
+USA_Los Angeles_Female_19_Normal,USA,Los Angeles,Westcoast US,Female,19,Normal,tara,0.95,0.63,1.34
+USA_Miami_Male_31_Fast,USA,Miami,Latin,Male,31,Fast,josh,0.95,0.51,1.37
+USA_New York_Male_46_Normal,USA,New York,Eastcoast US,Male,46,Normal,dan,0.9,0.65,1.23
+USA_Miami_Female_48_Normal,USA,Miami,Latin,Female,48,Normal,emma,0.93,0.56,1.44
+USA_Los Angeles_Male_41_Normal,USA,Los Angeles,Westcoast US,Male,41,Normal,dan,0.94,0.5,1.48
+USA_Los Angeles_Male_32_Normal,USA,Los Angeles,Westcoast US,Male,32,Normal,dan,0.94,0.6,1.45
+USA_Los Angeles_Female_18_Slow_1,USA,Los Angeles,Westcoast US,Female,18,Slow,emma,0.96,0.51,1.4
+USA_New York_Male_33_Normal,USA,New York,Eastcoast US,Male,33,Normal,dan,0.95,0.56,1.21
+USA_Chicago_Female_36_Normal,USA,Chicago,Midwest US,Female,36,Normal,emma,0.96,0.64,1.21
+USA_Dallas_Male_50_Normal,USA,Dallas,South US,Male,50,Normal,dan,0.98,0.51,1.49
+IND_Delhi_Female_28_Normal,IND,Delhi,India,Female,28,Normal,tara,0.98,0.67,1.1
+UK_London_Female_24_Normal,UK,London,England,Female,24,Normal,tara,0.97,0.5,1.39
+UK_London_Female_54_Normal,UK,London,England,Female,54,Normal,emma,1.0,0.55,1.38
+CA_Montreal_Female_18_Normal,CA,Montreal,French,Female,18,Normal,tara,0.9,0.65,1.35
+USA_Los Angeles_Female_44_Normal,USA,Los Angeles,Westcoast US,Female,44,Normal,tara,0.92,0.56,1.5
+IND_Delhi_Male_27_Fast,IND,Delhi,India,Male,27,Fast,dan,0.9,0.52,1.22
+USA_New York_Female_53_Normal,USA,New York,Eastcoast US,Female,53,Normal,tara,0.96,0.57,1.24
+USA_New York_Male_23_Normal,USA,New York,Eastcoast US,Male,23,Normal,josh,0.99,0.55,1.13
+USA_Miami_Female_30_Normal,USA,Miami,Latin,Female,30,Normal,emma,0.92,0.67,1.28
+USA_Los Angeles_Male_31_Normal,USA,Los Angeles,Westcoast US,Male,31,Normal,dan,0.99,0.56,1.2
+USA_Los Angeles_Male_15_Fast,USA,Los Angeles,Westcoast US,Male,15,Fast,josh,0.91,0.66,1.24
+CA_Montreal_Male_22_Slow,CA,Montreal,French,Male,22,Slow,dan,0.99,0.68,1.43
+USA_Los Angeles_Female_28_Fast,USA,Los Angeles,Westcoast US,Female,28,Fast,tara,0.94,0.59,1.47
+USA_Miami_Male_46_Slow,USA,Miami,Latin,Male,46,Slow,dan,0.91,0.68,1.17
+USA_Miami_Male_39_Normal,USA,Miami,Latin,Male,39,Normal,josh,0.95,0.58,1.25
+USA_New York_Female_68_Normal,USA,New York,Eastcoast US,Female,68,Normal,emma,0.93,0.69,1.47
+USA_Los Angeles_Male_46_Normal,USA,Los Angeles,Westcoast US,Male,46,Normal,josh,0.93,0.52,1.12
+USA_Los Angeles_Male_57_Slow_1,USA,Los Angeles,Westcoast US,Male,57,Slow,josh,0.93,0.64,1.14
+USA_Los Angeles_Male_26_Fast,USA,Los Angeles,Westcoast US,Male,26,Fast,josh,0.98,0.6,1.17
+UK_London_Male_73_Normal,UK,London,England,Male,73,Normal,josh,0.95,0.58,1.34
+USA_New York_Female_16_Slow,USA,New York,Eastcoast US,Female,16,Slow,emma,0.93,0.63,1.16
+USA_Chicago_Female_34_Normal,USA,Chicago,Midwest US,Female,34,Normal,emma,0.96,0.64,1.49
+UK_London_Male_17_Normal,UK,London,England,Male,17,Normal,josh,0.97,0.5,1.28
+USA_Los Angeles_Female_18_Normal,USA,Los Angeles,Westcoast US,Female,18,Normal,tara,0.93,0.53,1.3
+USA_Los Angeles_Female_26_Normal,USA,Los Angeles,Westcoast US,Female,26,Normal,emma,0.94,0.64,1.2
+USA_Los Angeles_Female_27_Normal,USA,Los Angeles,Westcoast US,Female,27,Normal,emma,0.91,0.63,1.29
+USA_Los Angeles_Female_54_Normal,USA,Los Angeles,Westcoast US,Female,54,Normal,emma,0.92,0.69,1.36
+USA_Dallas_Male_44_Normal,USA,Dallas,South US,Male,44,Normal,josh,0.97,0.65,1.4
+USA_Los Angeles_Female_41_Fast,USA,Los Angeles,Westcoast US,Female,41,Fast,emma,0.92,0.69,1.4
+USA_Chicago_Male_37_Fast,USA,Chicago,Midwest US,Male,37,Fast,josh,0.95,0.64,1.33
+USA_New York_Female_28_Slow,USA,New York,Eastcoast US,Female,28,Slow,emma,0.97,0.56,1.46
+USA_New York_Female_62_Slow,USA,New York,Eastcoast US,Female,62,Slow,emma,0.91,0.52,1.43
+USA_Los Angeles_Male_26_Normal_1,USA,Los Angeles,Westcoast US,Male,26,Normal,josh,0.96,0.66,1.4
+USA_New York_Male_25_Normal,USA,New York,Eastcoast US,Male,25,Normal,josh,0.93,0.63,1.12
+USA_New York_Male_29_Slow,USA,New York,Eastcoast US,Male,29,Slow,josh,1.0,0.51,1.1
+USA_Miami_Female_50_Normal,USA,Miami,Latin,Female,50,Normal,tara,0.95,0.57,1.18
+USA_New York_Female_44_Slow,USA,New York,Eastcoast US,Female,44,Slow,tara,0.98,0.69,1.37
+USA_Los Angeles_Female_65_Normal,USA,Los Angeles,Westcoast US,Female,65,Normal,emma,0.96,0.6,1.26
+USA_Miami_Male_30_Fast,USA,Miami,Latin,Male,30,Fast,josh,0.9,0.59,1.26
+USA_New York_Female_45_Fast,USA,New York,Eastcoast US,Female,45,Fast,tara,0.96,0.59,1.45
+USA_Los Angeles_Female_50_Normal,USA,Los Angeles,Westcoast US,Female,50,Normal,emma,1.0,0.54,1.46
+USA_New York_Female_77_Normal,USA,New York,Eastcoast US,Female,77,Normal,tara,0.96,0.57,1.46
+USA_New York_Male_16_Normal_1,USA,New York,Eastcoast US,Male,16,Normal,dan,0.98,0.57,1.23
+USA_New York_Male_27_Slow,USA,New York,Eastcoast US,Male,27,Slow,dan,0.99,0.51,1.38
+USA_New York_Male_62_Normal,USA,New York,Eastcoast US,Male,62,Normal,dan,0.92,0.65,1.21
+USA_Miami_Male_59_Normal,USA,Miami,Latin,Male,59,Normal,dan,0.92,0.58,1.18
+UK_London_Female_35_Slow,UK,London,England,Female,35,Slow,emma,0.96,0.66,1.17
+USA_Chicago_Male_56_Fast,USA,Chicago,Midwest US,Male,56,Fast,dan,0.94,0.67,1.24
+USA_Dallas_Female_48_Normal,USA,Dallas,South US,Female,48,Normal,emma,0.98,0.54,1.27
+USA_New York_Male_64_Normal,USA,New York,Eastcoast US,Male,64,Normal,josh,0.99,0.63,1.43
+USA_Dallas_Female_33_Fast,USA,Dallas,South US,Female,33,Fast,tara,0.94,0.59,1.15
+USA_New York_Female_43_Slow,USA,New York,Eastcoast US,Female,43,Slow,tara,0.92,0.68,1.39
+USA_Chicago_Male_41_Normal,USA,Chicago,Midwest US,Male,41,Normal,josh,0.98,0.54,1.31
+USA_Dallas_Male_29_Normal,USA,Dallas,South US,Male,29,Normal,dan,0.93,0.64,1.22
+USA_Miami_Female_20_Normal,USA,Miami,Latin,Female,20,Normal,tara,0.98,0.62,1.3
+UK_London_Male_61_Fast,UK,London,England,Male,61,Fast,josh,0.94,0.56,1.22
+USA_Los Angeles_Female_37_Fast,USA,Los Angeles,Westcoast US,Female,37,Fast,emma,0.97,0.53,1.34
+USA_New York_Female_37_Normal_1,USA,New York,Eastcoast US,Female,37,Normal,tara,0.91,0.63,1.27
+USA_Los Angeles_Male_37_Fast_1,USA,Los Angeles,Westcoast US,Male,37,Fast,josh,0.96,0.65,1.17
+USA_Los Angeles_Male_26_Normal_2,USA,Los Angeles,Westcoast US,Male,26,Normal,dan,0.95,0.56,1.15
+USA_New York_Female_28_Fast,USA,New York,Eastcoast US,Female,28,Fast,tara,0.96,0.63,1.32
+USA_Los Angeles_Female_38_Slow,USA,Los Angeles,Westcoast US,Female,38,Slow,tara,0.92,0.58,1.46
+USA_Miami_Male_27_Fast,USA,Miami,Latin,Male,27,Fast,josh,0.97,0.64,1.24
+USA_New York_Female_33_Normal_1,USA,New York,Eastcoast US,Female,33,Normal,emma,0.99,0.54,1.39
+USA_New York_Female_17_Fast,USA,New York,Eastcoast US,Female,17,Fast,emma,0.92,0.68,1.36
+USA_Dallas_Male_43_Normal,USA,Dallas,South US,Male,43,Normal,josh,0.91,0.56,1.47
+USA_New York_Male_63_Normal,USA,New York,Eastcoast US,Male,63,Normal,josh,0.9,0.57,1.43
+USA_Los Angeles_Male_52_Normal,USA,Los Angeles,Westcoast US,Male,52,Normal,dan,0.96,0.51,1.33
+USA_New York_Male_56_Normal,USA,New York,Eastcoast US,Male,56,Normal,dan,0.96,0.52,1.36
+USA_Chicago_Female_34_Normal_1,USA,Chicago,Midwest US,Female,34,Normal,tara,0.95,0.6,1.46
+USA_Los Angeles_Male_39_Fast,USA,Los Angeles,Westcoast US,Male,39,Fast,dan,0.92,0.55,1.26
+USA_Chicago_Male_43_Normal,USA,Chicago,Midwest US,Male,43,Normal,josh,0.94,0.67,1.23
+USA_Los Angeles_Male_37_Normal,USA,Los Angeles,Westcoast US,Male,37,Normal,dan,0.96,0.5,1.1
+USA_Chicago_Male_28_Normal,USA,Chicago,Midwest US,Male,28,Normal,josh,0.95,0.58,1.43
+USA_Miami_Female_31_Normal,USA,Miami,Latin,Female,31,Normal,tara,1.0,0.57,1.42
+USA_Los Angeles_Female_30_Normal,USA,Los Angeles,Westcoast US,Female,30,Normal,emma,0.91,0.5,1.14
+UK_London_Female_44_Slow,UK,London,England,Female,44,Slow,emma,0.97,0.52,1.33
+IND_Delhi_Female_30_Fast,IND,Delhi,India,Female,30,Fast,tara,0.94,0.58,1.29
+USA_Los Angeles_Male_50_Normal,USA,Los Angeles,Westcoast US,Male,50,Normal,dan,0.94,0.6,1.15
+USA_Chicago_Male_54_Normal,USA,Chicago,Midwest US,Male,54,Normal,dan,0.97,0.58,1.49
+USA_Miami_Female_31_Fast,USA,Miami,Latin,Female,31,Fast,tara,0.97,0.61,1.19
+USA_Los Angeles_Male_37_Normal_1,USA,Los Angeles,Westcoast US,Male,37,Normal,josh,1.0,0.62,1.13
+USA_Los Angeles_Female_26_Normal_1,USA,Los Angeles,Westcoast US,Female,26,Normal,tara,0.91,0.5,1.34
+USA_Miami_Male_49_Fast,USA,Miami,Latin,Male,49,Fast,dan,0.91,0.59,1.4
+USA_New York_Male_37_Normal,USA,New York,Eastcoast US,Male,37,Normal,josh,0.97,0.69,1.11
+UK_London_Female_64_Slow,UK,London,England,Female,64,Slow,tara,0.96,0.6,1.36
+USA_New York_Female_19_Normal,USA,New York,Eastcoast US,Female,19,Normal,tara,0.93,0.64,1.31
+USA_Los Angeles_Female_34_Normal,USA,Los Angeles,Westcoast US,Female,34,Normal,tara,0.91,0.56,1.14
+USA_New York_Male_19_Normal,USA,New York,Eastcoast US,Male,19,Normal,dan,0.91,0.65,1.17
+USA_Los Angeles_Female_28_Slow,USA,Los Angeles,Westcoast US,Female,28,Slow,tara,0.99,0.65,1.33
+USA_New York_Female_37_Normal_2,USA,New York,Eastcoast US,Female,37,Normal,emma,0.92,0.6,1.22
+USA_New York_Female_22_Normal,USA,New York,Eastcoast US,Female,22,Normal,tara,0.93,0.7,1.48
+USA_Los Angeles_Female_26_Slow,USA,Los Angeles,Westcoast US,Female,26,Slow,tara,0.92,0.53,1.43
+AUS_Sydney_Female_31_Normal,AUS,Sydney,Australia,Female,31,Normal,tara,0.94,0.5,1.49
+USA_Chicago_Male_35_Normal,USA,Chicago,Midwest US,Male,35,Normal,dan,0.91,0.65,1.2
+USA_Los Angeles_Female_60_Normal,USA,Los Angeles,Westcoast US,Female,60,Normal,tara,0.95,0.66,1.49
+USA_Dallas_Male_19_Normal,USA,Dallas,South US,Male,19,Normal,josh,0.91,0.52,1.27
+USA_Dallas_Female_54_Normal_1,USA,Dallas,South US,Female,54,Normal,tara,0.98,0.55,1.24
+USA_New York_Female_15_Fast,USA,New York,Eastcoast US,Female,15,Fast,emma,0.92,0.5,1.12
+USA_New York_Female_77_Fast,USA,New York,Eastcoast US,Female,77,Fast,emma,0.95,0.56,1.12
+USA_Los Angeles_Male_32_Normal_1,USA,Los Angeles,Westcoast US,Male,32,Normal,dan,0.99,0.65,1.38
+AUS_Sydney_Male_41_Normal,AUS,Sydney,Australia,Male,41,Normal,dan,0.97,0.6,1.28
+USA_Los Angeles_Male_28_Slow,USA,Los Angeles,Westcoast US,Male,28,Slow,dan,0.95,0.57,1.19
+USA_Los Angeles_Female_36_Fast_1,USA,Los Angeles,Westcoast US,Female,36,Fast,tara,0.93,0.57,1.35
+USA_New York_Female_27_Normal_1,USA,New York,Eastcoast US,Female,27,Normal,emma,0.93,0.5,1.2
+USA_Dallas_Female_33_Fast_1,USA,Dallas,South US,Female,33,Fast,tara,0.97,0.56,1.33
+USA_New York_Male_56_Fast,USA,New York,Eastcoast US,Male,56,Fast,dan,1.0,0.63,1.24
+USA_Los Angeles_Male_47_Fast,USA,Los Angeles,Westcoast US,Male,47,Fast,dan,0.97,0.69,1.43
+USA_Los Angeles_Male_33_Normal,USA,Los Angeles,Westcoast US,Male,33,Normal,dan,0.96,0.67,1.43
+USA_Los Angeles_Female_36_Normal,USA,Los Angeles,Westcoast US,Female,36,Normal,tara,0.97,0.5,1.29
+USA_Miami_Male_50_Normal,USA,Miami,Latin,Male,50,Normal,dan,0.95,0.68,1.24
+USA_New York_Male_28_Normal_2,USA,New York,Eastcoast US,Male,28,Normal,josh,0.91,0.66,1.25
+USA_Los Angeles_Male_37_Normal_2,USA,Los Angeles,Westcoast US,Male,37,Normal,josh,0.96,0.66,1.42
+USA_New York_Female_25_Slow,USA,New York,Eastcoast US,Female,25,Slow,tara,1.0,0.59,1.23
+USA_Miami_Male_33_Normal,USA,Miami,Latin,Male,33,Normal,dan,0.92,0.58,1.18
+USA_New York_Female_17_Normal,USA,New York,Eastcoast US,Female,17,Normal,tara,0.97,0.56,1.13
+UK_London_Female_25_Normal,UK,London,England,Female,25,Normal,emma,0.92,0.51,1.29
+USA_Los Angeles_Female_27_Normal_1,USA,Los Angeles,Westcoast US,Female,27,Normal,tara,0.95,0.55,1.29
+USA_Dallas_Male_31_Normal,USA,Dallas,South US,Male,31,Normal,josh,0.91,0.55,1.44
+UK_London_Female_19_Fast,UK,London,England,Female,19,Fast,tara,0.95,0.6,1.19
+USA_New York_Male_34_Normal_1,USA,New York,Eastcoast US,Male,34,Normal,dan,0.98,0.65,1.25
+USA_Los Angeles_Female_35_Normal,USA,Los Angeles,Westcoast US,Female,35,Normal,tara,0.93,0.59,1.42
+USA_Dallas_Male_31_Slow,USA,Dallas,South US,Male,31,Slow,dan,0.97,0.51,1.43
+USA_New York_Male_32_Normal,USA,New York,Eastcoast US,Male,32,Normal,josh,0.98,0.69,1.25
+USA_New York_Female_24_Normal_3,USA,New York,Eastcoast US,Female,24,Normal,emma,0.99,0.69,1.28
+USA_Miami_Female_24_Normal,USA,Miami,Latin,Female,24,Normal,tara,0.92,0.66,1.22
+USA_Los Angeles_Male_28_Normal,USA,Los Angeles,Westcoast US,Male,28,Normal,dan,0.94,0.7,1.47
+USA_Chicago_Female_28_Normal,USA,Chicago,Midwest US,Female,28,Normal,emma,0.92,0.61,1.15
+USA_Dallas_Male_36_Fast,USA,Dallas,South US,Male,36,Fast,josh,1.0,0.69,1.47
+UK_London_Female_28_Slow,UK,London,England,Female,28,Slow,emma,0.99,0.52,1.37
+USA_Miami_Male_43_Fast,USA,Miami,Latin,Male,43,Fast,josh,0.95,0.57,1.31
+USA_Los Angeles_Male_24_Fast,USA,Los Angeles,Westcoast US,Male,24,Fast,dan,0.98,0.55,1.11
+USA_Miami_Female_51_Normal,USA,Miami,Latin,Female,51,Normal,emma,0.95,0.54,1.29
+USA_Chicago_Female_21_Normal,USA,Chicago,Midwest US,Female,21,Normal,tara,0.96,0.53,1.26
+USA_New York_Female_35_Normal,USA,New York,Eastcoast US,Female,35,Normal,emma,0.91,0.62,1.16
+USA_New York_Male_59_Slow,USA,New York,Eastcoast US,Male,59,Slow,josh,0.98,0.66,1.36
+USA_New York_Male_38_Normal,USA,New York,Eastcoast US,Male,38,Normal,josh,0.91,0.62,1.49
+USA_New York_Male_19_Normal_1,USA,New York,Eastcoast US,Male,19,Normal,josh,0.98,0.53,1.32
+USA_New York_Male_23_Slow,USA,New York,Eastcoast US,Male,23,Slow,josh,0.98,0.66,1.39
+UK_London_Male_26_Normal,UK,London,England,Male,26,Normal,dan,0.97,0.63,1.13
